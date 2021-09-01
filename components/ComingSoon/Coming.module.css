@@ -1,0 +1,72 @@
+.home {
+	background-color: var(--black);
+	height: 100%;
+	width: 100%;
+	padding: 0 0.5rem;
+}
+
+.navBar {
+	height: 15vh;
+	padding: 0 1rem;
+}
+.logo {
+	color: var(--white);
+	font-family: var(--coming);
+	font-size: 2rem;
+}
+
+.main {
+	text-align: center;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+}
+.maintxt {
+	font-family: var(--coming);
+	font-size: 5rem;
+	font-weight: 900;
+	background: -webkit-linear-gradient(
+		0deg,
+		rgba(140, 88, 252, 1),
+		rgba(193.85, 138.52, 255, 1) 26%,
+		rgba(255, 191.87, 137.46, 1) 67%,
+		rgba(255, 191.87, 137.46, 0.2)
+	);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.innerTextDiv {
+	padding: 0rem 5%;
+	text-align: center;
+	flex: 1;
+	flex-direction: column;
+}
+
+.txt {
+	color: var(--white);
+	font-size: 1em;
+	font-family: var(--coming);
+	font-weight: 500;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	right: 2em;
+	display: flex;
+}
+
+.link,
+.insta,
+.web {
+	color: grey;
+	font-family: var(--title);
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.insta:hover,
+.web:hover {
+	color: var(--white);
+}
