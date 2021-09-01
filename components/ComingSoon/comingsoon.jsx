@@ -1,4 +1,5 @@
 import styles from "./Coming.module.css";
+import HButton from "@components/Accessories/button";
 export default function Coming() {
     return(
         <div className={styles.home}>
@@ -9,8 +10,10 @@ export default function Coming() {
                 <div className={styles.textDiv}>
                     <p className={styles.maintxt}>Coming Soon!</p>
                     <div className={styles.innerTextDiv}>
-                        <p className={styles.txt}>Lorem ipsum doler Lorem ipsum doler Lorem ipsum dole Lorem Lorem <br/>ipsum doler Lorem ipsum doler Lorem ipsum dole Lorem</p>
+                        <p className={styles.txt}>Redefining the way technical fest used to be.<br/>
+                        Technical Fest you would have never attended before, exclusively by Beta Labs IIITK</p>
                     </div>
+                    <HButton name="Contact Us"></HButton>
                 </div>
             </div>
             <div className={styles.footer}>
