@@ -10,6 +10,7 @@
     height: 100%;
     width: 100%;
     padding: 0 0.5rem;
+    overflow-y: auto;
 }
 
 .navBar {
@@ -61,6 +62,7 @@
 .footer {
     /* position: fixed; */
     margin-top: auto;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: flex-end;
 }
@@ -101,6 +103,7 @@
     transition: all 0.25s ease-in-out;
     border: 1px rgb(255, 255, 255) solid;
     margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 .btnh:hover {
     box-shadow: 0.2em 0.2em rgb(255, 255, 255);
