@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: 75% 25%;
     padding: 2%;
+    border-bottom: gray solid 1px;
 }
 .footerLower {
     text-align: center;
@@ -52,7 +53,7 @@
         margin-left: 1.5vw;
     }
 }
-@media (max-width: 625px) {
+@media (max-width: 627px) {
     .logo {
         text-align: center;
     }
