@@ -9,7 +9,7 @@ import {
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../public/betalab-horizontal.png'
+import logo from '../../public/betalab-horizontal.png'
 const Footer = () => {
     return (
         <div className={styles.footer}>
