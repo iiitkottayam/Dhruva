@@ -4,7 +4,6 @@ import {
     FaTwitter,
     FaDiscord,
     FaEnvelope,
-    FaHeart,
 } from 'react-icons/fa'
 import styles from './Footer.module.css'
 import Image from 'next/image'
@@ -51,10 +50,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerLower}>
-                <p>
-                    Made with <FaHeart style={{ color: 'hotpink' }} /> by
-                    BetaLabs{' '}
-                </p>
+                <p>Made with ❤️ by BetaLabs</p>
             </div>
         </div>
     )
