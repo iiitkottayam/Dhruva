@@ -16,6 +16,7 @@ export default function Coming() {
                     <HButton name="Contact Us"></HButton>
                 </div>
             </div>
+            {/*
             <div className={styles.footer}>
                 <p className={styles.insta}>
                     <a href="https://www.instagram.com/iiitkottayam/?hl=en" target="_blank" rel="noreferrer">Instagram</a>&nbsp;
@@ -25,6 +26,8 @@ export default function Coming() {
                     <a href="https://www.iiitkottayam.ac.in/" target="_blank" rel="noreferrer"> Website</a>
                 </p>
             </div>
+            */}
         </div>
+            
     );
 };
