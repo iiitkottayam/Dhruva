@@ -7,8 +7,7 @@ const cors = Cors({
     methods: ['GET', 'HEAD', 'POST'],
 })
 
-async function runMiddleware(req, res, fn) {
-    await runMiddleware(req, res, cors)
+function runMiddleware(req, res, fn) {
     return new Promise((resolve, reject) => {
         fn(req, res, (result) => {
             if (result instanceof Error) {
@@ -25,6 +24,7 @@ const notion = new Client({
 })
 
 export default async function handler(req, res) {
+    await runMiddleware(req, res, cors)
     if (req.method !== 'POST') {
         return res
             .status(405)
