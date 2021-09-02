@@ -8,8 +8,8 @@ const HButtons = () => {
             <button className={styles.b2}>
                 <Link href="#" target="_blank">
                     <a>
-                        <FaDiscord style = {{marginRight: '2%', transform: 'translateY(20%)'}}/>
-                         <span> Join Discord </span>
+                        <FaDiscord style={{ marginRight: '2%', transform: 'translateY(20%)' }} />
+                        <span> Join Discord </span>
                     </a>
 
                 </Link>

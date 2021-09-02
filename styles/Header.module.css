@@ -1,10 +1,9 @@
 .hbody {
-   
     left: 0px;
     right: 0px;
     top: 0px;
     background-color: var(--black);
-    width : 100%;
+    width: 100%;
     position: absolute;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-bottom: 80px;
@@ -14,7 +13,7 @@
 
 .heading > span {
     color: rgb(255, 255, 255);
-    font-size:  14.6vh;
+    font-size: 14.6vh;
     font-weight: 400;
 }
 .heading {
@@ -27,35 +26,31 @@
     letter-spacing: 2.8%;
 }
 
-.desciption{
-color: var(--white);
-font-family: var(--coming);
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-text-align: center;
-letter-spacing: -0.017em;
-
+.desciption {
+    color: var(--white);
+    font-family: var(--coming);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: -0.017em;
 }
 
 @media (max-width: 600px) {
-    .hbody
-    {
+    .hbody {
         line-height: 1.1;
     }
-    .heading > span{
+    .heading > span {
         font-size: 8.5vh;
     }
-    .heading
-    {
+    .heading {
         font-size: 8.5vh;
     }
-    .desciption
-    {
+    .desciption {
         font-size: 2.5vh;
     }
 }
