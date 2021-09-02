@@ -1,57 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-.footer
-{
-    background-color:#000;
+.footer {
+    background-color: #000;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
-.footerUpper
-{
-  display:grid;
-  grid-template-columns: 75% 25%;
-  
-  padding: 2%;
+.footerUpper {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 2%;
 }
-.footerLower
-{
+.footerLower {
     text-align: center;
     padding-bottom: 0.5%;
 }
-.icons li
-{
-  display:inline;
-  margin-left: 10%;
-  font-size: 2.5vh;
-  color: grey;
+.icons li {
+    display: inline;
+    margin-left: 10%;
+    font-size: 2.5vh;
+    color: grey;
 }
-.icons li:hover
-{
+.icons li:hover {
     color: #fff;
     cursor: pointer;
 }
-.logo img
-{
+.logo img {
     width: 350px;
     object-fit: cover;
 }
 
 @media (max-width: 600px) {
-    .logo
-    {
+    .logo {
         text-align: center;
-        
     }
-    .icons li
-    {
+    .icons li {
         font-size: 2vh;
     }
-    .logo img
-    {
+    .logo img {
         width: 250px;
         margin-bottom: 2%;
     }
     .footerUpper {
-      grid-template-columns: 100%;
-      
+        grid-template-columns: 100%;
     }
-  }
+}
