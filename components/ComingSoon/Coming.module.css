@@ -1,72 +1,190 @@
 .home {
-	background-color: var(--black);
-	height: 100%;
-	width: 100%;
-	padding: 0 0.5rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    height: 100%;
+    width: 100%;
+    padding: 0 0.5rem;
+    overflow-y: auto;
 }
 
 .navBar {
-	height: 15vh;
-	padding: 0 1rem;
+    height: 15vh;
+    padding: 0 1rem;
 }
 .logo {
-	color: var(--white);
-	font-family: var(--coming);
-	font-size: 2rem;
+    color: var(--white);
+    font-family: var(--coming);
+    font-size: 2rem;
 }
 
 .main {
-	text-align: center;
-	flex: 1;
-	align-items: center;
-	justify-content: center;
+    position: relative;
+    text-align: center;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 .maintxt {
-	font-family: var(--coming);
-	font-size: 5rem;
-	font-weight: 900;
-	background: -webkit-linear-gradient(
-		0deg,
-		rgba(140, 88, 252, 1),
-		rgba(193.85, 138.52, 255, 1) 26%,
-		rgba(255, 191.87, 137.46, 1) 67%,
-		rgba(255, 191.87, 137.46, 0.2)
-	);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
+    font-family: var(--coming);
+    font-size: 5rem;
+    font-weight: 900;
+    background: -webkit-linear-gradient(
+        0deg,
+        rgba(140, 88, 252, 1),
+        rgba(193.85, 138.52, 255, 1) 26%,
+        rgba(255, 191.87, 137.46, 1) 67%,
+        rgba(255, 191.87, 137.46, 0.2)
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .innerTextDiv {
-	padding: 0rem 5%;
-	text-align: center;
-	flex: 1;
-	flex-direction: column;
+    padding: 0rem 5%;
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
 }
 
 .txt {
-	color: var(--white);
-	font-size: 1em;
-	font-family: var(--coming);
-	font-weight: 500;
+    color: var(--white);
+    font-size: 1.4em;
+    font-family: var(--coming);
+    font-weight: 500;
 }
 
 .footer {
-	position: absolute;
-	bottom: 0px;
-	right: 2em;
-	display: flex;
+    /* position: fixed; */
+    margin-top: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .link,
 .insta,
 .web {
-	color: grey;
-	font-family: var(--title);
-	font-size: 1rem;
-	cursor: pointer;
+    color: grey;
+    font-family: var(--title);
+    font-size: 1rem;
+    cursor: pointer;
 }
 
 .insta:hover,
 .web:hover {
-	color: var(--white);
+    color: var(--white);
+}
+
+@media screen and (max-width: 570px) {
+    .innerTextDiv {
+        margin-top: -20%;
+    }
+}
+
+/* -------Button Style------ */
+
+.btnh {
+    font: inherit;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding: 0.75em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    /* position: absolute; */
+    box-shadow: 0.3em 0.3em rgb(255, 255, 255);
+    transition: all 0.25s ease-in-out;
+    border: 1px rgb(255, 255, 255) solid;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.btnh:hover {
+    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
+    transform: translate(0.13em, 0.13em);
+}
+.btnDiv {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+/* -------Form Style------- */
+.Fcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+.Fform {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+.Ftitle {
+    margin: 0 0 1.5rem;
+}
+.Fform label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #334155;
+}
+.Fform input,
+.Fform select,
+.Fform textarea {
+    width: 100%;
+    border: none;
+    background: #f4f4f5;
+    padding: 0.75rem 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    border-radius: 4px;
+}
+.Fform input:focus,
+.Fform select:focus,
+.Fform textarea:focus {
+    outline: 2px solid #0093e9;
+}
+.Finputs {
+    display: flex;
+    justify-content: space-between;
+}
+.Finputs div {
+    flex: 1;
+}
+.Finputs div:first-child {
+    margin-right: 1rem;
+}
+.Fbtn {
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.btnFdiv {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff0;
 }
