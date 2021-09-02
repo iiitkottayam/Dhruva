@@ -1,5 +1,5 @@
 import styles from './Coming.module.css'
-import ContactForm from '@components/Accessories/contactForm'
+import ContactForm from '@components/Button/contactForm'
 
 export default function Coming() {
     return (

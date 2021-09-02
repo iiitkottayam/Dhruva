@@ -1,6 +1,24 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import Cors from 'cors'
 
 const { Client } = require('@notionhq/client')
+
+const cors = Cors({
+    methods: ['GET', 'HEAD', 'POST'],
+})
+
+async function runMiddleware(req, res, fn) {
+    await runMiddleware(req, res, cors)
+    return new Promise((resolve, reject) => {
+        fn(req, res, (result) => {
+            if (result instanceof Error) {
+                return reject(result)
+            }
+
+            return resolve(result)
+        })
+    })
+}
 
 const notion = new Client({
     auth: process.env.NOTION_API_KEY,
