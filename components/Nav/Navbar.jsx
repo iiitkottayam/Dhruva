@@ -3,14 +3,16 @@ import Burger from './Burger';
 import Link from 'next/link'
 
 const Nav = styled.nav`
-  top: 0;   
+  top: 0;  
+  position fixed; 
   width: 100%;
-  height: 5em;  
+  height: 2em;  
   font-family: var(--title);
   font-size: 2.5em;
   background-color: black;
   color: white;
-  padding: 0 20px;
+  padding-top: 10px;
+  padding-left: 30px;
   padding-botton: 20px;
   display: flex;
   justify-content: space-between;

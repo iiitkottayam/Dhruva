@@ -7,26 +7,29 @@ const Ul = styled.ul`
   display: flex;
   flex-flow: row nowrap;
   font-size: 0.5em;
-  li {    
+  li {   
+    text-align: center;
+    width: 60%;     
     padding-right: 3em;
-    padding-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     cursor: pointer;    
   }    
   ${ function ({open}){
     if (open==false) {
       return (
         `.hover-underline-animation {
-          display: block;
-          position: relative;    
+          display: inline-block;
+          position: relative;            
         }
         
         .hover-underline-animation:after {
           content: '';
-          position: absolute;
+          position: absolute;         
           width: 60%;
           transform: scaleX(0);
           height: 2px;
-          bottom: 0;
+          bottom: 0;          
           left: 0;
           background-color: #fff;
           transform-origin: bottom right;
@@ -36,9 +39,8 @@ const Ul = styled.ul`
         .hover-underline-animation:hover:after {
           transform: scaleX(1);
           transform-origin: bottom left;
-        }               
-        `
-        
+        } 
+        `       
       );
     }else{
       return ``;
@@ -46,7 +48,7 @@ const Ul = styled.ul`
   }
 
   }
-  @media (max-width: 768px) {
+  @media (max-width: 920px) {
     margin: 0px;    
     flex-flow: column nowrap;
     background-color: #0D2538;    
@@ -59,7 +61,7 @@ const Ul = styled.ul`
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    height: 1000px;
+    height: 100%;
     width: 100%;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
@@ -75,7 +77,7 @@ const RightNav = ({ open }) => {
   return (
     <div className='overlay overlay-contentpush open'>
     <Ul open={open}>      
-      <li className='hover-underline-animation'><Link href='#AboutUS' passHref>About Us</Link></li>
+      <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
       <li className='hover-underline-animation'><Link href='#Events' passHref>Events</Link></li>
       <li className='hover-underline-animation'><Link href='#FAQ' passHref>FAQ</Link></li>
       <li className='hover-underline-animation'><Link href='#Prize' passHref>Prize</Link></li>
