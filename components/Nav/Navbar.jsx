@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Nav = styled.nav`
   top: 0;  
-  position fixed; 
+  position: absolute; 
   width: 100%;
   height: 2em;  
   font-family: var(--title);
