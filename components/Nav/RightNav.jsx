@@ -22,7 +22,10 @@ const Ul = styled.ul`
           display: inline-block;
           position: relative;            
         }
-        
+        .hover-underline-animation2 {
+          display: inline-block;
+          position: relative;            
+        }
         .hover-underline-animation:after {
           content: '';
           position: absolute;         
@@ -35,8 +38,23 @@ const Ul = styled.ul`
           transform-origin: bottom right;
           transition: transform 1s ease-out;
         } 
-        
+        .hover-underline-animation2:after {          
+          content: '';
+          position: absolute;         
+          width: 45%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;          
+          left: 0;
+          background-color: #fff;
+          transform-origin: bottom right;
+          transition: transform 1s ease-out;
+        } 
         .hover-underline-animation:hover:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        } 
+        .hover-underline-animation2:hover:after {
           transform: scaleX(1);
           transform-origin: bottom left;
         } 
@@ -79,10 +97,10 @@ const RightNav = ({ open }) => {
     <Ul open={open}>      
       <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
       <li className='hover-underline-animation'><Link href='#Events' passHref>Events</Link></li>
-      <li className='hover-underline-animation'><Link href='#FAQ' passHref>FAQ</Link></li>
-      <li className='hover-underline-animation'><Link href='#Prize' passHref>Prize</Link></li>
+      <li className='hover-underline-animation2'><Link href='#FAQ' passHref>FAQ</Link></li>
+      <li className='hover-underline-animation2'><Link href='#Prize' passHref>Prize</Link></li>
       <li className='hover-underline-animation'><Link href='#Sponsors' passHref>Sponsors</Link></li>
-      <li className='hover-underline-animation'><Link href='#Team' passHref>Team</Link></li>
+      <li className='hover-underline-animation2'><Link href='#Team' passHref>Team</Link></li>
     </Ul>
     </div>
   )
