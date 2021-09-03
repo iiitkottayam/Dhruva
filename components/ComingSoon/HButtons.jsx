@@ -1,7 +1,6 @@
 import styles from '/styles/HButton.module.css'
 import Link from 'next/link'
 import { FaDiscord } from 'react-icons/fa';
-import { IconContext } from "react-icons";
 
 const HButtons = () => {
     return (
