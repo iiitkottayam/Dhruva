@@ -1,6 +1,8 @@
 import styles from '/styles/HButton.module.css'
 import Link from 'next/link'
 import { FaDiscord } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+
 const HButtons = () => {
     return (
         <div className={styles.buttons}>
@@ -8,7 +10,7 @@ const HButtons = () => {
             <button className={styles.b2}>
                 <Link href="#" target="_blank">
                     <a>
-                        <FaDiscord style={{ marginRight: '2%', transform: 'translateY(20%)' }} />
+                        <FaDiscord className={styles.faicon} />
                         <span> Join Discord </span>
                     </a>
 

@@ -30,6 +30,13 @@
     font-weight: 500;
     padding: 5px;
 }
+
+.faicon{
+    margin-right: 2%;
+    transform: translateY(20%);
+    color: #7289d9;
+}
+
 @media (max-width: 600px) {
     .b1 {
         width: 197px;
