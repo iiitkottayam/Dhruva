@@ -34,7 +34,7 @@
     width: 350px;
     object-fit: cover;
 }
-@media (max-width: 1250px) {
+@media (max-width: 1255px) {
     .footerUpper {
         grid-template-columns: 50% 50%;
     }
@@ -74,5 +74,16 @@
     }
     .footerUpper {
         grid-template-columns: 100%;
+    }
+}
+@media (max-height: 600px)
+{
+    .logo img
+    {
+        width: 15.625em;
+    }
+    .icons li
+    {
+        font-size: 1.5rem;
     }
 }

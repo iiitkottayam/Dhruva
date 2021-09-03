@@ -99,3 +99,42 @@
     height: auto;
     margin: 0 auto;
 }
+@media (max-height: 600px )
+{
+    .logo
+    {
+        font-size: 3.5vw;
+    }
+    .maintxt 
+    {
+        font-size: 5vw;
+    }
+    .txt
+    {
+        font-size: 2vw;
+    }
+    .bth
+    {
+        font-size: 2.7vw;
+        margin-top: 1%;
+    }
+}
+@media (max-width : 627px)
+{
+    .logo
+    {
+        font-size: 4.3vh;
+    }
+    .maintxt 
+    {
+        font-size: 6.5vh;
+    }
+    .txt
+    {
+        font-size: 2.16vh;
+    }
+    .bth
+    {
+        font-size: 2.7vh;
+    }
+}
