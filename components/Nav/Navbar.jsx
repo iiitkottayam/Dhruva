@@ -6,14 +6,13 @@ const Nav = styled.nav`
   top: 0;  
   position: absolute; 
   width: 100%;
-  height: 2em;  
+  height: 5rem;  
   font-family: var(--title);
   font-size: 2.5em;
   background-color: black;
   color: white;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-botton: 20px;
+  padding-top: 0.25rem;
+  padding-left: 2rem;  
   display: flex;
   justify-content: space-between;
   z-index: 10;
