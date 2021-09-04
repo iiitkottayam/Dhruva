@@ -81,11 +81,11 @@ const Ul = styled.ul`
     right: 0;
     height: 100%;
     width: 100%;
-    padding-top: 3.5rem;
+    padding-top: 1rem;
     transition: transform 0.3s ease-in-out;
     li {
-      font-size: 1.25em;
-      padding-top: 2em;
+      font-size: 1.5rem;
+      padding-top: 1.5rem;
       color: #fff;      
     }
   }

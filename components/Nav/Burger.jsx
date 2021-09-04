@@ -7,7 +7,7 @@ const StyledBurger = styled.div`
 width: 2rem;
 height: 2rem;
 position: absolute;
-top: 15px;
+top: 1.5rem;
 right: 20px;
 z-index: 500;
 display: none;
@@ -16,7 +16,8 @@ display: none;
     justify-content: space-around;
     flex-flow: column nowrap;
   }
-  div {   
+  div { 
+    cursor: pointer;  
     width: 2rem;
     height: 0.25rem;
     background-color: ${({ open }) => open ? 'white' : 'white'};
