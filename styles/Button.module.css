@@ -1,7 +1,7 @@
 .btnh {
     font: inherit;
     font-size: 1.25em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 0.75em;
     color: var(--black);
     background-color: var(--white);
@@ -11,6 +11,7 @@
     transition: all 0.25s ease-in-out;
     border: 2px var(--black) solid;
     margin-top: 2rem;
+    font-weight: 700;
 }
 .btnh:hover {
     box-shadow: 0.2em 0.2em rgb(255, 255, 255);

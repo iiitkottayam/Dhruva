@@ -18,23 +18,31 @@ const Timer = ({setShowTimer}) => {
     return (
         <div className={styles.container}>
             <div className={styles.time_container}>
-                <h1>{timeBetween.days()}</h1>
-                <h2>days</h2>
+                <span>{timeBetween.days()}</span>
+                <div>
+                    <p>days</p>
+                </div>                
             </div>
             <div className={styles.vertical}></div>
             <div className={styles.time_container}>
-                <h1>{timeBetween.hours()}</h1>
-                <h2>hours</h2>
+                <span>{timeBetween.hours()}</span>
+                <div>
+                    <p>hours</p>
+                </div>  
             </div>
             <div className={styles.vertical}></div>
             <div className={styles.time_container}>
-                <h1>{timeBetween.minutes()}</h1>
-                <h2>minutes</h2>
+                <span>{timeBetween.minutes()}</span>
+                <div>
+                    <p>minutes</p>
+                </div>  
             </div>
             <div className={styles.vertical}></div>
             <div className={styles.time_container}>
-                <h1>{timeBetween.seconds()}</h1>
-                <h2>seconds</h2>
+                <span>{timeBetween.seconds()}</span>
+                <div>
+                    <p>seconds</p>
+                </div> 
             </div>
         </div>
     )
