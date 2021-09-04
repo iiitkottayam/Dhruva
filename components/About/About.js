@@ -28,7 +28,7 @@ const About = () => {
                         showTimer ?
                             <Timer setShowTimer={setShowTimer}/>
                             :
-                            <h1 className={styles.title}>It's Show<span>time</span></h1>
+                            <h1 className={styles.title}>It&#39;s Show<span>time</span></h1>
                     }
                     
                 </div>
