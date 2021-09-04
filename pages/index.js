@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Footer from '@components/Footer/Footer'
 import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
+import Sponsor_Faq from '@components/Sponsor_Faq/Sponsor_Faq'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar/>
       <Header /> 
     </div>
+    <Sponsor_Faq></Sponsor_Faq>
     <Footer></Footer>
     </>
   )
