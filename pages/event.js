@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Footer from '@components/Footer/Footer'
 import EventHeading from '@components/EventPage/EventHeading'
+import Navbar from '@components/Nav/Navbar'
 
 export default function Home() {
     return (
@@ -16,7 +17,7 @@ export default function Home() {
                     />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
-
+                <Navbar />
                 <EventHeading
                     title="Event Name"
                     content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eius rerum numquam beatae qui odio ex nulla, minus nobis a laborum! At odio ipsum error facere veniam similique earum exercitationem!"

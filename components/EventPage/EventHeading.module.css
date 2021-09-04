@@ -35,11 +35,16 @@
     .container {
         grid-template-columns: 50% 50%;
         padding: 2%;
+        margin-top:  10%;
         justify-items: center;
         align-items: center;
     }
 }
 @media (max-width: 992px) {
+    .container
+    {
+        margin-top: 10%;
+    }
     .Heading h1 {
         font-size: 3.65rem;
     }
@@ -56,6 +61,7 @@
     .container {
         grid-template-columns: 100%;
         padding: 0%;
+        margin-top: 15%;
         justify-items: center;
         align-items: center;
         text-align: center;
