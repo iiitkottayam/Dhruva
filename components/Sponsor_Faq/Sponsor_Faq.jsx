@@ -9,13 +9,13 @@ const Sponsor_Faq = () => {
                 <div className = {Style.SponsorBack}></div>
                 <div className = {Style.FaqBack}></div>
             </div>  
-            <div className = {Style.content}>               {/* Contains all the content displayed on the page */}              
+            <div className = {Style.content}>               {/* Contains all the content displayed on the FAQ component */}              
                 <div className = {Style.sponsor}>
                     <p>Want to be a Sponsor?</p>
-                    <div className = {Style.ButtonWrapper}><a href="#"><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></a></div>    {/* Included an addition attribute - icon for the up-left arrow */}
+                    <div className = {Style.ButtonWrapper}><a href="#"><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></a></div>    {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}
                 </div>
                 <div className = {Style.contacts}>
-                    <div className = {Style.faq}>
+                    <div className = {Style.faq}> 
                         <span>FAQ</span>
                         <p className = {Style.subtitle}>Having some doubt?<br></br>Reach out to us</p>
                         <a href="#"><HButton name = {"Contact us"} icon = {<ImArrowUpRight2/>}/></a>
