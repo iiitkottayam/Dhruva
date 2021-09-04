@@ -1,0 +1,30 @@
+.btnh {
+    font: inherit;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding: 0.75em;
+    color: var(--black);
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.3em 0.3em var(--black);
+    transition: all 0.25s ease-in-out;
+    border: 2px var(--black) solid;
+    margin-top: 2rem;
+}
+.btnh:hover {
+    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
+    transform: translate(0.13em, 0.13em);
+}
+.btndiv {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+    .btnh {
+        font-size: 1em;
+    }
+}
