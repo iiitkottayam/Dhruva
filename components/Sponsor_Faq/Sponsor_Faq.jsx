@@ -4,7 +4,7 @@ import {ImArrowUpRight2} from 'react-icons/im'
 
 const Sponsor_Faq = () => {
     return (
-        <div className = {Style.wrapper}>
+        <div className = {Style.wrapper} id = {"FAQ"}>          {/* in-page navigation to FAQ section on clicking FAQ from the navbar */} {/* also added smooth scroll for the entire page in globals.css */}
             <div className = {Style.backgrounds}>               {/* A layer containing the background for the sponsor and faq section, placed below the content using a negative z-index */}
                 <div className = {Style.SponsorBack}></div>
                 <div className = {Style.FaqBack}></div>
@@ -12,13 +12,13 @@ const Sponsor_Faq = () => {
             <div className = {Style.content}>               {/* Contains all the content displayed on the page */}              
                 <div className = {Style.sponsor}>
                     <p>Want to be a Sponsor?</p>
-                    <div className = {Style.ButtonWrapper}><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></div>    {/* Included an addition attribute - icon for the up-left arrow */}
+                    <div className = {Style.ButtonWrapper}><a href="#"><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></a></div>    {/* Included an addition attribute - icon for the up-left arrow */}
                 </div>
                 <div className = {Style.contacts}>
                     <div className = {Style.faq}>
                         <span>FAQ</span>
                         <p className = {Style.subtitle}>Having some doubt?<br></br>Reach out to us</p>
-                        <HButton name = {"Contact us"} icon = {<ImArrowUpRight2/>}/>
+                        <a href="#"><HButton name = {"Contact us"} icon = {<ImArrowUpRight2/>}/></a>
                     </div>
                     <div className = {Style.chat}>  
                         <div className = {Style.chatW}>Lorem ipsum dolor sit amet, ?</div>
