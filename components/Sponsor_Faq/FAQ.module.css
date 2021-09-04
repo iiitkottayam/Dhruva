@@ -157,10 +157,11 @@
     }
     .subtitle{   
         text-align: left;
-        padding-left: 0.1em;
+        padding-left: 0.15em;
     }
     .faq button{
-        margin-left: 0.2em;
+        margin-left: 0.35em;
+        width: 9.45em;
     }
 }
 /* large screens */
@@ -181,10 +182,11 @@
     }
     .subtitle{
         font-size: 3rem;  
-        padding-left: 0.05em;
+        padding-left: 0.1em;
     }
     .faq button{
-        margin-left: 0.15em;
+        margin-left: 0.45em;
+        width:fit-content;
     }
     .chat{
         margin-top: 2.5rem; 
