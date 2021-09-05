@@ -4,11 +4,15 @@ import styles from '../styles/Home.module.css'
 import Footer from '@components/Footer/Footer'
 import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
+ 
+import About from '@components/About/About'
 import Speakers from '@components/Speakers/Speakers'
+ 
 
 export default function Home() {
   return (
     <>
+ 
       <div className={styles.container}>
         <Head>
           <title>DHRUVA - IIITK</title>
@@ -18,8 +22,10 @@ export default function Home() {
         <Navbar />
         <Header />
         <Speakers />
+        <About/> 
       </div>
       <Footer></Footer>
+ 
     </>
   )
 }
