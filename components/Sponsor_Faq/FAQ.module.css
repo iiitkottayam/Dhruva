@@ -18,7 +18,7 @@
 .SponsorBack{
     width: 100%;
     height: 100%;
-    background-color: #181414;
+    background-color: var(--black);
 }
 .FaqBack{
     height: 100%;
@@ -106,11 +106,12 @@
 .chatW{
     color: var(--black);
     font-weight: 600;
-    text-align: right;
+    text-align: center;
     background-color: var(--white);
-    margin-left: 30%;
+    margin-left: 50%;
     padding: 3.5%;
     margin-bottom: 0.75rem;
+    width: fit-content;
     border: 1px solid var(--black);
     border-radius: 2rem;
     border-bottom-right-radius: 0;
@@ -166,6 +167,7 @@
     }
     .chatW{
         padding: 2.5%;
+        margin-left: 45%;
     }
     .chatB{
         padding: 2.5%;
@@ -202,7 +204,7 @@
         width: 50%;
     }
     .chatW{
-        margin-left: 35%;
+        margin-left:52%;
         padding: 1em;
         border-bottom-right-radius: 0;
     }
