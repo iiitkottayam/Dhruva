@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Footer from '@components/Footer/Footer'
 import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
+import About from '@components/About/About'
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <Header /> 
+      <Header />
+      <About/> 
     </div>
     <Footer></Footer>
     </>
