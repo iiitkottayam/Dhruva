@@ -108,10 +108,9 @@
     font-weight: 600;
     text-align: center;
     background-color: var(--white);
-    margin-left: 50%;
     padding: 3.5%;
     margin-bottom: 0.75rem;
-    width: fit-content;
+    width:auto;
     border: 1px solid var(--black);
     border-radius: 2rem;
     border-bottom-right-radius: 0;
@@ -120,8 +119,7 @@
     color: var(--white);
     text-align: left;
     background-color: var(--black);
-    margin-right: 30%;
-    padding: 3.5%;
+    padding: 4.5%;
     margin-bottom: 0.75rem;
     border: 1px solid var(--black);
     border-radius: 3rem;
@@ -167,10 +165,11 @@
     }
     .chatW{
         padding: 2.5%;
-        margin-left: 45%;
+        margin-left: 35%;
     }
     .chatB{
         padding: 2.5%;
+        margin-right: 30%;
     }
 }
 /* large screens */
@@ -204,7 +203,7 @@
         width: 50%;
     }
     .chatW{
-        margin-left:52%;
+        margin-left: 40%;
         padding: 1em;
         border-bottom-right-radius: 0;
     }
