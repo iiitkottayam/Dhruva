@@ -111,7 +111,7 @@
     font-weight: 600;
     text-align: center;
     background-color: var(--white);
-    padding: 3.5%;
+    padding: 4.5%;
     margin-bottom: 0.75rem;
     width:auto;
     border: 1px solid var(--black);
@@ -166,11 +166,11 @@
         width: 9.45em;
     }
     .chatW{
-        padding: 3%;
+        padding: 3.5% 5.5% 3.5% 5.5%;
         margin-left: 35%;
     }
     .chatB{
-        padding: 3%;
+        padding: 3.5% 5.5% 3.5% 5.5%;
         margin-right: 30%;
     }
 }
