@@ -157,6 +157,7 @@
         margin-top: 5rem;  
         flex-direction: row;
         justify-content: space-around;
+        width: 100%;
     }
     .faq{
         margin-left: .95em;
