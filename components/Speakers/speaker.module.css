@@ -39,6 +39,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    gap: min(.2rem, 5%);
    
     width:max-content;
     font-size: clamp(1rem, 5vw, 2.2rem);
@@ -58,6 +59,31 @@
     );
 }
 
+@media (min-width:1200px) and (max-width:1600px){
+    .speaker .info .name{
+        font-size: clamp(3rem, 4.5vw, 4.5rem);
+        text-transform: capitalize;
+    }
+    .speaker .info{
+        padding-right:1rem;
+    }
+    .speaker .image img{
+        width: min(12rem, 30vw);
+        height: min(18rem, 50vh);
+    }
+ 
+    .speaker .info .about{
+        flex-grow: 0;
+    }
+}
+@media (min-width:610px) and (max-width:1200px){
+    .speaker .info .name{
+        font-size: clamp(3rem, 5.5vw, 4.5rem);
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+   
+}
 @media (max-width:600px){
     .speaker .info .name{
         font-size: clamp(1.8rem, 8vw, 4.5rem);
@@ -68,12 +94,8 @@
         width: min(15rem, 40vw);
         height: min(15rem, 40vh);
     }
-    .speaker .info{
-        display: flex;
-        flex-direction: column;
-        
-        gap:1.5rem;
-        
+    .speaker .info{ 
+        gap:1.5rem; 
         padding: .5rem;
         padding-left:1.2rem; 
     }
@@ -81,16 +103,21 @@
 @media (max-width:460px){
      
     .speaker .info{
-        gap:1rem;
-    
-        padding: .4rem;
+        gap:1rem; 
         padding-left:1rem; 
     }
 }
-@media (max-width:340px){
+@media (max-width:320px){
     .speaker .image img{
-        width: min(15rem, 40vw);
         height: min(15rem, 30vh);
     }
      
+}
+@media (max-width:300px){
+    .speaker .image img{
+        width: min(15rem, 30vw);
+        height: min(15rem, 30vh);
+        padding-left: .5rem;
+       
+    }
 }

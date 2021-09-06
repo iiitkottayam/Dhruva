@@ -7,9 +7,9 @@
     --p2:#C28BFF;
     --p3:#FFC089;
     --p4:rgb(252, 226, 203);
-    font-family: var(--title);
-
     
+
+    font-family: var(--title);
     position: relative;
     width:100%;
     background:radial-gradient(var(--p3) ,var(--p4) ) ;
@@ -54,29 +54,29 @@
 
  
 
-.speakers_section .title{
-    font-size: clamp(2.8rem, 10vw, 5rem);
+.speakers_section .title {
+    /* font-family: 'Lexend Deca'; */
+    font-family: 'Roboto';
+    font-size: clamp(2.8rem, 10vw, 6rem);
     font-weight: 600;
     width:min(100%,90vw);
     text-transform: capitalize;
- 
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: .1rem;
-    -webkit-text-stroke-color: black;
-
-    /* text-shadow:    2px -2px 0 rgb(0 0 0),
-                    2px -2px 0  rgb(0 0 0), 
-                    -2px 2px 0  rgb(0 0 0), 
-                    2px 2px 0  rgb(0 0 0); */
-   
     
     padding-top:1rem;
     padding-left:2rem; 
-    margin-bottom: 3rem;
-
+    margin-bottom: 4rem;
+    
+    -webkit-text-fill-color: transparent ;
+    -webkit-text-stroke-width: .1rem;
+    -webkit-text-stroke-color: black;
+     
+    /* text-shadow: -2px  -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0),
+        -2px 2px 0  rgb(0, 0, 0), 2px 2px 0  rgb(0, 0, 0); */
+    
 }
 .speakers{
    
+    width:100vw;
     display: grid;
     grid-template-columns: minmax(100px, 700px) minmax(100px, 700px) ;
     place-items: center;
@@ -96,7 +96,12 @@
 @media (min-width:800px) and (max-width:1220px){
     .speakers{
         grid-template-columns: minmax(500px, 900px);
-        place-content: center;
+    }
+    
+}
+@media (min-width:1225px) and (max-width:1300px){
+    .speakers{
+        grid-template-columns: minmax(400px, 550px) minmax(400px, 550px);
     }
     
 }
