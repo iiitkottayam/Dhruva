@@ -55,10 +55,10 @@
  
 
 .speakers_section .title {
-    /* font-family: 'Lexend Deca'; */
-    font-family: 'Roboto';
+    font-family: 'Lexend Deca';
+    /* font-family: 'Roboto'; */
     font-size: clamp(2.8rem, 10vw, 6rem);
-    font-weight: 600;
+    font-weight: 400;
     width:min(100%,90vw);
     text-transform: capitalize;
     
@@ -66,42 +66,47 @@
     padding-left:2rem; 
     margin-bottom: 4rem;
     
-    -webkit-text-fill-color: transparent ;
+    color:white;
+    
+    /* -webkit-text-fill-color: white ;
     -webkit-text-stroke-width: .1rem;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: black; */
      
-    /* text-shadow: -2px  -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0),
-        -2px 2px 0  rgb(0, 0, 0), 2px 2px 0  rgb(0, 0, 0); */
+    text-shadow: -1px  -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0  rgb(0, 0, 0), 1px 1px 0  rgb(0, 0, 0);
     
 }
 .speakers{
    
-    width:100vw;
+    /* border:2px solid red; */
+    width:100%;
     display: grid;
-    grid-template-columns: minmax(100px, 700px) minmax(100px, 700px) ;
+    grid-template-columns: minmax(500px, 800px) minmax(500px, 800px) !important;
     place-items: center;
     place-content: center;
      
     grid-row-gap: 3rem;
-    grid-column-gap: 3rem;
+    grid-column-gap: 0rem;
+    padding: 2rem;
 }
 
  
-@media  (max-width:800px){
-    .speakers{
-        grid-template-columns: 85vw ;
-    }
-}
 
-@media (min-width:800px) and (max-width:1220px){
+
+
+@media (min-width:1200px) and (max-width:1600px){
     .speakers{
-        grid-template-columns: minmax(500px, 900px);
+        grid-template-columns: minmax(200px, 500px) minmax(200px, 500px);
     }
     
 }
-@media (min-width:1225px) and (max-width:1300px){
+ 
+@media  (max-width:1200px){
     .speakers{
-        grid-template-columns: minmax(400px, 550px) minmax(400px, 550px);
+        padding: .5rem;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+        grid-template-columns: 85vw !important;
+
     }
-    
 }
