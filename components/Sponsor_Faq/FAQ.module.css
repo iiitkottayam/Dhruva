@@ -1,7 +1,7 @@
 .wrapper{
     color: white;
     width: 100%;
-    min-height: 100vh;
+    min-height: 150vh;
     position: relative;
     z-index: 1;
 }
@@ -24,7 +24,7 @@
     height: 100%;
     width: 200%;
     position: absolute;
-    top: 12%;
+    top: 15%;
     left: -50%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -36,7 +36,7 @@
 /* Content */
 .sponsor{
     height: 20%;
-    font-size: 110%;
+    font-size: 120%;
     font-family: var(--coming);
     font-weight: 500;
     display: flex;
@@ -45,13 +45,13 @@
     justify-content: center;
 }
 .sponsor p{
-    margin-top: 1.25em;
+    margin-top: 1.5em;
 }
 .ButtonWrapper{
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 .ButtonWrapper button{
-    margin-top: 0.01em;
+    margin-top: 0.8em;
     text-transform: none;
 }
 
@@ -61,7 +61,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 1.25em;
+    margin-top: 30%;
+    margin-bottom: 25%;
 }
 .faq{
     padding-top: 10%;
@@ -131,13 +132,27 @@
 }
 /* medium to large screens */
 @media screen and (min-width: 768px){
+    .wrapper{
+        min-height: 125vh;
+    }
     .sponsor{
-        font-size: 1.4em;
+        font-size: 2em;
+    }
+    .ButtonWrapper button{
+        margin-top: 0.01em;
     }
     .contacts{
         width: 90%;
         margin: auto;
-        margin-top: 5rem;
+        margin-top: 10rem;
+        margin-bottom: auto;
+    }
+
+    .subtitle{
+        font-size: 3rem;  
+    }
+    .chat{
+        font-size: 2rem;
     }
     .chatW{
         margin-bottom: 1.5rem;
@@ -148,13 +163,15 @@
 }
 @media screen and (min-width: 768px) and (max-height: 1080px){
     .FaqBack{
-        top: 7.5rem;
+        top: 10rem;
+    }
+    .sponsor{
+        font-size: 1.5em;
     }
     .sponsor p{
-        margin-top: 1em;
+        margin-top: 1.25em;
     }
     .contacts{
-        margin-top: 5rem;  
         flex-direction: row;
         justify-content: space-around;
         width: 100%;
@@ -178,6 +195,9 @@
         margin-left: 0.35em;
         width: 9.45em;
     }
+    .chat{
+        font-size: larger;
+    }
     .chatW{
         padding: 3.5% 5.5% 3.5% 5.5%;
         margin-left: 35%;
@@ -192,10 +212,10 @@
 /* large screens */
 @media screen and (min-width: 1024px) and (max-height: 1080px){
     .contacts{
-        margin-top: 3.5rem;
+        margin-top: 8rem;
     }
     .sponsor{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .faq{
         margin-left: 0;
