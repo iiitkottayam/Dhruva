@@ -12,7 +12,7 @@ const Sponsor_Faq = () => {
             <div className = {Style.content}>               {/* Contains all the content displayed on the FAQ component */}              
                 <div className = {Style.sponsor}>
                     <p>Want to be a Sponsor?</p>
-                    <div className = {Style.ButtonWrapper}><a href="#"><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></a></div>    {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}
+                    <a href="#"><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></a>    {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}
                 </div>
                 <div className = {Style.contacts}>
                     <div className = {Style.faq}> 
