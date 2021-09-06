@@ -64,7 +64,7 @@
     
     padding-top:1rem;
     padding-left:2rem; 
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     
     color:white;
     
@@ -81,12 +81,12 @@
     /* border:2px solid red; */
     width:100%;
     display: grid;
-    grid-template-columns: minmax(500px, 800px) minmax(500px, 800px) !important;
-    place-items: center;
+    grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr) !important;
+    
     place-content: center;
      
-    grid-row-gap: 3rem;
-    grid-column-gap: 0rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
     padding: 2rem;
 }
 
@@ -94,19 +94,25 @@
 
 
 
-@media (min-width:1200px) and (max-width:1600px){
+@media (min-width:1020px) and (max-width:1600px){
     .speakers{
         grid-template-columns: minmax(200px, 500px) minmax(200px, 500px);
     }
     
 }
- 
-@media  (max-width:1200px){
+@media  (max-width:1020px){
     .speakers{
         padding: .5rem;
         grid-row-gap: 2rem;
         grid-column-gap: 2rem;
-        grid-template-columns: 85vw !important;
+        grid-template-columns: minmax(180px,1000px) !important;
 
+    }
+}
+
+@media  (max-width:600px){
+    .speakers_section .title {
+        
+        font-size: clamp(2rem, 12vw, 6rem);
     }
 }
