@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+  
+  body {
+    background-color: #141114 !important;
+    background-image: linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px),
+      linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  }
+  .div1{
+    top:50% !important;
+  }
+  .div2{
+    top:50% !important;
+  }
+  .sign {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top:35%;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-image: radial-gradient(
+      ellipse 50% 35% at 50% 50%,
+      #870688,
+      transparent
+    );
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    left: 50%;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #a231c7,
+      -0.2rem 0.1rem 1rem #a231c7, 0.2rem 0.1rem 1rem #a231c7,
+      0 -0.5rem 2rem #74238e, 0 0.5rem 3rem #74238e;
+    animation: shine 2s forwards, flicker 3s infinite;
+  }
+  .sign2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top:67%;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    
+    transform: translate(-50%, -50%);
+    letter-spacing: 2;
+    left: 50%;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    color: #ffe6ff;
+    
+  }
+  @keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #a231c7,
+        -0.2rem 0.1rem 1rem #a231c7, 0.2rem 0.1rem 1rem #a231c7,
+        0 -0.5rem 2rem #74238e, 0 0.5rem 3rem #74238e;
+    }
+    28%,
+    33% {
+      color: #a231c7;
+      text-shadow: none;
+    }
+    82%,
+    97% {
+      color: #74238e;
+      text-shadow: none;
+    }
+  }
+  
+  .flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+  }
+  
+  .fast_flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      color: #6b1839;
+      text-shadow: none;
+    }
+    100% {
+      color: #ffe6ff;
+      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #a231c7,
+        -0.2rem 0.1rem 1rem #a231c7, 0.2rem 0.1rem 1rem #a231c7,
+        0 -0.5rem 2rem #74238e, 0 0.5rem 3rem #74238e;
+    }
+  }
+  
+  @keyframes flicker {
+    from {
+      opacity: 1;
+    }
+  
+    4% {
+      opacity: 0.9;
+    }
+  
+    6% {
+      opacity: 0.85;
+    }
+  
+    8% {
+      opacity: 0.95;
+    }
+  
+    10% {
+      opacity: 0.9;
+    }
+  
+    11% {
+      opacity: 0.922;
+    }
+  
+    12% {
+      opacity: 0.9;
+    }
+  
+    14% {
+      opacity: 0.95;
+    }
+  
+    16% {
+      opacity: 0.98;
+    }
+  
+    17% {
+      opacity: 0.9;
+    }
+  
+    19% {
+      opacity: 0.93;
+    }
+  
+    20% {
+      opacity: 0.99;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    26% {
+      opacity: 0.94;
+    }
+  
+    28% {
+      opacity: 0.98;
+    }
+  
+    37% {
+      opacity: 0.93;
+    }
+  
+    38% {
+      opacity: 0.5;
+    }
+  
+    39% {
+      opacity: 0.96;
+    }
+  
+    42% {
+      opacity: 1;
+    }
+  
+    44% {
+      opacity: 0.97;
+    }
+  
+    46% {
+      opacity: 0.94;
+    }
+  
+    56% {
+      opacity: 0.9;
+    }
+  
+    58% {
+      opacity: 0.9;
+    }
+  
+    60% {
+      opacity: 0.99;
+    }
+  
+    68% {
+      opacity: 1;
+    }
+  
+    70% {
+      opacity: 0.9;
+    }
+  
+    72% {
+      opacity: 0.95;
+    }
+  
+    93% {
+      opacity: 0.93;
+    }
+  
+    95% {
+      opacity: 0.95;
+    }
+  
+    97% {
+      opacity: 0.93;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes swinging{
+    0%{-webkit-transform: rotate(10deg);}
+    50%{-webkit-transform: rotate(-5deg)}
+    100%{-webkit-transform: rotate(10deg);}
+}
+ 
+@keyframes swinging{
+    0%{transform: rotate(10deg);}
+    50%{transform: rotate(-5deg)}
+    100%{transform: rotate(10deg);}
+}
+ 
+.swingimage{
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+    animation: swinging 3.5s ease-in-out forwards infinite;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 1050px) {
+  .sign{
+    font-size: 7em;
+  }
+  .swingimage{  
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sign{
+    font-size: 5em;
+  }
+  .swingimage{  
+    width: 150px;
+    height: 150px;
+  }
+  .sign2{
+    top:57%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .sign{
+    font-size: 3em;
+  }
+  .swingimage{  
+    width: 100px;
+    height: 100px;
+  }
+  .sign2{
+    top:53%;
+  }
+}
