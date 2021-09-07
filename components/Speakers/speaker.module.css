@@ -1,0 +1,199 @@
+.speaker{
+    padding: 1rem;
+   
+    width:100%;
+    display: flex;
+     
+    /* border:2px solid red; */
+    --p1:#8C58FC;
+    --p3:#FFC089;
+    
+}
+.speaker .image{
+     
+    /* border:2px solid red; */
+    position: relative;
+} 
+.speaker .image::after{
+    content:'';
+    position: absolute;
+    inset:0;
+    z-index:-1;
+
+    transform: scale(1.01) translateY(-.9%);
+    transform-origin: center;
+    border-radius: 10rem 10rem 0 0 ;
+    background:linear-gradient(0deg,var(--p3),var(--p1)) ;
+   
+}
+.speaker .image img{
+    position: relative;
+    width: min(15rem, 30vw);
+    height: min(20rem, 50vw);
+    object-position: 50% 50%;
+    object-fit: cover;
+
+    border-radius: 10rem 10rem 0 0 ;
+
+    /* border :.2rem solid transparent;
+    border-image: linear-gradient(0deg,var(--p3),var(--p1));
+    border-image-slice:1 ; */
+}
+.speaker .info{
+    flex:2;
+    /* border:2px solid red; */
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    
+    gap:1.5rem;
+    
+    padding: .5rem;
+    padding-left:2rem; 
+}
+.speaker .info .name{
+    width:max-content;
+    font-size: clamp(1.8rem, 10vw, 4.5rem);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.speaker .info .about{
+    
+    max-width:95%;
+    font-size: clamp(.8rem, 2vw, 1rem);
+    font-weight: 500;
+    text-transform: capitalize;
+    
+}
+.speaker .info .timing{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+   
+    width:max-content;
+    font-size: clamp(1rem, 5vw, 2.2rem);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.speaker .info .timing::after{
+    content:'';
+    position:absolute;
+    bottom:-1.5rem;
+    width:100%;
+    height:.5rem;
+    background: linear-gradient(
+        135deg,
+        var(--p1),
+        var(--p3)
+    );
+}
+
+@media (min-width:1020px) and (max-width:1600px){
+     
+    .speaker .info .name{
+        font-size: clamp(2rem, 4vw, 4rem) !important;
+        text-transform: capitalize;
+    }
+    .speaker .info{
+        padding-right:1rem;
+        width:min(50vw,20rem)
+    }
+    .speaker .image img{
+        width: min(12rem, 30vw);
+        height: min(18rem, 50vw);
+    }
+ 
+    .speaker .info .timing{
+        font-size: clamp(1rem, 2vw, 2rem);
+    }
+    .speaker .info .name{
+        font-size: clamp(3rem, 4.5vw, 4.5rem);
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width:480px){
+    .speaker .info{
+        padding: .5rem;
+        padding-left:1rem; 
+    }
+    .speaker .info .name{
+        font-size: clamp(2rem, 5vw, 4.5rem);
+    }
+    .speaker .info .about{
+        width: 55vw;
+        font-size: clamp(.7rem, 2vw, 1rem);
+    }
+    .speaker .info .timing{
+        
+        gap: .3rem;
+        font-size: clamp(1rem, 4vw, 2rem);
+       
+    }
+    .speaker .info .timing::after{
+        bottom:-1rem;
+    }
+}
+@media(max-width:380px){
+    .speaker .image img{
+        width: min(15rem, 30vw);
+        height: 100%;
+    }
+}
+@media(max-width:320px){
+    .speaker .info .name{
+        font-size: clamp(1.7rem, 4vw, 4.5rem);
+    }
+    .speaker .info .about{
+        width: 55vw;
+        font-size: clamp(.65rem, 1vw, .8rem);
+    }
+    .speaker .info .timing{
+        
+        gap: .3rem;
+        font-size: clamp(.9rem, 4vw, 2rem);
+       
+    }
+}
+/* @media (max-width:800px){
+    .speaker .info .about{
+        width:min(100%,70vw);
+    }
+} */
+/* @media (max-width:620px){
+    .speaker .info .name{
+        font-size: clamp(1.8rem, 8vw, 4.5rem);
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+    .speaker .image img{
+        width: min(15rem, 35vw);
+        height: min(55vw, 52vw);
+    }
+    .speaker .info .about{ 
+        width:min(100%,30rem);
+    }
+}
+@media (max-width:380px){
+    .speaker .image{
+      
+        height:min(50vw)
+    }
+}
+@media (max-width:330px){
+     
+    .speaker .info{
+        padding-left:1rem; 
+    }
+    .speaker .image{
+        transform: translateY(25%);
+        height:min(50vw)
+    }
+     
+} */
+ 
+ 
