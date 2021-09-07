@@ -8,15 +8,15 @@
   justify-content: space-evenly;
 }
 .prizeH2Stroke {
-    font-family: var(--title);
-    text-align: center;
-    font-size: 9vw;
-    font-style: normal;
-    font-weight: normal;
-    -webkit-text-fill-color: var(--white); /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 0.3vw;
-    -webkit-text-stroke-color: var(--black);
-    letter-spacing: 0.028em;
+  font-family: var(--title);
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7rem;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+        2px 2px 0 #000;
+  color: var(--white);
+  
   }
   
   .prizeH2 {
