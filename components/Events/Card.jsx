@@ -6,7 +6,7 @@ const Card = (props) => {
     return (
         <div className={styles.card}>
             <div className={styles.cimg}>
-                <img src={props.imgsrc} alt="Organiser" layout="fill" />
+                <img src={props.imgsrc} alt="Organiser"  />
                 <p className={styles.name}>{props.name}</p>
             </div>
             <div className={styles.socicons}>

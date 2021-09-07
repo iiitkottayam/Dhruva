@@ -60,6 +60,7 @@
 }
 
 .name {
+    width: 100%;
     font-family: var(--title);
     font-style: normal;
     font-weight: normal;
@@ -68,6 +69,7 @@
     color: var(--white);
     margin-top: 0px;
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .card:hover>.cimg {
@@ -118,20 +120,21 @@
 }
 
 @media (max-width: 800px) {
+    
     .card {
         height: 285px;
         width: 231px;
     }
     .cimg>img {
-        height: 157px;
-        width: 157px;
+        height: 160px;
+        width: 160px;
     }
     .hdn1 {
         font-size: 50px;
         text-align: center;
     }
     .name {
-        font-size: 18px;
+        font-size: 19px;
     }
     .cimg {
         transition: all 0.8s;
@@ -151,21 +154,24 @@
     }
 }
 
-@media (max-width: 585px) {
-    .card {
-        height: 213.5px;
-        width: 172px;
+@media (max-width: 601px) {
+    .carousel{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    .cimg>img {
-        height: 105px;
-        width: 105px;
+    .card{
+        height: 90%;
+        width: 51%;
     }
+    
+    
+    
     .hdn1 {
         font-size: 45px;
     }
-    .name {
-        font-size: 17px;
-    }
+    
     .cimg {
         transition: all 0.8s;
         transform: translateY(0px);
@@ -183,5 +189,26 @@
     .taicon{
         font-size: 30px;
     }
+
     
+}
+
+@media (max-width : 389px){
+    .cimg>img {
+        height: 120px;
+        width: 120px;
+    }
+    .name {
+         font-size: 18px;
+    }
+}
+
+@media (max-width : 295px){
+    .cimg>img {
+        height: 90px;
+        width: 90px;
+    }
+    .name {
+        font-size: 13px;
+    }
 }
