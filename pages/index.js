@@ -6,6 +6,8 @@ import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
 import About from '@components/About/About'
 import { Sponsors } from '@components/Sponsor/Sponsors'
+import Sponsor_Faq from '@components/Sponsor_Faq/Sponsor_Faq'
+
 
 export default function Home() {
   return (
@@ -20,6 +22,7 @@ export default function Home() {
       <Header />
       <About/> 
       <Sponsors/>
+      <Sponsor_Faq />
     </div>
     <Footer></Footer>
     </>
