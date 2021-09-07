@@ -1,0 +1,187 @@
+.pplcon {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 4.5%;
+}
+
+.hdn1 {
+    font-family: var(--title);
+    text-transform: capitalize;
+    background: linear-gradient(to bottom, var(--linearg1), var(--linearg2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 87px;
+    font-size: 70px;
+    letter-spacing: -0.032em;
+}
+
+.carousel {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.taicon{
+    font-size: 50px;
+}
+
+.card {
+    display: flex;
+    padding-top: 3%;
+    align-items: center;
+    width: 308px;
+    height: 380px;
+    background: var(--cardbg);
+    border-radius: 5px;
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-top: 2%;
+}
+
+.cimg img {
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+}
+
+.cimg {
+    transition: all 0.8s;
+    transform: translateY(0px);
+}
+
+.name {
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 45px;
+    color: var(--white);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card:hover>.cimg {
+    transform: translateY(-8%);
+    transition: all 0.8s;
+}
+
+.card:hover>.socicons {
+    transform: translateY(-8%);
+    transition: all 0.8s ease;
+    opacity: 1;
+    pointer-events: all;
+    
+    cursor: pointer;
+}
+
+.taicon:hover {
+    color: white;
+}
+
+.socicons {
+    margin-top: 2%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    opacity: 0;
+    padding-bottom: 10%;
+    pointer-events: none;
+}
+
+.taicon {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 1200px) {
+    .pplcon {
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin-top: 2%;
+    }
+    .hdn1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        height: 285px;
+        width: 231px;
+    }
+    .cimg>img {
+        height: 157px;
+        width: 157px;
+    }
+    .hdn1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .name {
+        font-size: 18px;
+    }
+    .cimg {
+        transition: all 0.8s;
+        transform: translateY(0px);
+    }
+    .card:hover>.cimg {
+        transform: translateY(-4%);
+        transition: all 0.8s;
+    }
+    .card:hover>.socicons {
+        transform: translateY(-4%);
+        transition: all 0.8s ease;
+        opacity: 1;
+    }
+    .taicon{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 585px) {
+    .card {
+        height: 213.5px;
+        width: 172px;
+    }
+    .cimg>img {
+        height: 105px;
+        width: 105px;
+    }
+    .hdn1 {
+        font-size: 45px;
+    }
+    .name {
+        font-size: 17px;
+    }
+    .cimg {
+        transition: all 0.8s;
+        transform: translateY(0px);
+    }
+    .card:hover>.cimg {
+        transform: translateY(-2%);
+        transition: all 0.8s;
+    }
+    .card:hover>.socicons {
+        transform: translateY(-2%);
+        transition: all 0.8s ease;
+        opacity: 1;
+        display: flex;
+    }
+    .taicon{
+        font-size: 30px;
+    }
+    
+}
