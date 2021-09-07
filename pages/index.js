@@ -5,6 +5,7 @@ import Footer from '@components/Footer/Footer'
 import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
 import About from '@components/About/About'
+import Sponsor_Faq from '@components/Sponsor_Faq/Sponsor_Faq'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Navbar/>
       <Header />
       <About/> 
+      <Sponsor_Faq />
     </div>
     <Footer></Footer>
     </>
