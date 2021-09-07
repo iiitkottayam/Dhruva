@@ -103,14 +103,19 @@
 @media  (max-width:1020px){
     .speakers{
         padding: .5rem;
+        padding-left:2rem;
         grid-row-gap: 2rem;
         grid-column-gap: 2rem;
-        grid-template-columns: minmax(180px,1000px) !important;
+        grid-template-columns: minmax(180px,750px) !important;
+        place-items: center;
 
     }
 }
 
 @media  (max-width:600px){
+    .speakers{
+        padding: .5rem; 
+    }
     .speakers_section .title {
         
         font-size: clamp(2rem, 12vw, 6rem);
