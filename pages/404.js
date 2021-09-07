@@ -10,7 +10,7 @@ const error = () => {
 			<div className="notfound-404">
 				<h1>4<span>0</span>4</h1>
 			</div>
-			<p>The page you are looking for might have been removed or is temporarily unavailable.</p>
+			<p className="txt">The page you are looking for might have been removed or is temporarily unavailable.</p>
 			<a className="sponsor" href="/"><HButton  name="Home Page" icon = {<ImArrowUpRight2/>}/></a>
 		</div>
 	    </div>
