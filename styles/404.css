@@ -62,27 +62,9 @@ body {
   margin-bottom: 15px;
 }
 
-.notfound a {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: transparent;
-  color: #c9c9c9;
-  border: 2px solid #c9c9c9;
-  display: inline-block;
-  padding: 10px 25px;
-  font-weight: 700;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s all;
-}
 
-.notfound a:hover {
-  margin: 50px auto;
-  border-left:  solid #C28BFF;
-  border-right:  solid #FFC089;
-  border-top: linear-gradient(#FFC089, #C28BFF);
-}
+
+
 
 @media only screen and (max-width: 480px) {
   .notfound .notfound-404 {

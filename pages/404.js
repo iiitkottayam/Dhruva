@@ -1,5 +1,6 @@
-import Link from 'next/link'
 import Head from 'next/head'
+import HButton from '../components/Accessories/button'
+import {ImArrowUpRight2} from 'react-icons/im'
 
 const error = () => {
     return (
@@ -10,7 +11,7 @@ const error = () => {
 				<h1>4<span>0</span>4</h1>
 			</div>
 			<p>The page you are looking for might have been removed or is temporarily unavailable.</p>
-			<Link href="/">home page</Link>
+			<a href="/"><HButton name="Home Page" icon = {<ImArrowUpRight2/>}/></a>
 		</div>
 	    </div>
     )
