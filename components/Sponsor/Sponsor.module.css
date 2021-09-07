@@ -13,7 +13,7 @@
     font-size: 9vw;
     font-style: normal;
     font-weight: normal;
-    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: var(--white); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 0.3vw;
     -webkit-text-stroke-color: var(--black);
     letter-spacing: 0.028em;
@@ -34,8 +34,8 @@
     margin-top: 12vw;
   }
   
-  .divMargin {
-    margin-top: 5vw;
+  .sponsorMargin {
+    margin-bottom: 80px;
   }
   
   
@@ -49,10 +49,8 @@
     -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
   }
   .sponsorImg {
-    width: 14vw;
-    height: 11vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   
   .sponsorLabel {

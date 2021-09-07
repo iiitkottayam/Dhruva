@@ -7,8 +7,7 @@ export const SponsorsRow  = (props) => {
             <div className={styles.sponsorRow}>
                 {props.sponsors.map((sponsor) => {
                  return <div key={sponsor.id} className="column div-margin" align="center">
-                        {/* <img className={styles.sponsorImg} src={sponsor.logo} alt="Logo not found" /> */}
-                        <Image src={sponsor.logo} alt="Logo not available" width={250} height={230}/>
+                        <Image src={sponsor.logo} alt="Logo not available" width={140} height={140} className={styles.sponsorImg}/>
                         <h2 className={styles.sponsorLabel}>{sponsor.name}</h2>
                     </div>
             })}

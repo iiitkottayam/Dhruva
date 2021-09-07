@@ -15,13 +15,19 @@ export const Sponsors = (props) => {
         },
         {
             id: 3,
-            name: "Amazon",
-            logo: "https://i.pinimg.com/originals/31/d1/3c/31d13c99ee841869ca44ef54ba956272.png"
+            name: "Netflix",
+            logo: "https://play-lh.googleusercontent.com/384jx3OL4_tqtCGZrfIB6Q5TehM0Q7TLYFsenRPfeT8f-3vicWH2BYbvaEAneaPFMMM"
         },
+        
         {
             id: 4,
             name: "Paypal",
-            logo: "https://st4.depositphotos.com/5225467/22068/v/600/depositphotos_220680152-stock-illustration-paypal-logo-printed-white-paper.jpg"
+            logo: "https://media.fidoalliance.org/wp-content/uploads/paypal_2014_logo_detail-1.png"
+        },
+        {
+            id: 5,
+            name: "Amazon",
+            logo: "https://authy.com/wp-content/uploads/Amazon.png"
         },
         
     ];
@@ -38,7 +44,9 @@ export const Sponsors = (props) => {
             <h2 className={styles.prizeH2}>Our Sponsors</h2>
             </div>
             {/* Each this row for 4 sponsers per component otherwise it become congested */}
-            <SponsorsRow sponsors={sponsors}/>
+            <div className={styles.sponsorMargin}>
+                <SponsorsRow sponsors={sponsors}/>
+            </div>
         </div>
     )
 }
