@@ -127,8 +127,8 @@
 
 @media (max-width: 800px) {
     .card {
-        height: 285px;
-        width: 231px;
+        height: 63%px;
+        width: 45%px;
     }
     .cimg>img {
         height: 160px;
