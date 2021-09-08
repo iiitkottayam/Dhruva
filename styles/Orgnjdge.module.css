@@ -118,8 +118,8 @@
     }
 }
 
-@media (max-width: 1025px){
-    .card{
+@media (max-width: 1025px) {
+    .card {
         height: 63%;
         width: 45%;
     }
