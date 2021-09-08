@@ -23,3 +23,7 @@ a {
 * {
     box-sizing: border-box;
 }
+[data-aos="rotate-c"].aos-animate{
+    transform: rotateX(30deg) rotateY(0deg) rotateZ(15deg);
+    transition-property: transform;
+  }
