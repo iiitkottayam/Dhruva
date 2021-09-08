@@ -27,7 +27,7 @@ const Attendes = () => {
                     </div>
                     <div className={styles.text}>
                         <h4 className={styles.h4}>Speakers</h4>
-                        <p className={styles.bl}>Put speakers at ease by making sure they're prepped and ready to go. Onboard them in the Green Room and communicate with them while they're on stage.</p>
+                        <p className={styles.bl}>Put speakers at ease by making sure theyre prepped and ready to go. Onboard them in the Green Room and communicate with them while they're on stage.</p>
                     </div>
                     <div data-aos="fade-left" className={styles.img}>
                         <img data-aos="rotate-c" src="https://assets-global.website-files.com/5f8f45cead04af2f54abc938/611fcb7cd572cbda6aa2b3b2_use_speaker.jpg" className={styles.hi2}/>
