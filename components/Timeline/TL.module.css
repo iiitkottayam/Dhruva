@@ -1,0 +1,161 @@
+.main {
+    
+  background: rgb(55,39,71);
+background: linear-gradient(90deg, rgba(55,39,71,1) 0%, rgba(0,0,0,1) 27%, rgba(8,6,10,1) 65%, rgba(0,0,0,1) 76%, rgba(0,0,0,1) 76%, rgba(78,70,55,1) 100%);
+    
+    
+    
+}
+
+.err{
+  margin: 0%;
+}
+.header{
+    padding-top: 5%;
+    text-align: center;
+    font-family: var(--title);
+    font-size: 6.5rem;
+    text-shadow: -1.5px -1.5px 0 rgb(255, 255, 255), 1.5px -1.5px 0 rgb(255, 255, 255),
+        -1.5px 1.5px 0 rgb(255, 255, 255), 1.5px 1.5px 0 rgb(255, 255, 255);
+    color: var(--black);
+    letter-spacing: -7px;
+}
+
+.tabs {
+    height: 100%;
+    display: flex;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.days{
+  height: 11%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  
+
+}
+
+.events2{
+  display: none;
+}
+
+.events{
+  margin-left: 10%;
+  margin-top: 0%;
+  margin-bottom: 2%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  
+}
+.eventname{
+  margin: 2%;
+  margin-bottom: 1%;
+  padding-left: 5%;
+  font-family: var(--title);
+    font-size: 2.5rem;
+}
+.eventtime{
+  margin: 2%;
+  margin-top: 1%;
+  padding-left: 5%;
+  font-family: var(--title);
+    font-size: 1.75rem;
+}
+
+.borderwrap{
+    
+    position: relative;
+    cursor: pointer;
+    width: 60%;
+    margin-right: 0%;
+    transition: all 0.3s ease-in-out;
+  }
+  .wrapper{
+    
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    background: rgb(172,95,249);
+  background: linear-gradient(180deg, rgba(172,95,249,1) 0%, rgba(230,201,149,1) 79%);
+    transition: all 0.3s ease;
+    
+  }
+  
+  .daycards{
+    
+    position: absolute;
+    height: 84.5%;
+    width: 99.5%;
+    padding: 5px;
+    top: 0.25%;
+    left: 0.25%;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--title);
+    
+  }
+
+  .dayHeading{
+    font-size: 4rem;
+    margin: 0%;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  
+  .inner{
+    height: 85%;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background: rgb(172,95,249);
+  background: linear-gradient(180deg, rgba(172,95,249,1) 0%, rgba(230,201,149,1) 79%);
+    
+    
+  }
+
+ .borderwrap:hover .daycards{
+  transform: translate(-5px,-10px);
+ }
+ .borderwrap:hover .wrapper{
+  transform: translate(-5px,-10px);
+ }
+  
+  .eventcard{
+    
+    background-color: black;
+    margin-bottom: 8%;
+    color: white;
+    width: 100%;
+  }
+
+  .eventcard.clicked {
+    background-image: linear-gradient(
+      to right,
+      hsl(32, 100%, 73%),
+      hsl(290, 75%, 69%)
+      
+    );
+    color: black !important;
+    transition: background-image 0.5s linear;
+  }
+
+  .daydesc{
+    font-size: 3rem;
+    margin: 0%;
+    text-shadow: -1.5px -1.5px 0 rgb(255, 255, 255), 1.5px -1.5px 0 rgb(255, 255, 255),
+        -1.5px 1.5px 0 rgb(255, 255, 255), 1.5px 1.5px 0 rgb(255, 255, 255);
+    color: var(--black);
+    font-family: var(--title);
+    margin-left: 5%;
+  }
