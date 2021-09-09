@@ -37,7 +37,7 @@
     grid-column-gap: 120px;
     grid-row-gap: 0px;
     align-items: start;
-    
+    padding: 0px 0px 0px 0px !important;   
 }
 .text{
     padding-top: 12%;
