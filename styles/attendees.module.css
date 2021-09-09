@@ -37,14 +37,13 @@
     grid-column-gap: 120px;
     grid-row-gap: 0px;
     align-items: start;
-    padding: 0px 0px 0px 0px !important;   
     
 }
 .text{
     padding-top: 12%;
     width: 100%;
     box-sizing: border-box;
-
+    
 }
 .h4{
     
@@ -54,6 +53,10 @@
     font-size: 1.8em;
     line-height: 1.1em;
     font-weight: 700;
+    
+}
+.img{
+    width: 100%;
     
 }
 .bl{
@@ -93,9 +96,22 @@
 @media (min-width:1020px) and (max-width:1600px){
     .grid{
         grid-template-columns: minmax(200px, 500px) minmax(200px, 500px);
+        
+    }
+    .img{
+        padding-right: 7%;
+        
+    }
+    
+    
+}
+@media  (max-width:948px){
+    .img{
+        width: 60%;
     }
     
 }
+
 @media  (max-width:880px){
     .grid{
         padding: .5rem;
@@ -106,6 +122,9 @@
         place-items: center;
         
 
+    }
+    .img{
+        width: 80%;
     }
     
 }
@@ -134,14 +153,7 @@
 
 @media  (max-width:1020px){
     
-    .hi{
-        margin: 25.525px 0px 0px;
-        
-    }
-    .hi2{
-        margin: 25.525px 0px 0px;
-       
-    }
+    
     .h1{
         font-size: 3.0em;
     }
@@ -156,6 +168,16 @@
     }
     
     
+}
+@media  (max-width:880px){
+.hi{
+    margin: 25.525px 0px 0px;
+    
+}
+.hi2{
+    margin: 25.525px 0px 0px;
+   
+}
 }
 
 @media  (max-width:800px){
