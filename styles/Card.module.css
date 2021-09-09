@@ -39,6 +39,7 @@
     font-family: 'Rational TW Text', sans-serif;
     font-size: 1rem;
     margin-top: 5%;
+    /* background-color: red; */
 }
 .container:hover .profile_img {
     width: 50%;
@@ -61,6 +62,11 @@
 }
 .container:hover {
     background-color: var(--white);
+    color: var(--black);
+    /* border: 5px solid #8c58fc; */
+}
+.container:hover .role {
+    color: var(--black);
     /* border: 5px solid #8c58fc; */
 }
 @media screen and (max-width: 300px) {
