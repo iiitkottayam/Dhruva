@@ -182,7 +182,7 @@
 /* large screens */
 @media screen and (min-width: 1024px) and (max-height: 1080px){
     .wrapper{
-        min-height: 101vh;
+        min-height: 67vw;
     }
     .FaqBack{
         top: 15rem;
