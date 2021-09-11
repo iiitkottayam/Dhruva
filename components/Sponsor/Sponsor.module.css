@@ -3,9 +3,9 @@
     width: 100%;
     background: linear-gradient(
         180deg,
-        rgb(236, 216, 200) 0%,
-        rgb(230, 219, 210) 38%,
-        rgba(255, 255, 255, 1) 100%
+        #ffc089 0%,
+        #ffd9b7 10%,
+        #ffffff 40%
     );
 }
 .sponsorRow {
@@ -21,23 +21,21 @@
     text-align: center;
     font-style: normal;
     font-weight: normal;
-    font-size: 9vw;
-    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
-        1.5px 1.5px 0 #000;
-    color: var(--white);
+    font-size: calc(5vw + 4vh + 3vmin);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    color: #ffd9b8;
     letter-spacing: 1.5px;
 }
 
 .prizeH2 {
     font-family: var(--title);
     text-align: center;
-    font-size: 6vw;
+    font-size: calc(2vw + 3vh + 3vmin);
     font-style: normal;
     margin-top: 5vw;
     font-weight: normal;
-    -webkit-text-fill-color: var(
-        --black
-    ); /* Will override color (regardless of order) */
+    -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
     letter-spacing: -0.032em;
 }
 
@@ -52,17 +50,16 @@
 .prizeH3 {
     font-family: var(--title);
     text-align: center;
-    font-size: 3.5vw;
+    font-size: calc(1.5vw + 1vh + 2vmin);
     margin-top: 5vw;
     font-style: normal;
     font-weight: normal;
-    -webkit-text-fill-color: var(
-        --black
-    ); /* Will override color (regardless of order) */
+    -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
 }
 .sponsorImg {
     margin-left: 3vw;
     margin-right: 3vw;
+    border-radius: 12px;
 }
 
 .sponsorLabel {
