@@ -51,6 +51,7 @@
     font-family: var(--title);
     text-align: center;
     font-size: calc(1.5vw + 1vh + 2vmin);
+    padding: 0 0.2em;
     margin-top: 5vw;
     font-style: normal;
     font-weight: normal;
