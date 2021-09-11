@@ -8,9 +8,9 @@
     background: rgb(255, 255, 255);
     background: linear-gradient(
         0deg,
-        rgba(255, 255, 255, 1) 1%,
-        rgba(255, 230, 230, 1) 50%,
-        rgba(255, 255, 255, 1) 100%
+        #ffffff 1%,
+        #ffe7d3 50%,
+        #ffffff 100%
     );
 }
 .title_container {
@@ -31,7 +31,7 @@
     color: var(--black);
 }
 .title > span {
-    color: var(--white);
+    color: #fff9f5;
     font-size: 7rem;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
