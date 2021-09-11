@@ -60,8 +60,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 35%;
-    margin-bottom: 25%;
+    margin-top: 23%;
+    margin-bottom: 22.5%;
 }
 .faq{
     padding-top: 10%;
@@ -77,7 +77,7 @@
     font-family: var(--title);
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000,
                  -1px 1px 0 #000000, 1px 1px 0 #000000;
-    color: #c28bff;   
+    color: #c48dfc;   
 }
 .subtitle{
     color: var(--black);
@@ -113,7 +113,7 @@
     padding: 4% 5.5% 4% 5.5%;
     margin-bottom: 1.2rem;
     border: 1px solid var(--black);
-    border-radius: 2rem;
+    border-radius: 5rem;
     border-bottom-right-radius: 0;
     box-shadow: 0.05rem 0.1rem 0.3rem var(--black);
 }
@@ -182,7 +182,7 @@
 /* large screens */
 @media screen and (min-width: 1024px) and (max-height: 1080px){
     .wrapper{
-        min-height: 135vh;
+        min-height: 101vh;
     }
     .FaqBack{
         top: 15rem;
