@@ -21,7 +21,7 @@
     text-align: center;
     font-style: normal;
     font-weight: normal;
-    font-size: calc(5vw + 4vh + 3vmin);
+    font-size: calc(5vw + 4vh + 2vmin);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
     color: #ffe1c7;
@@ -31,7 +31,7 @@
 .prizeH2 {
     font-family: var(--title);
     text-align: center;
-    font-size: calc(2vw + 3vh + 3vmin);
+    font-size: calc(2vw + 3vh + 2vmin);
     font-style: normal;
     margin-top: 5vw;
     font-weight: normal;
