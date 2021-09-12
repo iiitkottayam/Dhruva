@@ -3,9 +3,8 @@
     width: 100%;
     background: linear-gradient(
         180deg,
-        #ffc089 0%,
-        #ffd9b7 10%,
-        #ffffff 40%
+        #ffcda1 0%,
+        #ffffff 45%
     );
 }
 .sponsorRow {
@@ -21,10 +20,11 @@
     text-align: center;
     font-style: normal;
     font-weight: normal;
+    margin-bottom: 0.6em;
     font-size: calc(5vw + 4vh + 2vmin);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
-    color: #ffdcbd;
+    color: #ffd8b6;
     letter-spacing: 1.5px;
 }
 
@@ -35,7 +35,7 @@
     font-style: normal;
     margin-top: 5vw;
     font-weight: normal;
-    -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
+    color: var(--black); /* Will override color (regardless of order) */
     letter-spacing: -0.032em;
 }
 
@@ -55,7 +55,7 @@
     margin-top: 5vw;
     font-style: normal;
     font-weight: normal;
-    -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
+    color: var(--black); /* Will override color (regardless of order) */
 }
 .sponsorImg {
     margin-left: 3vw;
@@ -69,5 +69,5 @@
     font-size: auto;
     font-style: normal;
     font-weight: normal;
-    -webkit-text-fill-color: var(--black);
+    color: var(--black);
 }

@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .footer {
     background-color: #000;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--coming);
 }
 .footerUpper {
     display: grid;
@@ -29,6 +28,7 @@
 .icons li:hover {
     color: #fff;
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 .logo img {
     width: 350px;

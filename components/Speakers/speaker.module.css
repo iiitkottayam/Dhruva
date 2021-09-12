@@ -5,8 +5,8 @@
     display: flex;
      
     /* border:2px solid red; */
-    --p1:#8C58FC;
-    --p3:#FFC089;
+    --p1:#af6aff;
+    --p3:#ffbc82;
     
 }
 .speaker .image{
@@ -23,7 +23,7 @@
     transform: scale(1.01) translateY(-.9%);
     transform-origin: center;
     border-radius: 10rem 10rem 0 0 ;
-    background:linear-gradient(0deg,var(--p3),var(--p1)) ;
+    background:linear-gradient(45deg,var(--p3),var(--p1)) ;
    
 }
 .speaker .image img{
