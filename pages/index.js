@@ -9,7 +9,7 @@ import About from '@components/About/About'
 import { Sponsors } from '@components/Sponsor/Sponsors'
 import Speakers from '@components/Speakers/Speakers'
 import Sponsor_Faq from '@components/Sponsor_Faq/Sponsor_Faq'
-
+import Attendes from '@components/AttendeesSpeakers/attendes'
 
 export default function Home() {
   return (
@@ -23,6 +23,7 @@ export default function Home() {
       <Navbar/>
       <Header />
       <About/> 
+      <Attendes />
       <Speakers />
       <Sponsors/>
 
