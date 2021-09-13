@@ -100,7 +100,7 @@ const RightNav = ({ open }) => {
       <li className='hover-underline-animation2'><Link href='#FAQ' passHref>FAQ</Link></li>
       <li className='hover-underline-animation2'><Link href='#Prize' passHref>Prize</Link></li>
       <li className='hover-underline-animation'><Link href='#Sponsors' passHref>Sponsors</Link></li>
-      <li className='hover-underline-animation2'><Link href='#Team' passHref>Team</Link></li>
+      <li className='hover-underline-animation2'><Link href='/team' passHref>Team</Link></li>
     </Ul>
     </div>
   )
