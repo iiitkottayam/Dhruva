@@ -48,6 +48,9 @@
     .container {
         width: 75%;
     }
+    .time_container{
+        width: auto;
+    }
     .time_container > span {
         font-size: 3.5rem;
     }

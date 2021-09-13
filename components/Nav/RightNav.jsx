@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-// import { useRouter } from 'next/router'; fix server issues ISHAAAAAAAAAAAAAAAAAN
 
 /*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
 const Ul = styled.ul`
@@ -92,18 +91,18 @@ const Ul = styled.ul`
   }
 `;
 
-// const router = useRouter(); fix server issues ISHAAAAAAAAAAANNNNNNNNNN
+ 
 
 const RightNav = ({ open }) => {
   return (
     <div className='overlay overlay-contentpush open'>
     <Ul open={open}>      
-      <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
-      <li className='hover-underline-animation'><Link href='#Events' passHref>Events</Link></li>
-      <li className='hover-underline-animation2'><Link href='#FAQ' passHref>FAQ</Link></li>
-      <li className='hover-underline-animation2'><Link href='#Prize' passHref>Prize</Link></li>
-      <li className='hover-underline-animation'><Link href='#Sponsors' passHref>Sponsors</Link></li>
-      <li className='hover-underline-animation2'><Link href='/team' passHref>Team</Link></li>
+      <li className='hover-underline-animation'><Link href = '/#AboutUS' passHref>AboutUs</Link></li>
+      <li className='hover-underline-animation'><Link href = '/#Events' passHref>Events</Link></li>
+      <li className='hover-underline-animation2'><Link href = '/#FAQ' passHref>FAQ</Link></li>
+      <li className='hover-underline-animation2'><Link href = '/#Prize' passHref>Prize</Link></li>
+      <li className='hover-underline-animation'><Link href = '/#Sponsors' passHref>Sponsors</Link></li>
+      <li className='hover-underline-animation2'><Link href = '/team' passHref>Team</Link></li>
     </Ul>
     </div>
   )
