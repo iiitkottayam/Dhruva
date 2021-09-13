@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styled from 'styled-components';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router'; fix server issues ISHAAAAAAAAAAAAAAAAAN
 
 /*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
 const Ul = styled.ul`
@@ -92,7 +92,7 @@ const Ul = styled.ul`
   }
 `;
 
-const router = useRouter();
+// const router = useRouter(); fix server issues ISHAAAAAAAAAAANNNNNNNNNN
 
 const RightNav = ({ open }) => {
   return (
