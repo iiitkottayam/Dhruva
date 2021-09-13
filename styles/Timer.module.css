@@ -40,10 +40,10 @@
         width: 70%;
     }
     .time_container > span {
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 830px) {
     .container {
         width: 75%;
     }
@@ -52,6 +52,10 @@
     }
     .time_container > div {
         font-size: 1.5rem;
+    }
+    .vertical{
+        height: 80px;
+        width: 11px;
     }
 }
 @media screen and (max-width: 600px) {
