@@ -53,14 +53,15 @@
         margin-left: 1.5vw;
     }
 }
-@media (max-width: 627px) {
+@media (max-width: 628px) {
     .logo {
         text-align: center;
     }
     .icons {
         display: flex;
         justify-content: center;
-        margin-left: 0;
+        padding-left: 0;
+        margin-left: -1.79em;
     }
     .icons li {
         text-align: center;
