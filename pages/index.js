@@ -6,6 +6,12 @@ import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
 import Timeline from '@components/Timeline/Timeline'
 
+import About from '@components/About/About'
+import { Sponsors } from '@components/Sponsor/Sponsors'
+import Speakers from '@components/Speakers/Speakers'
+import Sponsor_Faq from '@components/Sponsor_Faq/Sponsor_Faq'
+import Attendes from '@components/AttendeesSpeakers/attendes'
+
 export default function Home() {
   return (
     <>
@@ -16,7 +22,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <Header /> 
+      <Header />
+      <About/> 
+      <Attendes />
+      <Speakers />
+      <Sponsors/>
+
+      <Sponsor_Faq />
     </div>
     <Timeline />
     <Footer></Footer>
