@@ -47,6 +47,9 @@
     .container {
         width: 75%;
     }
+    .time_container > span {
+        font-size: 3.5rem;
+    }
     .time_container > div {
         font-size: 1.5rem;
     }
@@ -63,10 +66,11 @@
     }
     .vertical {
         height: 50px;
-        width: 10px;
+        width: 8.5px;
+        border: 2.5px solid black;
     }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 380px) {
     .container {
         width: 75%;
     }
@@ -78,10 +82,10 @@
     }
     .vertical {
         height: 50px;
-        width: 7.5px;
+        width: 8px;
     }
 }
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 320px) {
     .container {
         width: 75%;
     }
@@ -93,6 +97,7 @@
     }
     .vertical {
         height: 35px;
-        width: 7.5px;
+        width: 6.5px;
+        border: 2px solid black;
     }
 }
