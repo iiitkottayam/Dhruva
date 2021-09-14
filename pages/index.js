@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Footer from '@components/Footer/Footer'
 import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
+import Timeline from '@components/Timeline/Timeline'
 
 import About from '@components/About/About'
 import { Sponsors } from '@components/Sponsor/Sponsors'
@@ -25,10 +26,12 @@ export default function Home() {
       <About/> 
       <Attendes />
       <Speakers />
+      <Timeline />
       <Sponsors/>
 
       <Sponsor_Faq />
     </div>
+    
     <Footer></Footer>
     </>
   )
