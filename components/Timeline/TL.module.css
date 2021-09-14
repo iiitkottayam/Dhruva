@@ -54,26 +54,43 @@
     height: 100%;
     display: flex;
     margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
     flex-direction: column;
     align-items: stretch;
 }
 
 .mdays{
-  margin-bottom: 8%
+  margin-bottom: 8%;
+  width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .events {
+      width: 70%;
+  }
+
+  .tabs {
+      margin-left: 5%;
+  }
+  .days {
+      width: 50%;
+  }
 }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 750px) {
     .tabs{
       display: none;
     }
     .events{
-      width: 70%;
+      width: 100%;
+      margin-left: 0;
+    }
+    .header {
+      font-size: 5.5rem;
     }
   }
 
-  @media screen and (min-width: 900px){
+  @media screen and (min-width: 750px){
     .mobile{
       display: none;
     }
