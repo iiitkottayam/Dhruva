@@ -56,7 +56,7 @@
         display: flex;
         justify-content: center;
         padding-left: 0;
-        margin-left: -1.15em;
+        margin-left: -0.7em;
     }
     .icons li {
         text-align: center;
@@ -75,7 +75,7 @@
 
 @media (max-width: 430px) {
     .icons{
-        margin-left: -1.79em;
+        margin-left: -1.35em;
     }
 }
 
