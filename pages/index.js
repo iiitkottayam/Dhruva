@@ -26,11 +26,12 @@ export default function Home() {
       <About/> 
       <Attendes />
       <Speakers />
+      <Timeline />
       <Sponsors/>
 
       <Sponsor_Faq />
     </div>
-    <Timeline />
+    
     <Footer></Footer>
     </>
   )

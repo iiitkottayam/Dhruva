@@ -1,7 +1,8 @@
 .main {  
   background: rgb(55,39,71);
-  background: linear-gradient(90deg, rgba(55,39,71,1) 0%, rgba(0,0,0,1) 27%, rgba(8,6,10,1) 65%, rgba(0,0,0,1) 76%, rgba(0,0,0,1) 76%, rgba(78,70,55,1) 100%);
+  background: radial-gradient(117.84% 117.84% at 104.05% 53.83%, rgba(255, 192, 137, 0.5) 0%, rgba(0, 0, 0, 0.5) 56.57%, rgba(0, 0, 1, 0.5) 100%), linear-gradient(90deg,#372747 5%,#08060a 105%,#4e4637 1003%), radial-gradient(117.84% 117.84% at -5.05% 5.83%, rgba(140, 88, 252, 0.5) 0%, rgba(0, 0, 0, 0.5) 56.57%, rgba(0, 0, 1, 0.5) 100%);
   height: 100%;
+  width: 100%;
 }
 
 .err{
@@ -25,6 +26,7 @@
     margin-top: 5%;
     margin-right: 10%;
     margin-left: 15%;
+    margin-bottom: 10%;
     flex-direction: row;
     align-items: center;
 }
