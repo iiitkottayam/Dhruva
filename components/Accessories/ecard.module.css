@@ -27,7 +27,7 @@
       to right,
       hsl(32, 100%, 73%),
       hsl(290, 75%, 69%)
-      
+
     );
     color: black;
    }
@@ -36,4 +36,31 @@
     .eventcard{
       margin-bottom: 3%;
     }
+    .eventname{
+      font-size: 2.25rem;
+    }
+    .eventtime{
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .eventname{
+      font-size: 2rem;
+    }
+    .eventtime{
+      font-size: 1.5rem;}
+  }
+  @media screen and (max-width: 500px) {
+    .eventname{
+      font-size: 1.75rem;
+    }
+    .eventtime{
+      font-size: 1.25rem;}
+  }
+  @media screen and (max-width: 350px) {
+    .eventname{
+      font-size: 1.25rem;
+    }
+    .eventtime{
+      font-size: 1.0rem;}
   }
