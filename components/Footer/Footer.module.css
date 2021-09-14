@@ -15,13 +15,14 @@
 }
 .icons {
     margin-left: 0%;
-
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: right;
     padding-right: 0px;
 }
 .icons li {
-    display: inline;
-    text-align: right;
     margin-left: 2.25vw;
+    display: inline-flex;
     font-size: 1.5rem;
     color: grey;
 }
@@ -34,26 +35,20 @@
     width: 350px;
     object-fit: cover;
 }
-@media (max-width: 1255px) {
+@media (max-width: 1335px) {
     .footerUpper {
         grid-template-columns: 50% 50%;
     }
-    .icons {
-        margin-left: 20vw;
+    .icons li {
+        margin-left: 1.9vw;
     }
+}
+@media (max-width: 900px) {
     .icons li {
         margin-left: 1.5vw;
     }
 }
-@media (max-width: 992px) {
-    .icons {
-        margin-left: 15vw;
-    }
-    .icons li {
-        margin-left: 1.5vw;
-    }
-}
-@media (max-width: 628px) {
+@media (max-width: 635px) {
     .logo {
         text-align: center;
     }
