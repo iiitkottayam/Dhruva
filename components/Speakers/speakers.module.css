@@ -3,10 +3,10 @@
     --light: #fff;
     --dark: #000;
 
-    --p1:#8C58FC;
-    --p2:#C28BFF;
-    --p3:#FFC089;
-    --p4:rgb(252, 226, 203);
+    --p1:#8c58fc;
+    --p2:#c28bff;
+    --p3:#ffc089;
+    --p4:#fce2cb;
     
 
     font-family: var(--title);
@@ -55,7 +55,7 @@
  
 
 .speakers_section .title {
-    font-family: 'Lexend Deca';
+    font-family: var(--title);
     /* font-family: 'Roboto'; */
     font-size: clamp(2.8rem, 10vw, 6rem);
     font-weight: 400;

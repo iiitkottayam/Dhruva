@@ -14,13 +14,13 @@
 .inner1{
     width: 50%;
     margin-top: 0px;
-    padding-top: 120px;
+    padding-top: 100px;
     
 }
 .h1 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: var(--title);
+    font-family: var(--coming);
     color: #101010;
     font-size: 4em;
     line-height: 1.1em;
@@ -48,7 +48,7 @@
 .h4{
     
     margin: 10px auto;
-    font-family: var(--title);
+    font-family: var(--coming);
     color: #101010;
     font-size: 1.8em;
     line-height: 1.1em;
@@ -67,7 +67,7 @@
     z-index: 0;
     display: block;
     font-family: var(--coming);
-    font-weight: 400;
+    font-weight: 500;
     color: #101010;
     font-size: 1.3em;
     line-height: 1.4em;
@@ -149,6 +149,9 @@
     .bl{
         font-size: 0.1em;
     }
+    .inner1{
+        padding-top: 30px;
+    }
 }
 
 @media  (max-width:1020px){
@@ -180,20 +183,12 @@
 }
 }
 
-@media  (max-width:800px){
+@media  (max-width:768px){
     
     .h1{
-        font-size: 2.7em;
+        font-size: 2.0em;
     }
     .inner1{
         width: 100%;
     }
 }
-@media  (max-width:800px){
-    
-    .h1{
-        font-size: 2.0em;
-    }
-    
-}
-

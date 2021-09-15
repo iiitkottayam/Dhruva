@@ -8,9 +8,9 @@
     font-style: normal;
     font-weight: 1500;
     font-size: 7rem;
-    text-shadow: -2px -2px 0 var(--black), 2px -2px 0 var(--black),
-        -2px 2px 0 var(--black), 2px 2px 0 var(--black);
-    color: var(--white);
+    text-shadow: -1.5px -1.5px 0 var(--black), 1.5px -1.5px 0 var(--black),
+        -1.5px 1.5px 0 var(--black), 1.5px 1.5px 0 var(--black);
+    color: #ffefe2;
 }
 .date_title > sup {
     font-weight: 500;
@@ -30,6 +30,7 @@
 @media screen and (max-width: 800px) {
     .date_title {
         font-size: 5rem;
+        color: #fff3e9;
     }
     .date_title > sup {
         font-size: 3rem;
