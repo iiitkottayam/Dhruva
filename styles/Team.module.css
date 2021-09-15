@@ -41,11 +41,11 @@
 .cards {
     display: grid;
     grid-gap: 1rem;
-    width: 80%;
+    width: 90%;
     /* background-color: rgb(185, 236, 236); */
 }
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
