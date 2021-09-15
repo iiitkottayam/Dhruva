@@ -74,12 +74,12 @@
 
 .card:hover>.cimg {
     transform: translateY(-8%);
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .card:hover>.socicons {
     transform: translateY(-8%);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
     opacity: 1;
     pointer-events: all;
     cursor: pointer;
