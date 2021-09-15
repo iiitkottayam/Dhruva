@@ -1,5 +1,5 @@
 import styles from '/styles/Orgnjdge.module.css'
-import { FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/Fa'
+import { FaLinkedin, FaTwitter, FaFacebookF } from 'react-icons/fa'
 import Link from 'next/dist/client/link'
 
 const Card = (props) => {
@@ -18,7 +18,7 @@ const Card = (props) => {
                 </Link>
                 <Link href={props.link2} >
                     <a target="_blank">
-                        <FaFacebook className={styles.faicon} />
+                        <FaFacebookF className={styles.faicon} />
                     </a>
                 </Link>
                 <Link href={props.link3} >
