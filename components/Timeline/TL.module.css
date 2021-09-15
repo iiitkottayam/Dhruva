@@ -14,10 +14,10 @@
     text-align: center;
     font-family: var(--title);
     font-size: 6.5rem;
-    text-shadow: -1.5px -1.5px 0 rgb(255, 255, 255), 1.5px -1.5px 0 rgb(255, 255, 255),
-        -1.5px 1.5px 0 rgb(255, 255, 255), 1.5px 1.5px 0 rgb(255, 255, 255);
+    text-shadow: -1.5px -1.5px 0 #fff, 1.5px -1.5px 0 #fff,
+        -1.5px 1.5px 0 #fff, 1.5px 1.5px 0 #fff;
     color: var(--black);
-    letter-spacing: -7px;
+    letter-spacing: -6px;
 }
 
 .tabs {
@@ -87,11 +87,25 @@
     }
     .header {
       font-size: 5.5rem;
+      margin-right: 5px;
     }
   }
-
-  @media screen and (min-width: 750px){
+  @media screen and (min-width: 750.1px){
     .mobile{
       display: none;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .header {
+      font-size: 4.75rem;
+      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff,
+        -1px 1px 0 #fff, 1px 1px 0 #fff;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    .header {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      letter-spacing: -5px;
     }
   }

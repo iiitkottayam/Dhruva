@@ -3,6 +3,7 @@ import Burger from './Burger';
 import Link from 'next/link'
 
 const Nav = styled.nav`
+  overflow-x: hidden;
   top: 0;  
   position: absolute; 
   width: 100%;

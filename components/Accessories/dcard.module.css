@@ -13,8 +13,8 @@
     height: 150%;
     width: 100%;
     padding: 2px;
-    background: rgb(172,95,249);
-    background: linear-gradient(180deg, rgba(172,95,249,1) 0%, rgba(230,201,149,1) 79%);
+    background: #8c58fc;
+    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
     transition: all 0.3s;
   }
   
@@ -36,10 +36,20 @@
     height: 100%;
     width: 100%;
     position: absolute;
-    background: rgb(172,95,249);
-    background: linear-gradient(180deg, rgba(172,95,249,1) 0%, rgba(230,201,149,1) 79%); 
+    background: #8c58fc;
+    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%); 
   }
   .active {
     transform: translate(-5px,-10px);
     transition: 300ms;
+   }
+   @media screen and (max-width: 500px) {
+     .dayHeading{
+      font-size: 2.75rem;
+     }
+   }
+   @media screen and (max-width: 350px) {
+    .dayHeading{
+      font-size: 2.25rem;
+     }
    }
