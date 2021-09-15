@@ -1,22 +1,10 @@
-.container {
-    background-color: transparent;
-    color: var(--white);
-    text-align: center;
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10% 0;
-    align-items: center;
-    border-radius: 1%;
-}
-
 .profile_img {
-    height: 280px;
-    width: 70%;
+    height: 300px;
+    width: 15em;
     object-fit: cover;
     background-size: cover;
+    background-position: center center;
+    padding-bottom: 10%;
     /* background-image: url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80); */
 }
 .content_container {
@@ -24,7 +12,7 @@
     width: 75%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 5%;
 }
 .name {
@@ -52,13 +40,11 @@
     align-items: center;
     width: 100%;
     font-size: 1.5rem;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-bottom: 5%;
     opacity: 0;
     transition: opacity 1s ease;
-    color: var(--black);
-}
-.container:hover .social_container {
-    opacity: 1;
+    color: var(--white);
 }
 .container:hover {
     background-color: var(--white);
@@ -75,5 +61,64 @@
     }
     .role {
         font-size: 0.75rem;
+    }
+}
+/*jjjjj*/
+.borderwrap {
+    margin-bottom: 10%;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    margin-right: 0%;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    padding: 2px;
+    background: #8c58fc;
+    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+    transition: all 0.3s;
+}
+
+.daycards {
+    background-color: black;
+    color: white;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--title);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.dayHeading {
+    font-size: 4rem;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #8c58fc;
+    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+}
+.wrapper:hover {
+    transform: translate(-7px, -11px);
+    transition: 300ms;
+    /* border-image-slice: 1;
+    border-image-source: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+    border-image-width: 2px; */
+}
+.wrapper:hover .social_container {
+    opacity: 1;
+}
+@media screen and (max-width: 780px) {
+    .social_container {
+        opacity: 1;
     }
 }
