@@ -66,11 +66,12 @@ const Ul = styled.ul`
   }
 
   }
-  @media (max-width: 920px) {
-    margin: 0px;    
+  @media (min-width: 0px) {
+    margin: 0px;
     flex-flow: column nowrap;
     background-color: #0D2538;    
     position: fixed;
+    overflow: hidden;
     background: rgba( 1, 1, 1, 0.60 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13.0px );
@@ -82,11 +83,12 @@ const Ul = styled.ul`
     height: 100%;
     width: 100%;
     padding-top: 1rem;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;npm
+    
     li {
       font-size: 1.5rem;
       padding-top: 1.5rem;
-      color: #fff;      
+      color: #fff; 
     }
   }
 `;
@@ -94,7 +96,7 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <div className='overlay overlay-contentpush open'>
-    <Ul open={open}>      
+       <Ul open={open}>      
       <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
       <li className='hover-underline-animation'><Link href='#Events' passHref>Events</Link></li>
       <li className='hover-underline-animation2'><Link href='#FAQ' passHref>FAQ</Link></li>
