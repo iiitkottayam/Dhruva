@@ -4,8 +4,14 @@ import RightNav from './RightNav';
 
 /*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is paased on RightBar to change the navigation view */
 const StyledBurger = styled.div`
+<<<<<<< HEAD
 width: 1.875rem;
 height: 1.5rem;
+=======
+overflow-x: hidden;
+width: 2rem;
+height: 2rem;
+>>>>>>> 3458f8f52624f0c8a29a8e7b03683e0e47cb58ed
 position: absolute;
 top: 1.5rem;
 right: 1.25rem;

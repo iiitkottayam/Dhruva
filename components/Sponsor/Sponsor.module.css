@@ -1,0 +1,73 @@
+.sponsorDiv {
+    background: rgb(255, 237, 197);
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        #ffc089 0%,
+        #ffd9b7 10%,
+        #ffffff 40%
+    );
+}
+.sponsorRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.prizeH2Stroke {
+    font-family: var(--title);
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: calc(5vw + 4vh + 2vmin);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+    color: #ffdcbd;
+    letter-spacing: 1.5px;
+}
+
+.prizeH2 {
+    font-family: var(--title);
+    text-align: center;
+    font-size: calc(2vw + 3vh + 2vmin);
+    font-style: normal;
+    margin-top: 5vw;
+    font-weight: normal;
+    -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
+    letter-spacing: -0.032em;
+}
+
+.prizeH2Margin {
+    margin-top: 12vw;
+}
+
+.sponsorMargin {
+    margin-bottom: 80px;
+}
+
+.prizeH3 {
+    font-family: var(--title);
+    text-align: center;
+    font-size: calc(1.5vw + 1vh + 2vmin);
+    padding: 0 0.2em;
+    margin-top: 5vw;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-text-fill-color: var(--black); /* Will override color (regardless of order) */
+}
+.sponsorImg {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 12px;
+}
+
+.sponsorLabel {
+    font-family: var(--title);
+    text-align: center;
+    font-size: auto;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-text-fill-color: var(--black);
+}
