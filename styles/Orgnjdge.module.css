@@ -31,7 +31,7 @@
     flex-wrap: wrap;
 }
 
-.taicon {
+.faicon {
     font-size: 50px;
 }
 
@@ -74,22 +74,23 @@
 
 .card:hover>.cimg {
     transform: translateY(-8%);
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
 
 .card:hover>.socicons {
     transform: translateY(-8%);
-    transition: all 0.8s ease;
+    transition: all 0.5s ease;
     opacity: 1;
     pointer-events: all;
     cursor: pointer;
 }
 
-.taicon:hover {
+.faicon:hover {
     color: white;
 }
 
 .socicons {
+    transform: translateY(1000%);
     margin-top: 2%;
     position: relative;
     width: 100%;
@@ -101,7 +102,8 @@
     pointer-events: none;
 }
 
-.taicon {
+.faicon {
+    font-size: 30px;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -122,6 +124,9 @@
     .card {
         height: 63%;
         width: 45%;
+    }
+    .faicon {
+        font-size: 25px;
     }
 }
 
@@ -154,8 +159,8 @@
         transition: all 0.8s ease;
         opacity: 1;
     }
-    .taicon {
-        font-size: 40px;
+    .faicon {
+        font-size: 22px;
     }
 }
 
@@ -187,8 +192,8 @@
         opacity: 1;
         display: flex;
     }
-    .taicon {
-        font-size: 30px;
+    .faicon {
+        font-size: 20px;
     }
 }
 
@@ -200,6 +205,9 @@
     .name {
         font-size: 18px;
     }
+    .faicon {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 295px) {
@@ -209,5 +217,8 @@
     }
     .name {
         font-size: 13px;
+    }
+    .faicon {
+        font-size: 15px;
     }
 }
