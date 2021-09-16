@@ -72,12 +72,12 @@
     text-align: center;
 }
 
-.card:hover>.cimg {
+.card:hover > .cimg {
     transform: translateY(-8%);
     transition: all 0.3s;
 }
 
-.card:hover>.socicons {
+.card:hover > .socicons {
     transform: translateY(-8%);
     transition: all 0.3s ease;
     opacity: 1;
@@ -135,7 +135,7 @@
         height: 63%px;
         width: 45%px;
     }
-    .cimg>img {
+    .cimg > img {
         height: 160px;
         width: 160px;
     }
@@ -150,11 +150,11 @@
         transition: all 0.8s;
         transform: translateY(0px);
     }
-    .card:hover>.cimg {
+    .card:hover > .cimg {
         transform: translateY(-4%);
         transition: all 0.8s;
     }
-    .card:hover>.socicons {
+    .card:hover > .socicons {
         transform: translateY(-4%);
         transition: all 0.8s ease;
         opacity: 1;
@@ -168,12 +168,12 @@
     .carousel {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
     }
     .card {
         height: 90%;
-        width: 51%;
+        /* width: 51%; */
     }
     .hdn1 {
         font-size: 45px;
@@ -182,11 +182,11 @@
         transition: all 0.8s;
         transform: translateY(0px);
     }
-    .card:hover>.cimg {
+    .card:hover > .cimg {
         transform: translateY(-2%);
         transition: all 0.8s;
     }
-    .card:hover>.socicons {
+    .card:hover > .socicons {
         transform: translateY(-2%);
         transition: all 0.8s ease;
         opacity: 1;
@@ -198,7 +198,7 @@
 }
 
 @media (max-width: 389px) {
-    .cimg>img {
+    .cimg > img {
         height: 120px;
         width: 120px;
     }
@@ -211,7 +211,7 @@
 }
 
 @media (max-width: 295px) {
-    .cimg>img {
+    .cimg > img {
         height: 90px;
         width: 90px;
     }
