@@ -14,6 +14,9 @@ body {
     --white: #fff;
     --title: 'Lexend Deca';
     --coming: 'Montserrat';
+    --linearg1: #8c58fc;
+    --linearg2: #ffc089;
+    --cardbg:  #2D2C2E;
 }
 a {
     color: inherit;
