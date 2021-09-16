@@ -19,21 +19,7 @@ const OrganizerContainer = () => {
                     );
                 })}
             </div>
-            <h1 className={styles.hdn1}>Judges</h1>
-            <div className={styles.carousel}>
-                {Jdata.map((val) => {
-                    return (
-                        
-                        <Card imgsrc={val.imgsrc}
-                        key = {val.id}
-                            name={val.name}
-                            link1={val.link1}
-                            link2={val.link2}
-                            link3={val.link3}
-                        />
-                    );
-                })}
-            </div>
+            
             
         </div>
     )
