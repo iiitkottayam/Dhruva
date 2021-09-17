@@ -1,9 +1,5 @@
 import styles from '../../styles/Card.module.css'
-import {
-    FaInstagram,
-    FaTwitter,
-    FaLinkedin
-} from 'react-icons/fa'
+import Image from 'next/image'
 import classNames from 'classnames'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -16,7 +12,7 @@ const Card = () => {
         })
     }, [])
 
-    const img = 'url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80)'
+    const img = 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80'
 
     return (
             <Link href="/event" passHref>
@@ -28,12 +24,13 @@ const Card = () => {
 
                 <div className={classNames(styles.wrapper, styles.active)}>
                     <div className={styles.daycards}>
-                        <div
+                        {/* <div
                             className={styles.profile_img}
                             style={{
                                 backgroundImage: img,
                             }}
-                        ></div>
+                        ></div> */}
+                        <Image src={img} alt="poster" height="250" width="250"/>
                         <div className={styles.content_container}>
                             <span className={styles.name}>Scavenger Hunt</span>
                             <span className={styles.role}>
