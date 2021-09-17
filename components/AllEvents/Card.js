@@ -16,18 +16,11 @@ const Card = () => {
         })
     }, [])
 
-    const [img, setImg] = useState(
-        'url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80)',
-    )
+    const img = 'url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80)'
 
     return (
             <Link href="/event" passHref>
             <div className={styles.borderwrap} 
-            onMouseOut={() =>
-                setImg(
-                    'url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80)',
-                )
-            }
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1000">
