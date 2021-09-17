@@ -19,6 +19,7 @@
     font-family: 'Galano Grotesque Alt', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
+    white-space: nowrap;
 }
 .role {
     font-family: 'Galano Grotesque Alt', sans-serif;
@@ -121,4 +122,21 @@
     .social_container {
         opacity: 1;
     }
+}
+
+/* Events card style */
+.detailContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    transition: opacity 1s ease;
+    color: var(--white);
+}
+
+.detailContainer > p {
+    font-family: var(--coming);
+    font-size: medium;
 }
