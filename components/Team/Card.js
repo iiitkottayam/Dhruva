@@ -1,61 +1,76 @@
 import styles from '../../styles/Card.module.css'
-import {
-    FaInstagram,
-    FaTwitter,
-    FaLinkedin
-} from 'react-icons/fa'
-import Image from 'next/image';
+import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
+import Image from 'next/image'
 import classNames from 'classnames'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
-const Card = () => {
+const Card = (props) => {
     useEffect(() => {
         AOS.init({
             // duration : 5000
         })
     }, [])
-
-    const [img, setImg] = useState(
-        'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
-    )
+    const [img, setImg] = useState(props.image)
 
     return (
-        
-            <div className={styles.borderwrap} onMouseOver={() =>
-                setImg(
-                    'https://c.tenor.com/DHGvsLhTOowAAAAC/meme-pikachu.gif',
-                )
-            }
-            onMouseOut={() =>
-                setImg(
-                    'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
-                )
-            }
+        <div
+            className={styles.borderwrap}
+            onMouseOver={() => setImg(props.gif)}
+            onMouseOut={() => setImg(props.image)}
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1000">
-                <div className={styles.inner}></div>
+            data-aos-duration="1000"
+        >
+            <div className={styles.inner}></div>
+            <div className={classNames(styles.wrapper, styles.active)}>
+                <div className={styles.daycards}>
+                    {img && (
+                        <Image
+                            src={img}
+                            alt="poster"
+                            height="300"
+                            width="250"
+                        />
+                    )}
 
-                <div className={classNames(styles.wrapper, styles.active)}>
-                    <div className={styles.daycards}>
-                    <Image src={img} alt="poster" height="300" width="250"/>
-                        <div className={styles.content_container}>
-                            <span className={styles.name}>Syed Faiz Hasan</span>
-                            <span className={styles.role}>
+                    <div className={styles.content_container}>
+                        <span className={styles.name}>{props.name}</span>
+                        {/* <span className={styles.role}>
                                 Frontend Developer
-                            </span>
-                        </div>
-                        <div className={styles.social_container}>
-                            {/* <FaEnvelope /> */}
+                            </span> */}
+                    </div>
+                    <div className={styles.social_container}>
+                        {/* <FaEnvelope /> */}
+                        <a
+                            href={props.instagram}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <FaInstagram />
+                        </a>
+                        <a
+                            href={props.linkedin}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <FaLinkedin />
-                            <FaTwitter />
-                        </div>
+                        </a>
+                        {props.twitter !== '' && (
+                            <a
+                                href={props.twitter}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaTwitter />
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>
+        </div>
         // </div>
     )
 }

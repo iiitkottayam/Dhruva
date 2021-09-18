@@ -1,40 +1,63 @@
-import styles from "../../styles/Team.module.css"
-import Card from "./Card"
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import styles from '../../styles/Team.module.css'
+import Card from './Card'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+
+import { mentors, developers } from '@data/team'
 export const Team = () => {
-            useEffect(() => {
+    useEffect(() => {
         AOS.init({
-          // duration : 5000
-        });
-      }, []);
+            // duration : 5000
+        })
+    }, [])
     return (
         <div className={styles.team_container}>
-            <h1>Our <span>Team</span></h1>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">Mentor</h2>
-            <div className={styles.cards}>
-                <Card/>
-                <Card/>
-                <Card/>
+            <h1>
+                Our <span>Team</span>
+            </h1>
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Mentor
+            </h2>
+            <div className={styles.mentor}>
+                {mentors.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        gif={data.gif}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        twitter={data.twitter}
+                    />
+                ))}
             </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">Developers</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Developers
+            </h2>
             <div className={styles.cards}>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                {developers.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        gif={data.gif}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        twitter={data.twitter}
+                    />
+                ))}
             </div>
-            <h2 data-aos="zoom-in" data-aos-duration="1500">Organisers</h2>
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Organisers
+            </h2>
             <div className={styles.cards}>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
-                <Card/>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card />
             </div>
         </div>
     )

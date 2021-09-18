@@ -3,8 +3,8 @@ import { useState } from 'react'
 import classNames from 'classnames'
 import Dcard from "@components/Accessories/dcard";
 import Ecard from '@components/Accessories/ecard';
-import data from './data.json';
-
+// import event from './event.json';
+import {event} from '@data/timeline';
 
 
 export default function Timeline() {
@@ -39,27 +39,27 @@ export default function Timeline() {
                 </div>
                 <div className={classNames( styles.events, !day1 && styles.events2 )}>
                     {
-                        data.map((item) => {
+                        event.map((item) => {
                             if(item.day===1) {return(
-                                <Ecard name={item.name} time={item.time}/>
+                                <Ecard name={item.name} time={item.time} link={item.link}/>
                             )}
                         })
                     }
                 </div>
                 <div className={classNames( styles.events, !day2 && styles.events2 )}>
                     {
-                        data.map((item) => {
+                        event.map((item) => {
                             if(item.day===2) {return(
-                                <Ecard name={item.name} time={item.time}/>
+                                <Ecard name={item.name} time={item.time} link={item.link}/>
                             )}
                         })
                     }
                 </div>
                 <div className={classNames( styles.events, !day3 && styles.events2 )}>
                     {
-                        data.map((item) => {
+                        event.map((item) => {
                             if(item.day===3) {return(
-                                <Ecard name={item.name} time={item.time}/>
+                                <Ecard name={item.name} time={item.time} link={item.link}/>
                             )}
                         })
                     }   
@@ -72,9 +72,9 @@ export default function Timeline() {
                     </div>
                     <div className={styles.events}>
                         {
-                            data.map((item) => {
+                            event.map((item) => {
                                 if(item.day===1) {return(
-                                    <Ecard name={item.name} time={item.time}/>
+                                    <Ecard name={item.name} time={item.time} link={item.link}/>
                                 )}
                             })
                         }
@@ -86,9 +86,9 @@ export default function Timeline() {
                     </div>
                     <div className={styles.events}>
                         {
-                            data.map((item) => {
+                            event.map((item) => {
                                 if(item.day===2) {return(
-                                    <Ecard name={item.name} time={item.time}/>
+                                    <Ecard name={item.name} time={item.time} link={item.link}/>
                                 )}
                             })
                         }
@@ -100,9 +100,9 @@ export default function Timeline() {
                     </div>
                     <div className={styles.events}>
                         {
-                            data.map((item) => {
+                            event.map((item) => {
                                 if(item.day===3) {return(
-                                    <Ecard name={item.name} time={item.time}/>
+                                    <Ecard name={item.name} time={item.time} link={item.link}/>
                                 )}
                             })
                         }

@@ -1,6 +1,6 @@
 import styles from '/styles/EventHeading.module.css'
 import Image from 'next/image'
-import eventPoster from '../../public/Design006_QZ3bXyTwaT.jpg'
+import Link from 'next/link'
 import HButton from '@components/Accessories/button'
 const EventHeading = (props) => {
     return (
@@ -8,10 +8,20 @@ const EventHeading = (props) => {
             <div className={styles.Heading}>
                 <h1>{props.title}</h1>
                 <p>{props.content}</p>
-                <HButton name="Register"></HButton>
+                <a href={props.register} target="_blank" rel="noreferrer">
+                    <HButton name="Register" />
+                </a>
             </div>
             <div className={styles.image}>
-                <Image src={eventPoster} alt="Event Poster" priority={true} />
+                {props.eventPoster && (
+                    <Image
+                        src={props.eventPoster}
+                        alt="Event Poster"
+                        priority={true}
+                        height="300"
+                        width="300"
+                    />
+                )}
             </div>
         </div>
     )
