@@ -45,14 +45,25 @@
     /* background-color: rgb(185, 236, 236); */
 }
 
+.mentor {
+    display: grid;
+    grid-gap: 4rem;
+    width: 90%;
+    /* background-color: rgb(185, 236, 236); */
+}
 @media (min-width: 550px) {
-    .cards {
+    .cards,
+    .mentor {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (min-width: 900px) {
     .cards {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .mentor {
+        grid-template-columns: repeat(2, 2fr);
+        width: 70%;
     }
 }
 @media screen and (max-width: 800px) {
