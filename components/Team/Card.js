@@ -4,6 +4,7 @@ import {
     FaTwitter,
     FaLinkedin
 } from 'react-icons/fa'
+import Image from 'next/image';
 import classNames from 'classnames'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -17,19 +18,19 @@ const Card = () => {
     }, [])
 
     const [img, setImg] = useState(
-        'url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80)',
+        'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
     )
 
     return (
         
             <div className={styles.borderwrap} onMouseOver={() =>
                 setImg(
-                    'url(https://c.tenor.com/DHGvsLhTOowAAAAC/meme-pikachu.gif)',
+                    'https://c.tenor.com/DHGvsLhTOowAAAAC/meme-pikachu.gif',
                 )
             }
             onMouseOut={() =>
                 setImg(
-                    'url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80)',
+                    'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
                 )
             }
             data-aos="fade-up"
@@ -39,12 +40,7 @@ const Card = () => {
 
                 <div className={classNames(styles.wrapper, styles.active)}>
                     <div className={styles.daycards}>
-                        <div
-                            className={styles.profile_img}
-                            style={{
-                                backgroundImage: img,
-                            }}
-                        ></div>
+                    <Image src={img} alt="poster" height="300" width="250"/>
                         <div className={styles.content_container}>
                             <span className={styles.name}>Syed Faiz Hasan</span>
                             <span className={styles.role}>
