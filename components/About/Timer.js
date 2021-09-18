@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import moment from "moment";
 import styles from '../../styles/Timer.module.css'
 const Timer = ({setShowTimer}) => {
-    const targetTime = moment("2021-09-15");
+    const targetTime = moment("2021-10-15");
     const [currentTime, setCurrentTime] = useState(moment());
     const timeBetween = moment.duration(targetTime.diff(currentTime) > 0 ? targetTime.diff(currentTime) : 0);
       
