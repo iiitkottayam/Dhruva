@@ -784,7 +784,7 @@
     right: 0;
     color: #fff;
     text-align: center;
-    font-family: 'lato', sans-serif;
+    font-family: var(--title), sans-serif;
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;

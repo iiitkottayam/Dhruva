@@ -11,7 +11,7 @@
     color: var(--white);
 }
 .Heading h1 {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: var(--title), sans-serif;
     font-size: 6.25rem;
     font-weight: 400;
     letter-spacing: -3px;
@@ -19,7 +19,7 @@
     white-space: nowrap;
 }
 .Heading p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--subtext), sans-serif;
     font-weight: 500;
     font-size: 1.75rem;
     padding-left: 0.25em;
