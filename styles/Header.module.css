@@ -20,7 +20,7 @@
     text-align: center;
 }
 .heading {
-    margin-top: 12rem;
+    margin-top: 11rem;
     font-family: var(--title);
     font-style: normal;
     font-weight: normal;
@@ -46,7 +46,7 @@
     justify-content: center;
     text-align: center;
     letter-spacing: -0.017em;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -333,7 +333,7 @@
 #stars:after {
     content: ' ';
     position: absolute;
-    top: 2000px;
+    top: 1000px;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -629,7 +629,7 @@
 #stars2:after {
     content: ' ';
     position: absolute;
-    top: 2000px;
+    top: 1000px;
     width: 2px;
     height: 2px;
     background: transparent;
@@ -739,7 +739,7 @@
 #stars3:after {
     content: ' ';
     position: absolute;
-    top: 2000px;
+    top: 1000px;
     width: 3px;
     height: 3px;
     background: transparent;
