@@ -5,7 +5,7 @@
 }
 .footerUpper {
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 65% 35%;
     padding: 2%;
     border-bottom: gray solid 1px;
 }
@@ -73,19 +73,16 @@
 }
 
 @media (max-width: 430px) {
-    .icons{
+    .icons {
         margin-left: -1.35em;
     }
 }
 
-@media (max-height: 600px)
-{
-    .logo img
-    {
+@media (max-height: 600px) {
+    .logo img {
         width: 15.625em;
     }
-    .icons li
-    {
+    .icons li {
         font-size: 1.5rem;
     }
 }
