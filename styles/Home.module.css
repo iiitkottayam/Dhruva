@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--black);
+    overflow: hidden;
     /* height: 100vh; */
 }
 

@@ -13,7 +13,7 @@ export default function Speakers() {
     return (
         <div className={styles.speakers_section}>
             <div className={styles.title}>our speakers</div>
-            <div className={styles.speakers} data-aos="fade-up" data-aos-duration="1200">
+            <div className={styles.speakers} data-aos="fade-up" data-aos-duration="1500">
                 {speaker.map((item) => (
                     <Speaker
                         key={item.id}

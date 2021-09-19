@@ -45,7 +45,7 @@ export default function Home() {
           <Intro/>
         :
         <>
-            <Navbar/>
+          <Navbar/>
           <Header />
           <About/> 
           <Attendes />
