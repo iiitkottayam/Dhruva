@@ -11,8 +11,8 @@ const mentors = [
     {
         id: 2,
         name: 'Hrishabh Joshi',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
-        gif: 'https://c.tenor.com/DHGvsLhTOowAAAAC/meme-pikachu.gif',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632027220/IMG-20210825-WA0061_3_rtjas0.jpg',
+        gif: 'https://c.tenor.com/xEu4tiLm3hUAAAAM/mr-bean-mr-beans-holiday.gif',
         linkedin: 'https://www.linkedin.com/in/hrishabh-joshi/',
         instagram: 'https://www.instagram.com/_hrishabh_08/',
         twitter: 'https://twitter.com/hrishabhjoshi08',
