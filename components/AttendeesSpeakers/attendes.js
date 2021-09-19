@@ -66,7 +66,7 @@ const Attendes = () => {
                     <img
                         data-aos="rotate-c"
                         src="https://assets-global.website-files.com/5f8f45cead04af2f54abc938/611fcb7cd572cbda6aa2b3b2_use_speaker.jpg"
-                        className={styles.hi2}
+                        className={styles.hi3}
                     />
                 </div>
             </div>

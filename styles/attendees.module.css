@@ -85,6 +85,18 @@
     transform: translate3d(18.084%, 0px, 0px) scale3d(1, 1, 1)
         rotateX(37.1126deg) rotateY(-11.0291deg) rotateZ(32.9962deg)
         skew(0deg, 0deg);
+    margin-bottom: -43%;
+}
+
+.hi3 {
+    box-shadow: -55px 32px 160px -5px rgb(0 0 0 / 20%);
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    transform: translate3d(18.084%, 0px, 0px) scale3d(1, 1, 1)
+        rotateX(37.1126deg) rotateY(-11.0291deg) rotateZ(32.9962deg)
+        skew(0deg, 0deg);
 }
 
 @media (min-width: 1020px) and (max-width: 1600px) {
@@ -124,6 +136,9 @@
     .hi2 {
         width: 160% !important;
     }
+    .hi3 {
+        width: 160% !important;
+    }
     .h1 {
         font-size: 2.7em;
     }
@@ -157,6 +172,9 @@
         margin: 25.525px 0px 0px;
     }
     .hi2 {
+        margin: 25.525px 0px 0px;
+    }
+    .hi3 {
         margin: 25.525px 0px 0px;
     }
 }
