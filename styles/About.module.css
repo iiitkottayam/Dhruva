@@ -6,12 +6,7 @@
     padding: 5% 0;
     width: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-        0deg,
-        #ffffff 1%,
-        #ffe7d3 50%,
-        #ffffff 100%
-    );
+    background: linear-gradient(0deg, #ffffff 1%, #ffe7d3 50%, #ffffff 100%);
 }
 .title_container {
     display: flex;
@@ -38,7 +33,7 @@
         1.5px 1.5px 0 #000;
 }
 .content {
-    font-family: var(--content);
+    font-family: var(--subtext);
     font-size: 2rem;
     margin-top: -3.5%;
 }
@@ -54,7 +49,7 @@
     align-items: center;
 }
 .line {
-    background-image: linear-gradient(45deg, #af6aff , #ffbc82 80%);
+    background-image: linear-gradient(45deg, #af6aff, #ffbc82 80%);
     width: 30%;
     height: 0.5rem;
 }
@@ -115,7 +110,7 @@
     .title > span {
         font-size: 2.35rem;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+            1px 1px 0 #000;
     }
     .date_container {
         width: fit-content;

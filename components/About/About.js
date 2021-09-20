@@ -24,22 +24,28 @@ const About = () => {
                 </div>
                 <div className={styles.date_container}>
                         <div className={styles.left_date} data-aos="zoom-in">
-                            <Date day="15" month="October" />
+                            <Date day="29" month="October" />
                         </div>
                         <hr className={styles.line}/>
                         <div className={styles.right_date} data-aos="zoom-in">
                             <Date day="18" month="October"/>
                         </div>
+
                 </div>
-                <div className={styles.timer_container}>
-                    {
-                        showTimer ?
-                            <Timer setShowTimer={setShowTimer}/>
-                            :
-                            <h1 className={styles.title}>It&#39;s Show<span>time</span></h1>
-                    }
-                    
+                <hr className={styles.line} />
+                <div className={styles.right_date}>
+                    <Date day="31" month="October" subtxt="st" />
                 </div>
+            </div>
+            <div className={styles.timer_container}>
+                {showTimer ? (
+                    <Timer setShowTimer={setShowTimer} />
+                ) : (
+                    <h1 className={styles.title}>
+                        It&#39;s Show<span>time</span>
+                    </h1>
+                )}
+            </div>
         </div>
     )
 }

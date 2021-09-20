@@ -12,14 +12,29 @@ const Header = () => {
     }, [])
     return (
         <>
-            <div className={styles.hbody} >
-                <p className={styles.heading} data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom"><span>Create jaw-dropping virtual</span> & hybrid events</p>
-                <p className={styles.desciption} data-aos="zoom-in" data-aos-duration="2500">Welcome is the all-in-one virtual and hybrid<br /> event platform to power incredible<br /> experiences</p>
+
+            <div className={styles.hbody}>
+                <div id={styles.stars}></div>
+                <div id={styles.stars2}></div>
+                <div id={styles.stars3}></div>
+                <p className={styles.heading} data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
+                    <span>Where Tech</span> <span>Gets</span>{' '}
+                    <span className={styles.maintxt}>Stellar!</span>
+                </p>
+                <p className={styles.desciption} data-aos="zoom-in" data-aos-duration="2500">
+                    <span className={styles.subtext}>
+                        Welcome to Dhruva, IIIT Kottayam&apos;s own technical
+                        fest.
+                    </span>
+                    <br />
+                    <br />
+                    <br /> Join us in this three-day-long virtual extravaganza
+                    <br />
+                    that&apos;s bound to fire up your neurons and spark your
+                    creative flair!
+                </p>
                 <HButtons />
-
             </div>
-
-
         </>
     )
 }

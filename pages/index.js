@@ -36,10 +36,26 @@ export default function Home() {
     <>
     <div className={styles.container} style={{height:height}}>
       <Head>
-        <title>DHRUVA - IIITK</title>
-        <meta name="description" content="Dhruva IIITK Technical Fest" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+                    <title>DHRUVA - IIITK</title>
+                    <meta
+                        name="description"
+                        content="Dhruva Indian Institute of Information Technology IIIT Kottayam Technical Fest"
+                    />
+                    <meta
+                        property="og:title"
+                        content="Dhruva Technical Fest IIIT Kottayam"
+                    />
+                    <meta
+                        property="og:description"
+                        content="Dhruva - Indian Institute of Information Technology (IIIT) Kottayam Technical Fest"
+                    />
+                    <meta
+                        property="og:url"
+                        content="https://www.dhruvaiiitk.tech/"
+                    />
+                    <meta property="og:type" content="website" />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
       {
         show ?
           <Intro/>
@@ -64,4 +80,5 @@ export default function Home() {
     
     </>
   )
+
 }
