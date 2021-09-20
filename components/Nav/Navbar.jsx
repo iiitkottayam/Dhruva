@@ -20,6 +20,9 @@ const Nav = styled.nav`
     .logo {
         padding: 15px 0;
         cursor: pointer;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
     }
 `
 
@@ -27,6 +30,11 @@ const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
+                <img
+                    src="/png/dhruva-dark-icon.png"
+                    style={{ height: '40px', marginRight: '3px' }}
+                ></img>
+
                 <Link href="/" passHref>
                     Dhruva
                 </Link>
