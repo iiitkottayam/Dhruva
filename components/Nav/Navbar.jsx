@@ -24,20 +24,39 @@ const Nav = styled.nav`
         display: flex;
         align-items: center;
     }
+
+    .logoimg {
+        height: 40px;
+        marginright: 3px;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .maintxt {
+            display: none;
+        }
+        .logoimg {
+            height: 50px;
+            marginright: 3px;
+        }
+    }
 `
 
 const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
-                <img
-                    src="/png/dhruva-dark-icon.png"
-                    style={{ height: '40px', marginRight: '3px' }}
-                ></img>
+                <a href="/">
+                    <img
+                        src="/png/dhruva-dark-icon.png"
+                        className="logoimg"
+                    ></img>
+                </a>
 
-                <Link href="/" passHref>
-                    Dhruva
-                </Link>
+                <span className="maintxt">
+                    <Link href="/" passHref>
+                        Dhruva
+                    </Link>
+                </span>
             </div>
             <Burger />
         </Nav>
