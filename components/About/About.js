@@ -7,33 +7,36 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 const About = () => {
-    const [showTimer,setShowTimer] = useState(true);
+    const [showTimer, setShowTimer] = useState(true)
     useEffect(() => {
         AOS.init({
             // duration : 5000
         })
     }, [])
     return (
-        <div className={styles.container} >
-                <div className={styles.title_container}>
-                    <h1 className={styles.title} data-aos="fade-left" data-aos-duration="1000" >What is <span >Dhruva&nbsp;?</span></h1>
-                    <p className={styles.content} data-aos="fade-right" data-aos-duration="1000">lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem  lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip lorem lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit amet, consectetur adip</p>
-                    <div className={styles.btn_container}>
-                        <Button name="About Us"/>
-                    </div>
+        <div className={styles.container}>
+            <div className={styles.title_container}>
+                <h1 className={styles.title} data-aos="fade-left" data-aos-duration="1800">
+                    What is <span>Dhruva&nbsp;?</span>
+                </h1>
+                <p className={styles.content} data-aos="fade-right" data-aos-duration="1800">
+                    lorem ipsum dolor sit amet, consectetur adip lorem ipsum
+                    dolor sit amet, consectetur adip lorem lorem ipsum dolor sit
+                    amet, consectetur adip lorem ipsum dolor sit amet,
+                    consectetur adip lorem lorem ipsum dolor sit amet,
+                    consectetur adip lorem ipsum dolor sit amet, consectetur
+                    adip
+                </p>
+                <div className={styles.btn_container}>
+                    <Button name="About Us" />
                 </div>
-                <div className={styles.date_container}>
-                        <div className={styles.left_date} data-aos="zoom-in">
-                            <Date day="29" month="October" />
-                        </div>
-                        <hr className={styles.line}/>
-                        <div className={styles.right_date} data-aos="zoom-in">
-                            <Date day="18" month="October"/>
-                        </div>
-
+            </div>
+            <div className={styles.date_container}>
+                <div className={styles.left_date} data-aos="fade-up">
+                    <Date day="29" month="October" subtxt="th" />
                 </div>
                 <hr className={styles.line} />
-                <div className={styles.right_date}>
+                <div className={styles.right_date} data-aos="fade-up">
                     <Date day="31" month="October" subtxt="st" />
                 </div>
             </div>

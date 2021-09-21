@@ -19,7 +19,7 @@
     flex-direction: column;
 }
 .text {
-    font-family: 'Monument Extended';
+    font-family: var(--subtext);
     font-weight: lighter;
     font-size: 54px;
     color: var(--black);

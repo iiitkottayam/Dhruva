@@ -43,7 +43,7 @@ export default function Timeline() {
                     <div onClick={handleday2} data-aos="fade-right" data-aos-duration="1500"><Dcard name="Day 2" day={day2} /></div>
                     <div onClick={handleday3} data-aos="fade-left" data-aos-duration="1500"><Dcard name="Day 3" day={day3} /></div>
                 </div>
-                <div className={classNames( styles.events, !day1 && styles.events2 )} data-aos="fade-up" data-aos-duration="1500">
+                <div className={classNames( styles.events, !day1 && styles.events2 )}>
                     {
                         event.map((item) => {
                             if(item.day===1) {return(
