@@ -12,12 +12,14 @@ const About = () => {
                     What is <span>Dhruva&nbsp;?</span>
                 </h1>
                 <p className={styles.content}>
-                    lorem ipsum dolor sit amet, consectetur adip lorem ipsum
-                    dolor sit amet, consectetur adip lorem lorem ipsum dolor sit
-                    amet, consectetur adip lorem ipsum dolor sit amet,
-                    consectetur adip lorem lorem ipsum dolor sit amet,
-                    consectetur adip lorem ipsum dolor sit amet, consectetur
-                    adip
+                    Dhruva is the annual tech fest of IIIT Kottayam! It’s the
+                    amalgamation of mind gruelling competitions, thought
+                    provoking expert talks and workshops that stimulate your
+                    cerebral matter!
+                    <br />
+                    <br />
+                    Just like the pole star dhruva, this event is your chance to
+                    shine bright and bring into play the technical talents!
                 </p>
                 <div className={styles.btn_container}>
                     <Button name="About Us" />
@@ -32,6 +34,7 @@ const About = () => {
                     <Date day="31" month="October" subtxt="st" />
                 </div>
             </div>
+            <br />
             <div className={styles.timer_container}>
                 {showTimer ? (
                     <Timer setShowTimer={setShowTimer} />
