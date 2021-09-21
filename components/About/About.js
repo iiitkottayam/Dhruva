@@ -22,7 +22,7 @@ const About = () => {
                     adip
                 </p>
                 <div className={styles.btn_container}>
-                    <HButtonLight name="About Us" />
+                    <HButtonLight name="About Us" icon = {<ImArrowUpRight2/>}/>
                 </div>
             </div>
             <div className={styles.date_container}>
