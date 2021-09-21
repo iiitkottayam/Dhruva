@@ -1,7 +1,7 @@
 import styles from '/styles/EventHeading.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import {HButton} from '@components/Accessories/button'
+import HButton from '@components/Accessories/button'
 const EventHeading = (props) => {
     return (
         <div className={styles.container}>
