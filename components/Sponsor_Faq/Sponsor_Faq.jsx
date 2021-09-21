@@ -1,6 +1,7 @@
 import Style from './FAQ.module.css'
-import HButton from '@components/Accessories/button'
-import { ImArrowUpRight2 } from 'react-icons/im'
+
+import {HButton, HButtonLight} from '@components/Accessories/button'
+import {ImArrowUpRight2} from 'react-icons/im'
 
 const Sponsor_Faq = () => {
     return (
@@ -19,23 +20,17 @@ const Sponsor_Faq = () => {
                 {/* Contains all the content displayed on the FAQ component */}
                 <div className={Style.sponsor}>
                     <p>Want to be a Sponsor?</p>
-                    <a href="#">
-                        <HButton name={'Apply'} icon={<ImArrowUpRight2 />} />
-                    </a>{' '}
-                    {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}
+
+                    <div><HButton name = {"Apply"} icon = {<ImArrowUpRight2/>}/></div>   {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}
+
                 </div>
                 <div className={Style.contacts}>
                     <div className={Style.faq}>
                         <span>FAQ</span>
-                        <p className={Style.subtitle}>
-                            Having some doubt?<br></br>Reach out to us
-                        </p>
-                        <a href="#">
-                            <HButton
-                                name={'Contact us'}
-                                icon={<ImArrowUpRight2 />}
-                            />
-                        </a>
+
+                        <p className = {Style.subtitle}>Having some doubt?<br></br>Reach out to us</p>
+                        <a href="#"><HButtonLight name = {"Contact us"} icon = {<ImArrowUpRight2/>}/></a>
+
                     </div>
                     <div className={Style.chat}>
                         <div className={Style.chatW}>

@@ -86,18 +86,9 @@
     text-align: center;
     margin: 1rem 0 1rem 0;
 }
-.faq button{        /* Contrast color to default Button accessory */
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0.5em 0.5em rgb(0, 0, 0);
-    border: 1px rgb(0, 0, 0) solid;
-    margin-top: 0.5em;
-    text-transform: none;
-}
-.faq button:hover{
-    box-shadow: 0.25em 0.25em rgb(0, 0, 0);
-    transform: translate(0.25em, 0.25em);
-}
+
+
+
 .chat{
     margin-top: 3.5rem;  
     padding: .95rem; 
