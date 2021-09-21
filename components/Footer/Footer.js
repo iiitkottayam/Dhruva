@@ -4,6 +4,8 @@ import {
     FaTwitter,
     FaDiscord,
     FaEnvelope,
+    FaTwitch,
+    FaYoutube,
 } from 'react-icons/fa'
 import styles from './Footer.module.css'
 import Image from 'next/image'
@@ -44,6 +46,16 @@ const Footer = () => {
                         <li>
                             <Link href="#" passHref={true}>
                                 <FaDiscord />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#" passHref={true}>
+                                <FaYoutube />
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="#" passHref={true}>
+                                <FaTwitch />
                             </Link>
                         </li>
                     </ul>

@@ -23,7 +23,7 @@
 }
 .month_title {
     margin-top: -30%;
-    font-family: var(--content);
+    font-family: var(--subtext);
     font-size: 2rem;
     font-weight: 500;
 }

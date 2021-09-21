@@ -16,16 +16,16 @@
     margin-top: 5%;
 }
 .name {
-    font-family: 'Galano Grotesque Alt', sans-serif;
+    font-family: var(--title), sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     white-space: nowrap;
 }
 .role {
-    font-family: 'Galano Grotesque Alt', sans-serif;
+    font-family: var(--title), sans-serif;
     font-weight: 400;
     color: hsla(0, 0%, 96.5%, 0.8);
-    font-family: 'Rational TW Text', sans-serif;
+    font-family: var(--subtext), sans-serif;
     font-size: 1rem;
     margin-top: 5%;
     /* background-color: red; */
