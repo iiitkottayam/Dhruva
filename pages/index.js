@@ -28,7 +28,6 @@ export default function Home() {
       <Speakers />
       <Timeline />
       <Sponsors/>
-
       <Sponsor_Faq />
     </div>
     
