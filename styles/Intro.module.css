@@ -19,9 +19,9 @@
     flex-direction: column;
 }
 .text {
-    font-family: var(--subtext);
-    font-weight: lighter;
-    font-size: 54px;
+    font-family: var(--coming);
+    font-weight: bolder;
+    font-size: 5.5rem;
     color: var(--black);
 }
 .text1,
