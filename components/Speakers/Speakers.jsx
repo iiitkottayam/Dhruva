@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import styles from './speakers.module.css'
 import Speaker from './Speaker'
 import { speaker } from '@data/speaker'
+
+
 export default function Speakers() {
     return (
         <div className={styles.speakers_section}>
