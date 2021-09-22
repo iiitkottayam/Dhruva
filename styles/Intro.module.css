@@ -143,6 +143,7 @@
 }
 @media screen and (max-width: 768px) {
     .text {
-        font-size: 30px;
+        font-size: 4rem;
     }
 }
+
