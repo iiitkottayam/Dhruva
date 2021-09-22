@@ -1,25 +1,19 @@
 import styles from '../../styles/attendees.module.css'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
 
 const Attendes = () => {
-    useEffect(() => {
-        AOS.init({})
-    }, [])
 
     return (
         
             <div className={styles.back}>
                 <div className={styles.inner1}>
                     
-                        <h1 className={styles.h1} data-aos="zoom-in" >A first-rate virtual experience for all</h1>
+                        <h1 className={styles.h1} >A first-rate virtual experience for all</h1>
                    
                 </div>
                 <div className={styles.grid}>
                     <div className={styles.text}>
                         <h4 className={styles.h4}>Events</h4>
-                        <p className={styles.bl} data-aos="fade-up">Experience Adrenaline packed fun events that get your
+                        <p className={styles.bl} >Experience Adrenaline packed fun events that get your
                         mental juices flowing! Show us the synergy of your team,
                         or prove that you are the best lone wolf around; we have
                         an event for everyone!</p>
@@ -29,7 +23,7 @@ const Attendes = () => {
                     </div>
                     <div className={styles.text}>
                         <h4 className={styles.h4}>Workshops</h4>
-                        <p className={styles.bl} data-aos="fade-up"> No one comes up with the technique of tying a shoelace;
+                        <p className={styles.bl} > No one comes up with the technique of tying a shoelace;
                         the “2 egg reference” is taught to us while we do it
                         ourselves. This hands-on experience saves a lot of
                         initial time-consuming steps of learning a topic and is
@@ -42,7 +36,7 @@ const Attendes = () => {
 
                 <div className={styles.text}>
                     <h4 className={styles.h4}>Seminars (speaking sessions)</h4>
-                    <p className={styles.bl} data-aos="fade-up">
+                    <p className={styles.bl} >
                         The need for a good old sensei is undeniable in a world
                         of endless possibilities. Get guidance on various topics
                         ranging from x to y; you may discover something that

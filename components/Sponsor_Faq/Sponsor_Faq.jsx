@@ -1,15 +1,10 @@
 import Style from './FAQ.module.css'
 import HButton from '@components/Accessories/button'
 import {ImArrowUpRight2} from 'react-icons/im'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+
 
 const Sponsor_Faq = () => {
-    useEffect(() => {
-        AOS.init({
-        });
-    }, []);
+
     return (
         <div className = {Style.wrapper} id = {"FAQ"}>          {/* in-page navigation to FAQ section on clicking FAQ from the navbar */} {/* also added smooth scroll for the entire page in globals.css */}
             <div className = {Style.backgrounds}>               {/* A layer containing the background for the sponsor and faq section, placed below the content using a negative z-index */}
@@ -23,16 +18,16 @@ const Sponsor_Faq = () => {
                 </div>
                 <div className = {Style.contacts}>
                     <div className = {Style.faq}> 
-                        <span data-aos="fade-up" data-aos-duration="1200">FAQ</span>
-                        <p className = {Style.subtitle} data-aos="fade-left" data-aos-duration="1500">Having some doubt?<br></br>Reach out to us</p>
+                        <span >FAQ</span>
+                        <p className = {Style.subtitle} >Having some doubt?<br></br>Reach out to us</p>
                         <a href="#"><HButton name = {"Contact us"} icon = {<ImArrowUpRight2/>}/></a>
                     </div>
                     <div className = {Style.chat}>  
-                        <div className = {Style.chatW} data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, ?</div>
-                        <div className = {Style.chatB} data-aos="fade-right" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
-                        <div className = {Style.chatW} data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, ?</div>
-                        <div className = {Style.chatW} data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, ?</div>
-                        <div className = {Style.chatW} data-aos="fade-left" data-aos-duration="1500">Lorem ipsum dolor sit amet, ?</div>
+                        <div className = {Style.chatW} >Lorem ipsum dolor sit amet, ?</div>
+                        <div className = {Style.chatB} >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</div>
+                        <div className = {Style.chatW} >Lorem ipsum dolor sit amet, ?</div>
+                        <div className = {Style.chatW} >Lorem ipsum dolor sit amet, ?</div>
+                        <div className = {Style.chatW} >Lorem ipsum dolor sit amet, ?</div>
                     </div>
                 </div>
             </div>

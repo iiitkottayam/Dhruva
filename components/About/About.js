@@ -3,23 +3,17 @@ import styles from '../../styles/About.module.css'
 import Button from './Button'
 import { Date } from './Date'
 import Timer from './Timer'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+
 const About = () => {
     const [showTimer, setShowTimer] = useState(true)
-    useEffect(() => {
-        AOS.init({
-            // duration : 5000
-        })
-    }, [])
+
     return (
         <div className={styles.container}>
             <div className={styles.title_container}>
-                <h1 className={styles.title} data-aos="fade-left" data-aos-duration="1800">
+                <h1 className={styles.title} >
                     What is <span>Dhruva&nbsp;?</span>
                 </h1>
-                <p className={styles.content} data-aos="fade-right" data-aos-duration="1800">
+                <p className={styles.content} >
                     lorem ipsum dolor sit amet, consectetur adip lorem ipsum
                     dolor sit amet, consectetur adip lorem lorem ipsum dolor sit
                     amet, consectetur adip lorem ipsum dolor sit amet,
@@ -32,11 +26,11 @@ const About = () => {
                 </div>
             </div>
             <div className={styles.date_container}>
-                <div className={styles.left_date} data-aos="fade-up">
+                <div className={styles.left_date} >
                     <Date day="29" month="October" subtxt="th" />
                 </div>
                 <hr className={styles.line} />
-                <div className={styles.right_date} data-aos="fade-up">
+                <div className={styles.right_date} >
                     <Date day="31" month="October" subtxt="st" />
                 </div>
             </div>

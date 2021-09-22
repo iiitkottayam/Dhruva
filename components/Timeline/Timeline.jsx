@@ -5,8 +5,7 @@ import Dcard from "@components/Accessories/dcard";
 import Ecard from '@components/Accessories/ecard';
 // import event from './event.json';
 import {event} from '@data/timeline';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 export default function Timeline() {
@@ -28,10 +27,7 @@ export default function Timeline() {
         setday2(false);
         setday1(false);
     }
-    useEffect(() => {
-        AOS.init({
-        });
-    }, []);
+
     return (
         <div className={styles.main}>
             <div className={styles.header}>
@@ -39,9 +35,9 @@ export default function Timeline() {
             </div>
             <div className={styles.tabs}>
                 <div className={styles.days}>
-                    <div onClick={handleday1} data-aos="fade-left" data-aos-duration="1500"><Dcard name="Day 1" day={day1} /></div>
-                    <div onClick={handleday2} data-aos="fade-right" data-aos-duration="1500"><Dcard name="Day 2" day={day2} /></div>
-                    <div onClick={handleday3} data-aos="fade-left" data-aos-duration="1500"><Dcard name="Day 3" day={day3} /></div>
+                    <div onClick={handleday1} ><Dcard name="Day 1" day={day1} /></div>
+                    <div onClick={handleday2} ><Dcard name="Day 2" day={day2} /></div>
+                    <div onClick={handleday3} ><Dcard name="Day 3" day={day3} /></div>
                 </div>
                 <div className={classNames( styles.events, !day1 && styles.events2 )}>
                     {
