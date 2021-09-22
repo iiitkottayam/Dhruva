@@ -16,7 +16,6 @@ const Header = () => {
             <div className={styles.hbody}>
 
                 <p className={styles.heading} data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
-t
                     <span>Where Tech</span> <span>Gets</span>{' '}
                     <span className={styles.maintxt}>Stellar!</span>
                 </p>
