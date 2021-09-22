@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HButton from '../components/Accessories/button'
+import {HButton} from '../components/Accessories/button'
 import {ImArrowUpRight2} from 'react-icons/im'
 
 const error = () => {

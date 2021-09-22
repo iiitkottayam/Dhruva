@@ -1,3 +1,5 @@
+import { HButtonLight } from '@components/Accessories/button'
+import {ImArrowUpRight2} from 'react-icons/im'
 import { useState } from 'react'
 import styles from '../../styles/About.module.css'
 import Button from './Button'
@@ -13,16 +15,20 @@ const About = () => {
                 <h1 className={styles.title} >
                     What is <span>Dhruva&nbsp;?</span>
                 </h1>
-                <p className={styles.content} >
-                    lorem ipsum dolor sit amet, consectetur adip lorem ipsum
-                    dolor sit amet, consectetur adip lorem lorem ipsum dolor sit
-                    amet, consectetur adip lorem ipsum dolor sit amet,
-                    consectetur adip lorem lorem ipsum dolor sit amet,
-                    consectetur adip lorem ipsum dolor sit amet, consectetur
-                    adip
+
+                <p className={styles.content}>
+                    Dhruva is the annual tech fest of IIIT Kottayam! It’s the
+                    amalgamation of mind gruelling competitions, thought
+                    provoking expert talks and workshops that stimulate your
+                    cerebral matter!
+                    <br />
+                    <br />
+                    Just like the pole star dhruva, this event is your chance to
+                    shine bright and bring into play the technical talents!
+
                 </p>
                 <div className={styles.btn_container}>
-                    <Button name="About Us" />
+                    <HButtonLight name="About Us" icon = {<ImArrowUpRight2/>}/>
                 </div>
             </div>
             <div className={styles.date_container}>
@@ -34,6 +40,7 @@ const About = () => {
                     <Date day="31" month="October" subtxt="st" />
                 </div>
             </div>
+            <br />
             <div className={styles.timer_container}>
                 {showTimer ? (
                     <Timer setShowTimer={setShowTimer} />
