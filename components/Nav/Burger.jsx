@@ -4,20 +4,15 @@ import RightNav from './RightNav';
 
 /*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is paased on RightBar to change the navigation view */
 const StyledBurger = styled.div`
-<<<<<<< HEAD
-width: 1.875rem;
-height: 1.5rem;
-=======
-overflow-x: hidden;
-width: 2rem;
-height: 2rem;
->>>>>>> 3458f8f52624f0c8a29a8e7b03683e0e47cb58ed
-position: absolute;
+width: 30px;
+height: 30px;
+position: fixed;
 top: 1.5rem;
 right: 1.25rem;
 overflow: visible;
-z-index: 500;
+z-index: 2;
 display: flex;
+cursor: pointer;
   @media (min-width: 0px) {
     display: flex;
     justify-content: space-around;
@@ -26,31 +21,47 @@ display: flex;
   div { 
  
     cursor: pointer;  
-    height: 0.25rem;
+    height: 2px;
+    margin-bottom:7px;
     background-color: ${({ open }) => open ? 'white' : 'white'};
     border-radius: 0.625rem;
     transition: all 0.3s linear;
+
     &:nth-child(1) {
       transform-origin: 0%;
-      
-      width: 1.1rem;
-      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+      width: ${({ open }) => open ? '30px': '15px'};
+      transform: ${({ open }) => open ? 'rotate(42deg)' : 'rotate(0)'};
     }
     &:nth-child(2) {
-      width: 1.875rem;
+      width: 30px;
       transform-origin: centre;
-      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
-
+      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
+      opacity: ${({ open }) => open ? 0 : 1};
     }
     &:nth-child(3) {
       
-      transform-origin: right;
-      width: 1.1rem;
+      transform-origin: 0%;
+      width: ${({ open }) => open ? '30px': '15px'};
+
       align-self: flex-end;
-    
-      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
+      transform: ${({ open }) => open ? 'rotate(-42deg)' : 'rotate(0)'};
     }
   }
+    &:hover .first {
+      width: ${({ open }) => open ? '': '30px'};
+      
+  }
+  &:hover .third {
+      width: ${({ open }) => open ? '': '30px'};
+     
+    }
+  
+  
+
+  }
+  }
+}
+  
 `
 
 const Burger = () => {
@@ -59,9 +70,9 @@ const Burger = () => {
   return (
     <>      
       <StyledBurger open={open} onClick={() => setOpen(!open)}>        
-        <div />
-        <div />
-        <div />     
+        <div className="first"/>
+        <div className="second"/>
+        <div className="third"/>     
       </StyledBurger>
       <RightNav open={open}/>
     </>
