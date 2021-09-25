@@ -6,12 +6,7 @@
     padding: 5% 0;
     width: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(
-        0deg,
-        #ffffff 1%,
-        #ffe7d3 50%,
-        #ffffff 100%
-    );
+    background: linear-gradient(0deg, #ffffff 1%, #ffe7d3 50%, #ffffff 100%);
 }
 .title_container {
     display: flex;
@@ -24,7 +19,7 @@
 .title {
     font-family: var(--title);
     font-style: normal;
-    font-weight: 1500;
+    font-weight: 700;
     font-size: 7rem;
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
         -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
@@ -32,14 +27,15 @@
 }
 .title > span {
     color: #fff9f5;
+    font-weight: 500;
     font-size: 7rem;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
 }
 .content {
-    font-family: var(--content);
+    font-family: var(--subtext);
     font-size: 2rem;
-    margin-top: -4%;
+    margin-top: -3.5%;
 }
 .btn_container {
     width: 100%;
@@ -53,7 +49,7 @@
     align-items: center;
 }
 .line {
-    background-image: linear-gradient(to left, #ffc089, #8c58fc);
+    background-image: linear-gradient(45deg, #af6aff, #ffbc82 80%);
     width: 30%;
     height: 0.5rem;
 }
@@ -89,10 +85,10 @@
 }
 @media screen and (max-width: 800px) {
     .title {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .title > span {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .content {
         font-size: 1rem;
@@ -109,10 +105,12 @@
 }
 @media screen and (max-width: 500px) {
     .title {
-        font-size: 2rem;
+        font-size: 2.35rem;
     }
     .title > span {
-        font-size: 2rem;
+        font-size: 2.35rem;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+            1px 1px 0 #000;
     }
     .date_container {
         width: fit-content;

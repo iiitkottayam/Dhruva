@@ -1,0 +1,142 @@
+.profile_img {
+    height: 300px;
+    width: 15em;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 10%;
+    /* background-image: url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80); */
+}
+.content_container {
+    /* background-color: red; */
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.name {
+    font-family: var(--title), sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+.role {
+    font-family: var(--title), sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 96.5%, 0.8);
+    font-family: var(--subtext), sans-serif;
+    font-size: 1rem;
+    margin-top: 5%;
+    /* background-color: red; */
+}
+.container:hover .profile_img {
+    width: 50%;
+    height: 250px;
+    /* background-image: url(https://c.tenor.com/DHGvsLhTOowAAAAC/meme-pikachu.gif); */
+}
+.social_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    color: var(--white);
+}
+.container:hover {
+    background-color: var(--white);
+    color: var(--black);
+    /* border: 5px solid #8c58fc; */
+}
+.container:hover .role {
+    color: var(--black);
+    /* border: 5px solid #8c58fc; */
+}
+@media screen and (max-width: 300px) {
+    .name {
+        font-size: 1rem;
+    }
+    .role {
+        font-size: 0.75rem;
+    }
+}
+/*jjjjj*/
+.borderwrap {
+    margin-bottom: 10%;
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    margin-right: 0%;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    padding: 2px;
+    background: #8c58fc;
+    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+    transition: all 0.3s;
+}
+
+.daycards {
+    background-color: black;
+    color: white;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    font-family: var(--title);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.dayHeading {
+    font-size: 4rem;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #8c58fc;
+    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+}
+.wrapper:hover {
+    transform: translate(-7px, -11px);
+    transition: 300ms;
+    /* border-image-slice: 1;
+    border-image-source: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+    border-image-width: 2px; */
+}
+.wrapper:hover .social_container {
+    opacity: 1;
+}
+@media screen and (max-width: 780px) {
+    .social_container {
+        opacity: 1;
+    }
+}
+
+/* Events card style */
+.detailContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    transition: opacity 1s ease;
+    color: var(--white);
+}
+
+.detailContainer > p {
+    font-family: var(--coming);
+    font-size: medium;
+}
