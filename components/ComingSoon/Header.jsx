@@ -11,8 +11,8 @@ const Header = () => {
                 </p>
                 <p className={styles.desciption}>
                     <span className={styles.subtext}>
-                        Welcome to Dhruva, IIIT Kottayam&apos;s own technical
-                        fest.
+                        Welcome to Dhruva, IIIT Kottayam&apos;s own Technical
+                        Fest.
                     </span>
                     <br />
                     <br />
