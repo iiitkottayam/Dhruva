@@ -3,7 +3,9 @@ import Style from './FAQ.module.css'
 import { HButton, HButtonLight } from '@components/Accessories/button'
 import { ImArrowUpRight2 } from 'react-icons/im'
 
+
 const Sponsor_Faq = () => {
+
     return (
         <div className={Style.wrapper} id={'FAQ'}>
             {' '}
@@ -29,6 +31,7 @@ const Sponsor_Faq = () => {
                     </div>{' '}
                     {/* Included an additional attribute - icon for the up-left arrow, also made the required change in button.jsx */}
                 </div>
+
                 <div className={Style.contacts}>
                     <div className={Style.faq}>
                         <span>FAQ</span>
@@ -72,6 +75,7 @@ const Sponsor_Faq = () => {
                             </a>
                             .
                         </div>
+
                     </div>
                 </div>
             </div>
