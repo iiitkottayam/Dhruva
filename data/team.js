@@ -87,7 +87,7 @@ const developers = [
         id: 8,
         name: 'Lokesh Rai',
         image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1631972174/SAVE_20210103_075244_f141i2.jpg',
-        gif: 'https://c.tenor.com/S5uIy50Vdl8AAAAC/friends-joey-tribbiani.gif',
+        gif: 'https://res.cloudinary.com/hackbot/image/upload/v1631975402/lok-gif_or7cep.gif',
         linkedin: 'https://www.linkedin.com/in/railokesh/',
         instagram: 'https://www.instagram.com/_.banarasi._/',
         twitter: 'https://twitter.com/RhetoricianSays',
