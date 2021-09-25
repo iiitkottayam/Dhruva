@@ -14,7 +14,7 @@ export const Event = () => {
     }, [])
     return (
         <div className={styles.team_container}>
-            <h1 style={{ marginTop: '-10px' }}>Events</h1>
+            <h1 style={{}}>Events</h1>
             <div className={styles.cards}>
                 {events.map((data) => (
                     <Card
