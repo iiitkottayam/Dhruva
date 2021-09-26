@@ -29,7 +29,6 @@ export const getStaticProps = async (context) => {
     return {
         props: {
             name: data[0].name,
-            tag: data[0].tag,
             poster: data[0].poster,
             description: data[0].description,
             register: data[0].registration,
@@ -53,7 +52,6 @@ export default function Home(props) {
                 <Navbar />
                 <EventHeading
                     title={props.name}
-                    content={props.tag}
                     register={props.register}
                     eventPoster={props.poster}
                 ></EventHeading>
