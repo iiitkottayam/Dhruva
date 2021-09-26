@@ -2,6 +2,7 @@ import { SponsorsRow } from './SponsorsRow'
 import styles from './Sponsor.module.css'
 import { sponsors } from '@data/sponsor'
 import { prizes } from '@data/prizes'
+
 export const Sponsors = (props) => {
     let prizeMoney = '1,15,000'
 

@@ -4,39 +4,54 @@ import RightNav from './RightNav';
 
 /*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is paased on RightBar to change the navigation view */
 const StyledBurger = styled.div`
+<<<<<<< HEAD
+width: 1.875rem;
+height: 1.5rem;
+=======
 overflow-x: hidden;
 width: 2rem;
 height: 2rem;
+>>>>>>> 3458f8f52624f0c8a29a8e7b03683e0e47cb58ed
 position: absolute;
 top: 1.5rem;
-right: 20px;
+right: 1.25rem;
+overflow: visible;
 z-index: 500;
-display: none;
-  @media (max-width: 920px) {
+display: flex;
+  @media (min-width: 0px) {
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
   }
   div { 
+ 
     cursor: pointer;  
-    width: 2rem;
     height: 0.25rem;
     background-color: ${({ open }) => open ? 'white' : 'white'};
-    border-radius: 10px;
-    transform-origin: 1px;
+    border-radius: 0.625rem;
     transition: all 0.3s linear;
     &:nth-child(1) {
+      transform-origin: 0%;
+      
+      width: 1.1rem;
       transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
     &:nth-child(2) {
-      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
-      opacity: ${({ open }) => open ? 0 : 1};
+      width: 1.875rem;
+      transform-origin: centre;
+      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+
     }
     &:nth-child(3) {
-      transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
+      
+      transform-origin: right;
+      width: 1.1rem;
+      align-self: flex-end;
+    
+      transform: ${({ open }) => open ? 'rotate(45deg)' : 'rotate(0)'};
     }
   }
-`;
+`
 
 const Burger = () => {
   const [open, setOpen] = useState(false)
@@ -46,7 +61,7 @@ const Burger = () => {
       <StyledBurger open={open} onClick={() => setOpen(!open)}>        
         <div />
         <div />
-        <div />        
+        <div />     
       </StyledBurger>
       <RightNav open={open}/>
     </>

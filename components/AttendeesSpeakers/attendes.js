@@ -1,13 +1,6 @@
 import styles from '../../styles/attendees.module.css'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
 
 const Attendes = () => {
-    useEffect(() => {
-        AOS.init({})
-    }, [])
-
     return (
         <div className={styles.back}>
             <div className={styles.inner1}>
