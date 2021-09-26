@@ -21,8 +21,8 @@ const Header = () => {
                 </p>
                 <p className={styles.desciption} data-aos="zoom-in" data-aos-duration="2500">
                     <span className={styles.subtext}>
-                        Welcome to Dhruva, IIIT Kottayam&apos;s own technical
-                        fest.
+                        Welcome to Dhruva, IIIT Kottayam&apos;s own Technical
+                        Fest.
                     </span>
                     <br />
                     <br />
