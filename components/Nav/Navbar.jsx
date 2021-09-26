@@ -45,12 +45,14 @@ const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
-                <a href="/">
-                    <img
-                        src="/png/dhruva-dark-icon.png"
-                        className="logoimg"
-                    ></img>
-                </a>
+                <Link href="/">
+                    <a target="_self">
+                        <img
+                            src="/png/dhruva-dark-icon.png"
+                            className="logoimg"
+                        ></img>
+                    </a>
+                </Link>
 
                 <span className="maintxt">
                     <Link href="/" passHref>

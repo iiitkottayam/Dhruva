@@ -28,7 +28,7 @@ const Attendes = () => {
                 <div data-aos="fade-left" className={styles.img}>
                     <img
                         data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632117024/DSC_0838_1_yqfo65.jpg"
+                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC_0838_2_zxyp2n.jpg"
                         className={styles.hi}
                     />
                 </div>
@@ -47,7 +47,7 @@ const Attendes = () => {
                 <div data-aos="fade-left" className={styles.img}>
                     <img
                         data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632116857/DSC02855_saw5id.jpg"
+                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC02855_1_x0oa32.jpg"
                         className={styles.hi2}
                     />
                 </div>
@@ -65,7 +65,7 @@ const Attendes = () => {
                 <div data-aos="fade-left" className={styles.img}>
                     <img
                         data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632116872/DSC_0277_1_tdbkek.jpg"
+                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664485/DSC_0277_1_tdbkek_1_q1hcom.jpg"
                         className={styles.hi3}
                     />
                 </div>

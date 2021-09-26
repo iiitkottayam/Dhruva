@@ -1,5 +1,5 @@
 import { HButtonLight } from '@components/Accessories/button'
-import {ImArrowUpRight2} from 'react-icons/im'
+import { ImArrowUpRight2 } from 'react-icons/im'
 import { useState } from 'react'
 import styles from '../../styles/About.module.css'
 import Button from './Button'
@@ -23,9 +23,9 @@ const About = () => {
                     Just like the pole star dhruva, this event is your chance to
                     shine bright and bring into play the technical talents!
                 </p>
-                <div className={styles.btn_container}>
+                {/* <div className={styles.btn_container}>
                     <HButtonLight name="About Us" icon = {<ImArrowUpRight2/>}/>
-                </div>
+                </div> */}
             </div>
             <div className={styles.date_container}>
                 <div className={styles.left_date}>
