@@ -67,6 +67,8 @@ const Ul = styled.ul`
 
   }
   @media (min-width: 0px) {
+ 
+    
     content: "";
     margin: 0px;
     flex-flow: column nowrap;
@@ -79,7 +81,7 @@ const Ul = styled.ul`
     top: 0;
     right: 0;
  
-    background: rgba(1, 1, 1, 0.60 );
+    background: rgba(1, 1, 1, 1 );
     border-bottom-left-radius: 200%;
     z-index: -1;
     -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
@@ -91,18 +93,26 @@ const Ul = styled.ul`
   
             padding-top: 1rem;
     
-           .Ul{
+    
+           
+           
+           
+           
+            .Ul{
             position: relative;
             padding: 0;
             margin: 0;
             z-index: 2;
            }
-
-            .li {
-              position: relative;
-            	display: block;
-	         -webkit-transition-delay: 0.8s;
-          transition-delay: 0.8s;
+        
+         
+         
+          .li {
+            position: relative;
+            display: block;
+         -webkit-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+            
 	opacity: 100;
 	text-align: center;
 	color: #fff;
@@ -157,6 +167,7 @@ const Ul = styled.ul`
 
 const RightNav = ({ open }) => {
   return (
+    <div className='nav'>
     <div className='overlay overlay-contentpush open'>
        <Ul open={open}>      
       <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
@@ -166,6 +177,7 @@ const RightNav = ({ open }) => {
       <li className='hover-underline-animation'><Link href='#Sponsors' passHref>Sponsors</Link></li>
       <li className='hover-underline-animation2'><Link href='#Team' passHref>Team</Link></li>
     </Ul>
+    </div>
     </div>
   )
 }
