@@ -11,8 +11,8 @@
     color: var(--white);
 }
 .Heading h1 {
-    font-family: var(--title), sans-serif;
-    font-size: 6.25rem;
+    font-family: var(--title);
+    font-size: 5rem;
     font-weight: 400;
     letter-spacing: -3px;
     margin-bottom: 0px;
@@ -42,7 +42,7 @@
         width: 100%;
     }
     .Heading h1 {
-        font-size: 4.75rem;
+        font-size: 3.75rem;
     }
 }
 @media (max-width: 992px) {
