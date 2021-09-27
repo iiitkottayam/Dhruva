@@ -1,17 +1,26 @@
 import styles from './speaker.module.css'
-
-export default function Speaker({ speaker }) {
+import Image from 'next/image'
+export default function Speaker(props) {
     return (
         <div className={styles.speaker}>
             <div className={styles.image}>
-                <img src={speaker.url} alt={speaker.id} />
+                {props.image && (
+                    <Image
+                        src={props.image}
+                        alt={props.name}
+                        height="200"
+                        width="200"
+                    />
+                )}
             </div>
             <div className={styles.info}>
-                <div className={styles.name}>{speaker.name}</div>
-                <div className={styles.about}>{speaker.about}</div>
+                <div className={styles.name}>{props.name}</div>
+                <div className={styles.about}>{props.detail}</div>
                 <div className={styles.timing}>
-                    <span>{speaker.timing?.date}</span>
-                    <span>youtube live {speaker.timing?.live}</span>
+                    <span>
+                        {props.date}&nbsp;&nbsp;{props.time}
+                    </span>
+                    <span>youtube live </span>
                 </div>
             </div>
         </div>

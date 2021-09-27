@@ -1,0 +1,21 @@
+.btns{
+    width: 100%;
+    background-color: var(--black);
+    
+
+}
+
+.hiicon1{    
+    color: var(--white);
+    float: left;
+    
+}
+.hiicon2{    
+    color: var(--white);
+    float: right;
+    
+}
+
+.navtxt{
+    color: var(--white);
+}

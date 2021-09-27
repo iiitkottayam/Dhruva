@@ -1,24 +1,23 @@
-import Link from 'next/link';
-import styled from 'styled-components';
+import Link from 'next/link'
+import styled from 'styled-components'
 
 /*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
 const Ul = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
-  font-size: 0.5em;
-  li {   
-    text-align: center;
-    width: 60%;     
-    padding-right: 3em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    cursor: pointer;    
-  }    
-  ${ function ({open}){
-    if (open==false) {
-      return (
-        `.hover-underline-animation {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 0.5em;
+    li {
+        text-align: center;
+        width: 60%;
+        padding-right: 3em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        cursor: pointer;
+    }
+    ${function ({ open }) {
+        if (open == false) {
+            return `.hover-underline-animation {
           display: inline-block;
           position: relative;            
         }
@@ -171,6 +170,5 @@ const RightNav = ({ open }) => {
     </div>
     </div>
   )
-}
 
 export default RightNav

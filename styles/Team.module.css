@@ -1,0 +1,80 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+}
+.team_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10% 0;
+    width: 100%;
+}
+.team_container > h1 {
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: 1500;
+    color: var(--white);
+    font-size: 5rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.team_container > h1 > span {
+    font-size: 5rem;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+        -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    color: var(--black);
+}
+.team_container > h2 {
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: 1500;
+    color: var(--white);
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.cards {
+    display: grid;
+    grid-gap: 1rem;
+    width: 90%;
+    /* background-color: rgb(185, 236, 236); */
+}
+
+.mentor {
+    display: grid;
+    grid-gap: 4rem;
+    width: 90%;
+    /* background-color: rgb(185, 236, 236); */
+}
+@media (min-width: 550px) {
+    .cards,
+    .mentor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .mentor {
+        grid-template-columns: repeat(2, 2fr);
+        width: 70%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .team_container > h1 {
+        font-size: 3rem;
+        margin-top: 15%;
+    }
+    .team_container > h1 > span {
+        font-size: 3rem;
+    }
+    .team_container > h2 {
+        font-size: 2rem;
+    }
+}

@@ -7,15 +7,15 @@
     background-color: var(--white);
     border: none;
     cursor: pointer;
-    box-shadow: 0.3em 0.3em var(--black);
+    box-shadow: 0.5em 0.5em var(--black);
     transition: all 0.25s ease-in-out;
-    border: 2px var(--black) solid;
+    border: 1px var(--black) solid;
     margin-top: 2rem;
     font-weight: 700;
 }
 .btnh:hover {
-    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
-    transform: translate(0.13em, 0.13em);
+    box-shadow: 0.25em 0.25em var(--black);
+    transform: translate(0.25em, 0.25em);
 }
 .btndiv {
     align-items: center;
