@@ -70,33 +70,24 @@ const Ul = styled.ul`
  
     
     content: "";
-    margin: 0px;
-    flex-flow: column nowrap;
-    
-    background-color: #0D2538;    
-    position: fixed;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
- 
-    background: rgba(1, 1, 1, 1 );
-    border-bottom-left-radius: 200%;
-    z-index: -1;
-    -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-    transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-    -webkit-transform: ${({ open }) => open ? 'translateX(0%)' : 'translateY(-100%)'};
-            transform: ${({ open }) => open ? 'translateX(0%)' : 'translateY(-100%)'};
-  
-            padding-top: 1rem;
-    
-    
-           
-           
-           
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(20, 21, 26,0.6);
+	border-bottom-left-radius: 200%;
+	z-index: -1;
+	-webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+	transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+	transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+	transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+	-webkit-transform: ${({ open }) => open ? 'translateX(0%)' : 'translateY(-100%)'};
+  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateY(-100%)'};
+   
+  margin: 0px;
+  top: 0;
+  right: 0;         
+  overflow: hidden;       
+  flex-flow: column nowrap;        
            
             .Ul{
             position: relative;
