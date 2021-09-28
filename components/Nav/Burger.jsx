@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import RightNav from './RightNav';
 
 /*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is paased on RightBar to change the navigation view */
+/*Code update: Burger has been now kept fixed for both mobile and desktop screens*/
 const StyledBurger = styled.div`
 width: 30px;
 height: 30px;

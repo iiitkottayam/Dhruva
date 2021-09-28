@@ -2,6 +2,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 /*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
+/*Code Update: The burger and Right Navbar has been kept constant for both desktop and mobile screens*/
 const Ul = styled.ul`
     list-style: none;
     display: flex;
@@ -16,10 +17,11 @@ const Ul = styled.ul`
         cursor: pointer;
     }
     ${function ({ open }) {
-        if (open == false) {
-            return `.hover-underline-animation {
-          display: inline-block;
-          position: relative;            
+     if (open == false) 
+      {
+        return `.hover-underline-animation {
+        display: inline-block;
+        position: relative;            
         }
         .hover-underline-animation2 {
           display: inline-block;
@@ -56,17 +58,16 @@ const Ul = styled.ul`
         .hover-underline-animation2:hover:after {
           transform: scaleX(1);
           transform-origin: bottom left;
-        } 
-    }else{
+        }` 
+      }
+      else{
       return ``;
-    }
-  }
-
-  }
-  @media (min-width: 0px) {
- 
+      }
     
-    content: "";
+    }}
+  @media (min-width: 0px) {
+   
+  content: "";
 	position: fixed;
 	width: 100%;
 	height: 100%;
@@ -86,76 +87,70 @@ const Ul = styled.ul`
   overflow: hidden;       
   flex-flow: column nowrap;        
            
-            .Ul{
-            position: relative;
-            padding: 0;
-            margin: 0;
-            z-index: 2;
-           }
+  .ul{
+   position: relative;
+   padding: 0;
+   margin: 0;
+   z-index: 2;
+  }
         
-         
-         
-          .li {
-            position: relative;
-            display: block;
-         -webkit-transition-delay: 0.8s;
-        transition-delay: 0.8s;
-            
-	opacity: 100;
-	text-align: center;
-	color: #fff;
-	overflow: hidden; 
-	font-family: 'Montserrat', sans-serif;
-	font-size: 8vh;
-	font-weight: 900;
-	line-height: 1.15;
-	letter-spacing: 3px;
-  tranform-origin: 100%;
-	-webkit-transform: ${({ open }) => !open ? 'translate(100%)' : '0%'};
-          transform: ${({ open }) => !open ? 'translate(100%)' : '0%'};
-	-webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
-	transition: opacity .2s ease, -webkit-transform .3s ease;
-	transition: opacity .2s ease, transform .3s ease;
-	transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-	margin-top: 0;
-	margin-bottom: 0;
-            }
-
-
-            .li a{
-              position: relative;
-  	text-decoration: none;
-  	color: rgba(255,255,255,0.6);
-	overflow: hidden; 
-	cursor: pointer;
-	padding-left: 5px;
-	padding-right: 5px;
-	font-weight: 900;
-	z-index: 2;
-	display: inline-block;
-	text-transform: uppercase;
+              
+  .li {
+   position: relative;
+   display: block;
+   -webkit-transition-delay: 0.8s;
+   transition-delay: 0.8s;
+   opacity: 100;
+   text-align: center;
+	 color: #fff;
+	 overflow: hidden; 
+   font-family: 'Montserrat', sans-serif;
+	 font-size: 8vh;
+	 font-weight: 900;
+	 line-height: 1.15;
+	 letter-spacing: 3px;
+   tranform-origin: 100%;
+	 -webkit-transform: ${({ open }) => !open ? 'translate(100%)' : '0%'};
+    transform: ${({ open }) => !open ? 'translate(100%)' : '0%'};
+	 -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+	 transition: opacity .2s ease, -webkit-transform .3s ease;
+	 transition: opacity .2s ease, transform .3s ease;
+	 transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+	 margin-top: 0;
+	 margin-bottom: 0;
+  }
+ 
+  .li a{
+    position: relative;
+ 	  text-decoration: none;
+    color: rgba(255,255,255,0.6);
+	  overflow: hidden; 
+	  cursor: pointer;
+	  padding-left: 5px;
+	  padding-right: 5px;
+	  font-weight: 900;
+	  z-index: 2;
+	  display: inline-block;
+	  text-transform: uppercase;
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear; 
-            }
-            
- 
-            &:active{
-              opacity: 1;
-              -webkit-transform: ${({ open }) => open ? 'translateX(0%)' : ''};
-                      transform: ${({ open }) => open ? 'translateX(0%)' : ''};
-              -webkit-transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
-              transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
-              transition: opacity .3s ease, transform .3s ease, color .3s ease;
-              transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
-             }
+ }
 
-
-  }
-`;
+ &:active{
+  opacity: 1;
+  -webkit-transform: ${({ open }) => open ? 'translateX(0%)' : ''};
+  transform: ${({ open }) => open ? 'translateX(0%)' : ''};
+  -webkit-transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, color .3s ease;
+  transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
+ }
+}
+`
 
 const RightNav = ({ open }) => {
   return (
-    <div className='nav'>
+    
     <div className='overlay overlay-contentpush open'>
        <Ul open={open}>      
       <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
@@ -166,7 +161,7 @@ const RightNav = ({ open }) => {
       <li className='hover-underline-animation2'><Link href='#Team' passHref>Team</Link></li>
     </Ul>
     </div>
-    </div>
+    
   )
-
+}
 export default RightNav
