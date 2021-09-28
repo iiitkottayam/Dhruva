@@ -57,8 +57,6 @@ const Ul = styled.ul`
           transform: scaleX(1);
           transform-origin: bottom left;
         } 
-        `       
-      );
     }else{
       return ``;
     }
