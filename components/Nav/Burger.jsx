@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import RightNav from './RightNav';
 
-/*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is paased on RightBar to change the navigation view */
+/*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is passed on RightBar to change the navigation view */
 /*Code update: Burger has been now kept fixed for both mobile and desktop screens*/
 const StyledBurger = styled.div`
 width: 30px;
@@ -67,10 +67,9 @@ cursor: pointer;
 
 const Burger = () => {
   const [open, setOpen] = useState(false)
-  
   return (
     <>      
-      <StyledBurger open={open} onClick={() => setOpen(!open)}>        
+      <StyledBurger open={open} onClick={() => {!open ? document.getElementsByTagName("body")[0].style.overflow = "hidden" : document.getElementsByTagName("body")[0].style.overflow = "auto"; return setOpen(!open)}}>        
         <div className="first"/>
         <div className="second"/>
         <div className="third"/>     
