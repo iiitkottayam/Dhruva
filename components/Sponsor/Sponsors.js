@@ -1,10 +1,11 @@
 import { SponsorsRow } from './SponsorsRow'
+import { PrizesRow } from './PrizesRow'
 import styles from './Sponsor.module.css'
 import { sponsors } from '@data/sponsor'
 import { prizes } from '@data/prizes'
 
 export const Sponsors = (props) => {
-    let prizeMoney = '1,15,000'
+    let prizeMoney = '50,000'
 
     return (
         <div className={styles.sponsorDiv} id={'Prize'}>
@@ -14,7 +15,7 @@ export const Sponsors = (props) => {
             <h3 className={styles.prizeH3}>
                 Also win exciting prizes from our sponsors
             </h3>
-            <SponsorsRow sponsors={prizes} />
+            <PrizesRow prizes={prizes} />
             <div className={styles.prizeH2Margin} id={'Sponsors'}>
                 <h2 className={styles.prizeH2}>Our Sponsors</h2>
             </div>

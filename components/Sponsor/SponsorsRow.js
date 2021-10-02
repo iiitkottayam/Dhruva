@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styles from './Sponsor.module.css'
+import styleP from './Prizes.module.css'
 import Image from 'next/image'
 
 export const SponsorsRow  = (props) => {

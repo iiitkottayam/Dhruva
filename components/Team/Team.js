@@ -17,7 +17,7 @@ export const Team = () => {
                 Our <span>Team</span>
             </h1>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Mentor
+                Mentors
             </h2>
             <div className={styles.mentor}>
                 {mentors.map((data) => (

@@ -1,4 +1,4 @@
-.sponsorDiv {
+.prizesDiv {
     background: rgb(255, 237, 197);
     width: 100%;
     background: linear-gradient(
@@ -7,11 +7,11 @@
         #ffffff 45%
     );
 }
-.sponsorRow {
+.prizesRow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    row-gap: 2em;
+    row-gap: 4em;
     column-gap: 5em;
     margin-left: calc(4.5em + 5vw);
     margin-right: calc(4.5em + 5vw);
@@ -44,7 +44,7 @@
     margin-top: 12vw;
 }
 
-.sponsorMargin {
+.prizesMargin {
     margin-bottom: 80px;
 }
 
@@ -58,13 +58,13 @@
     font-weight: normal;
     color: var(--black); /* Will override color (regardless of order) */
 }
-.sponsorImg {
+.prizesImg {
     margin-left: 3vw;
     margin-right: 3vw;
     border-radius: 12px;
 }
 
-.sponsorLabel {
+.prizesLabel {
     font-family: var(--title);
     text-align: center;
     font-size: 1.5rem;
@@ -73,8 +73,22 @@
     color: var(--black);
 }
 
+.prizesDesc {
+    margin-inline: 0.25em;
+    width: 13em;
+    font-family: var(--title);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--black);
+}
+
 @media screen and (max-width: 320px) {
-    .sponsorLabel{
-        font-size: 1rem;
+    .prizesLabel{
+        font-size: 1.2rem;
+    }
+    .prizesDesc{
+        font-size: 1.2rem;
     }
 }

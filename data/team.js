@@ -17,6 +17,24 @@ const mentors = [
         instagram: 'https://www.instagram.com/_hrishabh_08/',
         twitter: 'https://twitter.com/hrishabhjoshi08',
     },
+    {
+        id: 3,
+        name: 'Gouri Nair',
+        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        gif: 'https://c.tenor.com/CgGUXc-LDc4AAAAC/hacker-pc.gif',
+        linkedin: 'https://www.linkedin.com/in/gouri-nair-618726201/',
+        instagram: 'https://www.instagram.com/itsgourinair/',
+        twitter: 'https://twitter.com/rio_nair',
+    },
+    {
+        id: 4,
+        name: 'Aditya Menon',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633171987/PXL_20210906_064610069.PORTRAIT-removebg-preview-removebg-preview_sa2trf.png',
+        gif: 'https://c.tenor.com/ULJn9_2K17UAAAAi/wazatoz-rick-roll.gif',
+        linkedin: 'https://www.linkedin.com/in/adityasrinivasmenon/',
+        instagram: 'https://www.instagram.com/adityasrinivas.menon/',
+        twitter: 'https://twitter.com/karynaur_',
+    },
 ]
 
 const developers = [
@@ -68,7 +86,7 @@ const developers = [
     {
         id: 6,
         name: 'Roshin Nishad',
-        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1631972161/hii_qokea2.jpg',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633177107/starlight_x6te1m.jpg',
         gif: 'https://c.tenor.com/G9HVBz-OJ-oAAAAC/dancing-peter-parker.gif',
         linkedin: 'https://www.linkedin.com/in/roshin-nishad/',
         instagram: 'https://www.instagram.com/juve_vittoria/',
@@ -77,7 +95,7 @@ const developers = [
     {
         id: 7,
         name: 'Sarthak Bindal',
-        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1631972161/profile_tyhdax.jpg',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633177376/profile1_cm3m8v.jpg',
         gif: 'https://c.tenor.com/KacVhPYaiCsAAAAC/mario-super-mario.gif',
         linkedin: 'https://www.linkedin.com/in/sarthak-bindal-747a6b202/',
         instagram: 'https://www.instagram.com/sarthak_0306/',
