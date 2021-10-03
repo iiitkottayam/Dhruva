@@ -45,7 +45,7 @@ const events = [
             'Are you even an engineer if you haven’t done some web dev? Here is a chance to implement all the Frontend facts you’ve learned so far. All you’ve to do is replicate the given website. Let’s see how original your copy is! Get Set Develop.',
         date: '29th October',
         time: '3:30pm - 5:00pm',
-        organisers: {},
+        organisers: {name : 'Shashank Srivastava',email: 'shashank.srivastava25sks@gmail.com', phoneNumber: '9793422020'},
         poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
         registration: '',
     },

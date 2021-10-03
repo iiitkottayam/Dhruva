@@ -34,10 +34,16 @@ export const getStaticProps = async (context) => {
             register: data[0].registration,
             date: data[0].date,
             time: data[0].time,
+            organisers: data[0].organisers,
         },
     }
 }
 export default function Home(props) {
+    const organisers = props.organisers
+    
+    
+
+    
     return (
         <>
             <div className={styles.container}>
@@ -60,7 +66,7 @@ export default function Home(props) {
                     date={props.date}
                     time={props.time}
                 />
-                <OrganizerContainer />
+                <OrganizerContainer name = {organisers.name} email = {organisers.email} phone = {organisers.phoneNumber}/>
             </div>
             <Footer />
         </>
