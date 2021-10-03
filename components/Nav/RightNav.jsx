@@ -8,7 +8,7 @@ import { useState } from 'react'
 const Ul = styled.ul`
     li{
       position: relative;
-      left: 16.5%;
+      left: 17%;
       top: -15%;
       margin: 20px auto 20px;
       text-align: center;
