@@ -35,9 +35,9 @@ const Ul = styled.ul`
     border-bottom-left-radius: 100%;
  
     z-index: -1;
-    -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
-    transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
-    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
+    -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
     -webkit-transform: ${({ open }) => open ? '' : 'translateX(100%) translateY(-100%)'};
     transform: ${({ open }) => open ? '' : 'translateX(100%) translateY(-100%)'}; 
 
