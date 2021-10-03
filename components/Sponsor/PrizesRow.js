@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import styleP from './Prizes.module.css'
 import Image from 'next/image'
 
+// This file is only for the Prizes Section of the Sponsors component AKA the Prizes Row
+
 export const PrizesRow  = (props) => {
         return (
             <div className={styleP.prizesRow}>

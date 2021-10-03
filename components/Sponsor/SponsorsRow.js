@@ -3,6 +3,8 @@ import styles from './Sponsor.module.css'
 import styleP from './Prizes.module.css'
 import Image from 'next/image'
 
+// This file is only for the 'Our Sponsors' Section of the Sponsors component AKA the Sponsors Row
+
 export const SponsorsRow  = (props) => {
         return (
             <div className={styles.sponsorRow}>
