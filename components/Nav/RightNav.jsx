@@ -104,7 +104,7 @@ const RightNav = ({ open }) => {
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
           <li className='hover-underline-animation' ><Link href='/#AboutUS' passHref>About Us</Link></li>
-          <li className='hover-underline-animation' ><Link href='/#Events' passHref>Events</Link></li>
+          <li className='hover-underline-animation' ><Link href='/Events' passHref>Events</Link></li>
           <li className='hover-underline-animation2' ><Link href='/#Prize' passHref>Prize</Link></li>
           <li className='hover-underline-animation' ><Link href='/#Sponsors' passHref>Sponsors</Link></li>
           <li className='hover-underline-animation2' ><Link href='/#FAQ' passHref>FAQ</Link></li>
