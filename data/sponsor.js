@@ -1,4 +1,4 @@
-// This is where you can edit the Main/Diamond Sponsors
+// This is where you can edit the data of Sponsors >> sponsors - diamond, sponsors2 - gold, sponsors3 - bronze.
 // old temp logo - https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png
 
 let sponsors = [
@@ -34,4 +34,62 @@ let sponsors = [
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633334560/elm-short-logo_u7ybnj_bxx32s.png',
     },
 ]
-export { sponsors }
+
+let sponsors2 = [
+    {
+        id: 1,
+        name: 'This',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+
+    {
+        id: 2,
+        name: 'will',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+    {
+        id: 3,
+        name: 'be',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+    {
+        id: 4,
+        name: 'Gold',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+    {
+        id: 5,
+        name: 'Tier',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+]
+
+let sponsors3 = [
+    {
+        id: 1,
+        name: 'This',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+
+    {
+        id: 2,
+        name: 'will',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+    {
+        id: 3,
+        name: 'be',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+    {
+        id: 4,
+        name: 'Bronze',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+    {
+        id: 5,
+        name: 'Tier',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+    },
+]
+export { sponsors, sponsors2, sponsors3 }

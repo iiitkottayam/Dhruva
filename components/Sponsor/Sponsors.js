@@ -2,10 +2,8 @@ import { SponsorsRow } from './SponsorsRow'
 import { PrizesRow } from './PrizesRow'
 import styles from './Sponsor.module.css'
 import styleP from './Prizes.module.css'
-import { sponsors } from '@data/sponsor' //This is the main Row of Sponsors >>sponsor.js | Go here to edit names
-import { sponsors2 } from '@data/sponsor2' //This will be the Gold Row of Sponsors >>sponsor2.js | Go here to edit names
-import { sponsors3 } from '@data/sponsor3' //This will be the Bronze Row of Sponsors >>sponsor3.js | Go here to edit names
-import { prizes } from '@data/prizes'
+import { sponsors, sponsors2, sponsors3 } from '@data/sponsor' //This is the data of Sponsors >>sponsor.js | Go here to edit names
+import { prizes } from '@data/prizes'                           //tier list >> sponsors - diamond, sponsors2 - gold, sponsors3 - bronze.
 
 // This is the MAIN File for the entire Sponsors component.
 
