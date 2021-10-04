@@ -6,9 +6,7 @@ import {
     FaTwitch,
     FaYoutube,
 } from 'react-icons/fa'
-import {
-    SiDiscord,
-} from 'react-icons/si'
+import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
