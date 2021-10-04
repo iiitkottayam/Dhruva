@@ -40,7 +40,7 @@ const events = [
         id: 1,
         link: 'console-log-replicate',
         name: 'console.log(“replicate”)',
-        // tag: 'dsds',
+        tag: 'Can you handle the Sass?',
         description:
             'Are you even an engineer if you haven’t done some web dev? Here is a chance to implement all the Frontend facts you’ve learned so far. All you’ve to do is replicate the given website. Let’s see how original your copy is! Get Set Develop.',
         date: '29th October',
