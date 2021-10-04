@@ -16,18 +16,30 @@ import { useEffect, useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { useRouter } from 'next/dist/client/router';
 
 export default function Home() {
 
+  const router = useRouter();
+  
+  
   const [show , setShow] = useState(true);
   const [height , setHeight] = useState("100vh")
+
     useEffect(() => {
-            const timer = setTimeout(() => {
-                setShow(false);
-                setHeight(null)
-            }, 6800);
-            return () => clearTimeout(timer);
-    }, []);
+            if(router.asPath !== "/"){
+              setShow(false);
+              setHeight(null);
+            }
+            else{
+                const timer = setTimeout(() => {
+                  setShow(false);
+                  setHeight(null)
+              }, 6800);
+              return () => clearTimeout(timer);
+            }
+            
+    }, [router.asPath]);
     useEffect(() => {
         AOS.init({
         });
@@ -57,9 +69,23 @@ export default function Home() {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
       {
-        show ?
-          <Intro/>
+        router.asPath === "/" ?
+          show ?
+            <Intro/>
+          :
+          <>
+            <Navbar/>
+            <Header />
+            <About/> 
+            <Attendes />
+            <Speakers />
+            <Timeline />
+            <Sponsors/>
+            <Sponsor_Faq />
+          </>
+
         :
+        
         <>
           <Navbar/>
           <Header />
@@ -70,6 +96,7 @@ export default function Home() {
           <Sponsors/>
           <Sponsor_Faq />
         </>
+        
       }
       
 

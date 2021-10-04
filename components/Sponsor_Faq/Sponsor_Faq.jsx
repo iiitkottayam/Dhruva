@@ -7,7 +7,7 @@ import { ImArrowUpRight2 } from 'react-icons/im'
 const Sponsor_Faq = () => {
 
     return (
-        <div className={Style.wrapper} id={'FAQ'}>
+        <div className={Style.wrapper} id='FAQ'>
             {' '}
             {/* in-page navigation to FAQ section on clicking FAQ from the navbar */}{' '}
             {/* also added smooth scroll for the entire page in globals.css */}

@@ -1,165 +1,72 @@
 import Link from 'next/link'
 import styled from 'styled-components'
+import { useState } from 'react'
 
 /*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
 /*Code Update: The burger and Right Navbar has been kept constant for both desktop and mobile screens*/
+
 const Ul = styled.ul`
+    li{
+      position: relative;
+      left: 16.5%;
+      top: -15%;
+      margin: 20px auto 20px;
+      text-align: center;
+      cursor: pointer;
+      width: 200px;
+      transition: transform 0.3s;
+      -webkit-transform: ${({ open }) => open ? 'translate(0%, 0%)' : 'translate(500%, 0%)'};
+      transform: ${({ open }) => open ? 'translate(0%, 0%)' : 'translate(500%, 0%)'};
+    }
+
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    font-size: 0.5em;
-    li {
-        text-align: center;
-        width: 60%;
-        padding-right: 3em;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        cursor: pointer;
-    }
-    ${function ({ open }) {
-     if (open == false) 
-      {
-        return `.hover-underline-animation {
-        display: inline-block;
-        position: relative;            
-        }
-        .hover-underline-animation2 {
-          display: inline-block;
-          position: relative;            
-        }
-        .hover-underline-animation:after {
-          content: '';
-          position: absolute;         
-          width: 60%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;          
-          left: 0;
-          background-color: #fff;
-          transform-origin: bottom right;
-          transition: transform 1s ease-out;
-        } 
-        .hover-underline-animation2:after {          
-          content: '';
-          position: absolute;         
-          width: 45%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;          
-          left: 0;
-          background-color: #fff;
-          transform-origin: bottom right;
-          transition: transform 1s ease-out;
-        } 
-        .hover-underline-animation:hover:after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        } 
-        .hover-underline-animation2:hover:after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        }` 
-      }
-      else{
-      return ``;
-      }
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+    padding: 0;
     
-    }}
-  @media (min-width: 0px) {
-   
-  content: "";
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background: rgba(20, 21, 26,0.6);
-	border-bottom-left-radius: 200%;
-	z-index: -1;
-	-webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-	transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-	transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-	transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
-	-webkit-transform: ${({ open }) => open ? 'translateX(0%)' : 'translateY(-100%)'};
-  transform: ${({ open }) => open ? 'translateX(0%)' : 'translateY(-100%)'};
-   
-  margin: 0px;
-  top: 0;
-  right: 0;         
-  overflow: hidden;       
-  flex-flow: column nowrap;        
-           
-  .ul{
-   position: relative;
-   padding: 0;
-   margin: 0;
-   z-index: 2;
-  }
-        
-              
-  .li {
-   position: relative;
-   display: block;
-   -webkit-transition-delay: 0.8s;
-   transition-delay: 0.8s;
-   opacity: 100;
-   text-align: center;
-	 color: #fff;
-	 overflow: hidden; 
-   font-family: 'Montserrat', sans-serif;
-	 font-size: 8vh;
-	 font-weight: 900;
-	 line-height: 1.15;
-	 letter-spacing: 3px;
-   tranform-origin: 100%;
-	 -webkit-transform: ${({ open }) => !open ? 'translate(100%)' : '0%'};
-    transform: ${({ open }) => !open ? 'translate(100%)' : '0%'};
-	 -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
-	 transition: opacity .2s ease, -webkit-transform .3s ease;
-	 transition: opacity .2s ease, transform .3s ease;
-	 transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
-	 margin-top: 0;
-	 margin-bottom: 0;
-  }
+    content: "";
+    position: fixed;
+    width: 150vw;
+    height: 150vh;
+    background: rgba(12, 13, 13, 0.92);
+    border-bottom-left-radius: 100%;
  
-  .li a{
-    position: relative;
- 	  text-decoration: none;
-    color: rgba(255,255,255,0.6);
-	  overflow: hidden; 
-	  cursor: pointer;
-	  padding-left: 5px;
-	  padding-right: 5px;
-	  font-weight: 900;
-	  z-index: 2;
-	  display: inline-block;
-	  text-transform: uppercase;
-    -webkit-transition: all 200ms linear;
-    transition: all 200ms linear; 
- }
+    z-index: -1;
+    -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    -webkit-transform: ${({ open }) => open ? '' : 'translateX(100%) translateY(-100%)'};
+    transform: ${({ open }) => open ? '' : 'translateX(100%) translateY(-100%)'}; 
 
- &:active{
-  opacity: 1;
-  -webkit-transform: ${({ open }) => open ? 'translateX(0%)' : ''};
-  transform: ${({ open }) => open ? 'translateX(0%)' : ''};
-  -webkit-transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, color .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, color .3s ease;
-  transition: opacity .3s ease, transform .3s ease, color .3s ease, -webkit-transform .3s ease;
- }
-}
+    margin: 0px;
+    top: 0;
+    right: 0;         
+    overflow: hidden;       
+    flex-flow: column nowrap; 
 `
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, setOpen }) => {
+  function toggle(){
+    if(open){
+      return setOpen(!open);
+    }
+    else{
+      return setOpen(open);
+    }
+  }
   return (
-    
     <div className='overlay overlay-contentpush open'>
-       <Ul open={open}>      
-      <li className='hover-underline-animation'><Link href='#AboutUS' passHref>AboutUs</Link></li>
-      <li className='hover-underline-animation'><Link href='#Events' passHref>Events</Link></li>
-      <li className='hover-underline-animation2'><Link href='#FAQ' passHref>FAQ</Link></li>
-      <li className='hover-underline-animation2'><Link href='#Prize' passHref>Prize</Link></li>
-      <li className='hover-underline-animation'><Link href='#Sponsors' passHref>Sponsors</Link></li>
-      <li className='hover-underline-animation2'><Link href='#Team' passHref>Team</Link></li>
-    </Ul>
+        <Ul open={open}>      
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#Prize' passHref>Prize</Link></li>
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#FAQ' passHref>FAQ</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/team' passHref>Team</Link></li>
+        </Ul>
     </div>
     
   )

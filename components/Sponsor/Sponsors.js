@@ -7,7 +7,7 @@ export const Sponsors = (props) => {
     let prizeMoney = '1,15,000'
 
     return (
-        <div className={styles.sponsorDiv} id={'Prize'}>
+        <div className={styles.sponsorDiv} id='Prize'>
             <h2 className={styles.prizeH2Stroke}>Prizes</h2>
             <h3 className={styles.prizeH3}>Total prize of</h3>
             <h2 className={styles.prizeH2}>Rs. {prizeMoney}</h2>
