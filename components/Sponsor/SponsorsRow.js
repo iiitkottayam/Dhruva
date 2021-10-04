@@ -9,11 +9,12 @@ export const SponsorsRow  = (props) => {
             <div className={styles.sponsorRow}>
                 {props.sponsors.map((sponsor) => {
                  return <div key={sponsor.id} className="column div-margin" align="center">
-
-                            {/* TODO Make Sponsor Image and h2 redirect to Sponsor website */}
-
-                        <a href={sponsor.link} target="_blank" rel="noopener noreferrer"><Image src={sponsor.logo} alt="Logo not available" width={140} height={140} className={styles.sponsorImg}/></a>
-                        <a href={sponsor.link} target="_blank" rel="noopener noreferrer"><h2 className={styles.sponsorLabel}>{sponsor.name}</h2></a>
+                        <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
+                            <Image src={sponsor.logo} alt="Logo not available" width={140} height={140} className={styles.sponsorImg}/>
+                        </a>
+                        <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
+                            <h2 className={styles.sponsorLabel}>{sponsor.name}</h2>
+                        </a>
                     </div>
             })}
             </div>

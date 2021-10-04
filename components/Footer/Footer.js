@@ -2,11 +2,13 @@ import {
     FaFacebookSquare,
     FaInstagram,
     FaTwitter,
-    FaDiscord,
     FaEnvelope,
     FaTwitch,
     FaYoutube,
 } from 'react-icons/fa'
+import {
+    SiDiscord,
+} from 'react-icons/si'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -64,7 +66,7 @@ const Footer = () => {
                                 passHref={true}
                             >
                                 <a target="_blank">
-                                    <FaDiscord />
+                                    <SiDiscord />
                                 </a>
                             </Link>
                         </li>

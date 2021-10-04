@@ -95,7 +95,7 @@ const developers = [
     {
         id: 7,
         name: 'Sarthak Bindal',
-        image: 'https://res.cloudinary.com/roshin/image/upload/v1633177376/profile1_cm3m8v.jpg',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633345924/heman_rzzlu0.jpg',
         gif: 'https://c.tenor.com/KacVhPYaiCsAAAAC/mario-super-mario.gif',
         linkedin: 'https://www.linkedin.com/in/sarthak-bindal-747a6b202/',
         instagram: 'https://www.instagram.com/sarthak_0306/',
