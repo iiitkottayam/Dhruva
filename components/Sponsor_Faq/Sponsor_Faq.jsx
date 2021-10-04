@@ -71,7 +71,7 @@ const Sponsor_Faq = () => {
                             We are happy to resolve all the doubts, just email
                             us at{' '}
                             <a href="mailto:techclub@iiitkottayam.ac.in">
-                                techclub@iiitkottayam.ac.in
+                                techclub@<wbr/>iiitkottayam.ac.in
                             </a>
                             .
                         </div>

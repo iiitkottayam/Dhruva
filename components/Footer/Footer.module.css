@@ -72,9 +72,17 @@
     }
 }
 
+/* Keeping the icons centered at widths 430px and below as it keeps moving */
 @media (max-width: 430px) {
     .icons {
         margin-left: -1.35em;
+    }
+}
+
+/* Galaxy fold alignment is the media query below */
+@media (max-width: 335px) {
+    .icons li {
+        font-size: 1.225rem;
     }
 }
 

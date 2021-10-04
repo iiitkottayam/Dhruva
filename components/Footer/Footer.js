@@ -1,5 +1,5 @@
 import {
-    FaFacebookF,
+    FaFacebookSquare,
     FaInstagram,
     FaTwitter,
     FaDiscord,
@@ -34,7 +34,7 @@ const Footer = () => {
                                 passHref={true}
                             >
                                 <a target="_blank">
-                                    <FaFacebookF />{' '}
+                                    <FaFacebookSquare />
                                 </a>
                             </Link>
                         </li>
