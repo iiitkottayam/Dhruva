@@ -46,69 +46,26 @@ const Ul = styled.ul`
     right: 0;         
     overflow: hidden;       
     flex-flow: column nowrap; 
-
-    
-    /* ${function ({ open }) {
-     if (open == false) 
-      {
-        return `.hover-underline-animation {
-        display: inline-block;
-        position: relative;            
-        }
-        .hover-underline-animation2 {
-          display: inline-block;
-          position: relative;            
-        }
-        .hover-underline-animation:after {
-          content: '';
-          position: absolute;         
-          width: 100%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;          
-          left: 0;
-          background-color: #fff;
-          transform-origin: bottom right;
-          transition: transform 1s ease-out;
-        } 
-        .hover-underline-animation2:after {          
-          content: '';
-          position: absolute;         
-          width: 100%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;          
-          left: 0;
-          background-color: #fff;
-          transform-origin: bottom right;
-          transition: transform 1s ease-out;
-        } 
-        .hover-underline-animation:hover:after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        } 
-        .hover-underline-animation2:hover:after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        }` 
-      }
-      else{
-      return ``;
-      }
-    
-    }} */
 `
 
-const RightNav = ({ open }) => {
+const RightNav = ({ open, setOpen }) => {
+  function toggle(){
+    if(open){
+      return setOpen(!open);
+    }
+    else{
+      return setOpen(open);
+    }
+  }
   return (
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
-          <li className='hover-underline-animation' ><Link href='/#AboutUS' passHref>About Us</Link></li>
-          <li className='hover-underline-animation' ><Link href='/events' passHref>Events</Link></li>
-          <li className='hover-underline-animation2' ><Link href='/#Prize' passHref>Prize</Link></li>
-          <li className='hover-underline-animation' ><Link href='/#Sponsors' passHref>Sponsors</Link></li>
-          <li className='hover-underline-animation2' ><Link href='/#FAQ' passHref>FAQ</Link></li>
-          <li className='hover-underline-animation2' ><Link href='/team' passHref>Team</Link></li>
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#Prize' passHref>Prize</Link></li>
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#FAQ' passHref>FAQ</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/team' passHref>Team</Link></li>
         </Ul>
     </div>
     
