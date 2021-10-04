@@ -30,7 +30,6 @@ const Card = (props) => {
                                 alt="poster"
                                 height="250"
                                 width="250"
-                                priority= {true}
                             />
                         )}
 

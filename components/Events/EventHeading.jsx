@@ -7,7 +7,7 @@ const EventHeading = (props) => {
         <div className={styles.container}>
             <div className={styles.Heading}>
                 <h1>{props.title}</h1>
-                <p>{props.tag}</p>
+                <p>{props.content}</p>
                 <a href={props.register} target="_blank" rel="noreferrer">
                     <HButton name="Register" />
                 </a>
