@@ -1,29 +1,37 @@
+// This is where you can edit the Main/Diamond Sponsors
+// old temp logo - https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png
+
 let sponsors = [
     {
         id: 1,
         name: 'Repl.it',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+        link: 'https://replit.com/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633315950/1200px-Repl.it_logo.svg_jd5lqg.png',
     },
 
     {
         id: 2,
-        name: 'Interviewcake',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+        name: 'Interview Cake',
+        link: 'https://www.interviewcake.com/',
+        logo: 'http://res.cloudinary.com/roshin/image/upload/c_crop,h_221,w_221/v1633316772/interview-cake_ilm2ek.png',
     },
     {
         id: 3,
         name: 'Taskade',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+        link: 'https://www.taskade.com/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633333293/mCSOnOC0ChLj9_TsUGQOLdb3yUfZ4F7GUXgWngMLZcDXCF29Q4ALzCgRTX52b0tR2g_ip2ipl.png',
     },
     {
         id: 4,
         name: 'Wolfram',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+        link: 'https://www.wolframalpha.com/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633333794/2886_wolfram-alpha-logo_ttx75f.png',
     },
     {
         id: 5,
-        name: 'Elearnmarket',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+        name: 'Elearnmarkets',
+        link: 'https://www.elearnmarkets.com/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633334560/elm-short-logo_u7ybnj_bxx32s.png',
     },
 ]
 export { sponsors }

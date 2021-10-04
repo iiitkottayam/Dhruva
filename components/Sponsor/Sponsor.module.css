@@ -1,15 +1,5 @@
 /* This file styles the 'Our Sponsors' section of the Sponsor component */
 
-.sponsorDiv {
-    background: rgb(255, 237, 197);
-    width: 100%;
-    background: linear-gradient(
-        180deg,
-        #ffcda1 0%,
-        #ffffff 45%
-    );
-}
-
 .sponsorRow {
     display: flex;
     flex-wrap: wrap;
@@ -54,22 +44,27 @@
 .sponsorImg {
     margin-left: 3vw;
     margin-right: 3vw;
-    border-radius: 12px;
 }
 
 .sponsorLabel {
     font-family: var(--title);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     color: var(--black);
+    text-decoration: var(--white);
+    transition: text-decoration 250ms ease-in-out;
 }
 
-/* The pictures are changing their size based on the size of the Label, this down below is to stop that */
+.sponsorLabel:hover {
+    text-decoration: underline orange;
+}
+
+/* The pictures are changing their size based on the size of the Label, media query below is to stop that */
 
 @media screen and (max-width: 320px) {
     .sponsorLabel{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }

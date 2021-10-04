@@ -13,7 +13,7 @@ export const Sponsors = (props) => {
     let prizeMoney = '50,000'
 
     return (
-        <div className={styleP.prizesDiv} id={'Prize'}>
+        <div className={styleP.prizesDiv} id='Prize'>
 
             {/* All lines below before the next comment are for the 'Prizes' part of the Sponsors component,
             And is taking it's styling from Prizes.module.css */}
