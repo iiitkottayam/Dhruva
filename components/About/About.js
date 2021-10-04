@@ -10,7 +10,7 @@ const About = () => {
     const [showTimer, setShowTimer] = useState(true)
 
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id = 'AboutUS'>
             <div className={styles.title_container}>
                 <h1 className={styles.title} >
                     What is <span>Dhruva&nbsp;?</span>

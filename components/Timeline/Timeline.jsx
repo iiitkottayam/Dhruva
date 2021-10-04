@@ -36,7 +36,7 @@ export default function Timeline() {
         setday4(true)
     }
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id = 'Events'>
             <div className={styles.header}>
                 <p className={styles.err}>Timeline</p>
             </div>
