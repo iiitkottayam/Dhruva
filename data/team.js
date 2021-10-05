@@ -29,7 +29,7 @@ const mentors = [
     {
         id: 4,
         name: 'Aditya Menon',
-        image: 'https://res.cloudinary.com/roshin/image/upload/v1633171987/PXL_20210906_064610069.PORTRAIT-removebg-preview-removebg-preview_sa2trf.png',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633396445/adi_2_za41sf.jpg',
         gif: 'https://c.tenor.com/ULJn9_2K17UAAAAi/wazatoz-rick-roll.gif',
         linkedin: 'https://www.linkedin.com/in/adityasrinivasmenon/',
         instagram: 'https://www.instagram.com/adityasrinivas.menon/',

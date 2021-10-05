@@ -9,7 +9,7 @@ const Ul = styled.ul`
     li{
       position: relative;
       left: 16.5%;
-      top: -15%;
+      top: -16.5%;
       margin: 20px auto 20px;
       text-align: center;
       cursor: pointer;
@@ -60,9 +60,10 @@ const RightNav = ({ open, setOpen }) => {
   return (
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
+          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#' passHref>Home</Link></li>
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
-          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#Prize' passHref>Prize</Link></li>
+          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#Prize' passHref>Prizes</Link></li>
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>
           <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#FAQ' passHref>FAQ</Link></li>
           <li className='hover-underline-animation2' onClick = {toggle}><Link href='/team' passHref>Team</Link></li>
