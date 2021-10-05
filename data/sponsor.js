@@ -25,7 +25,7 @@ let sponsors = [
         id: 4,
         name: 'Wolfram',
         link: 'https://www.wolframalpha.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633333794/2886_wolfram-alpha-logo_ttx75f.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633401789/wolf_jdmle0.png',
     },
     {
         id: 5,
