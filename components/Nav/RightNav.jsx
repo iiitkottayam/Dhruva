@@ -49,6 +49,9 @@ const Ul = styled.ul`
 `
 
 const RightNav = ({ open, setOpen }) => {
+  setTimeout(() => {
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+  },1);
   function toggle(){
     if(open){
       return setOpen(!open);
@@ -60,7 +63,6 @@ const RightNav = ({ open, setOpen }) => {
   return (
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
-            {/* TODO: Fix the Same Page links, once pressing #link and then reloading, the Header disappers */}
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/#' passHref>Home</Link></li>
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
