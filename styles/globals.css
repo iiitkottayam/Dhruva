@@ -27,6 +27,11 @@ a {
 * {
     box-sizing: border-box;
 }
+
+*::selection{
+    background: #8c58fcda; /* Disable this to switch selection color to blue */
+}
+
 [data-aos='rotate-c'].aos-animate {
     transform: rotateX(30deg) rotateY(0deg) rotateZ(15deg);
     transition-property: transform;
@@ -52,4 +57,8 @@ a {
     background-color: #858585;
     border-radius: 7px;
     border: 0px none #a09eff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #cacaca;
 }

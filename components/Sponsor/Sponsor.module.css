@@ -7,8 +7,8 @@
     row-gap: 2em;
     column-gap: 5em;
     margin-top: calc(13em - 18vh); /* Spaces the logos from the title above */
-    margin-left: calc(4.5em + 5vw);
-    margin-right: calc(4.5em + 5vw);
+    margin-left: calc(4.5em + 4.5vw);
+    margin-right: calc(4.5em + 4.5vw);
 }
 
 .sponsorH2 {
@@ -21,6 +21,8 @@
     color: var(--black); /* Will override color (regardless of order) */
     letter-spacing: -0.032em;
 }
+
+/* Sponsor H3 is for the tier list headings (Diamond, Gold, Bronze) */
 
 .sponsorH3 {
     font-family: var(--title);
@@ -64,6 +66,10 @@
 /* The pictures are changing their size based on the size of the Label, media query below is to stop that */
 
 @media screen and (max-width: 320px) {
+    .sponsorRow{
+        margin-top: calc(10em - 18vh); 
+    }
+
     .sponsorLabel{
         font-size: 1rem;
     }

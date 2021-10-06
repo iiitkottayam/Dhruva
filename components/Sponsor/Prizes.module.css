@@ -18,8 +18,9 @@
     row-gap: 4em;
     column-gap: 2em;
     margin-top: calc(13em - 18vh); /* Spaces the logos from the title above */
-    margin-left: calc(4.5em + 5vw); /* Spaces left and right */
-    margin-right: calc(4.5em + 5vw); /* Spaces left and right */
+    /* Margin below Spaces left and right - make it 4vw incase more negative space is necessary */
+    margin-left: calc(3.5em + 5vw); 
+    margin-right: calc(3.5em + 5vw); 
 }
 
 .prizeH2Stroke {
@@ -73,8 +74,9 @@
 }
 
 .prizesDesc {
-    margin-inline: 0.25em;
-    width: 13.5em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    width: 14em; /* More inline padding requires more width here for the desc */
     font-family: var(--title);
     text-align: center;
     font-size: 1.5rem;
@@ -94,9 +96,9 @@
 
 @media screen and (max-width: 320px) {
     .prizesLabel{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .prizesDesc{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }

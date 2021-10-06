@@ -50,6 +50,7 @@ const Navbar = () => {
                         <img
                             src="/png/dhruva-dark-icon.png"
                             className="logoimg"
+                            alt="Dhruva Logo"
                         ></img>
                     </a>
                 </Link>

@@ -60,7 +60,9 @@ const RightNav = ({ open, setOpen }) => {
   return (
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
-          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#' passHref>Home</Link></li>
+            {/* TODO: Fix the Home link, On reload after pressing the Home li, the Header does not load */}
+          {/* <li className='hover-underline-animation' onClick = {toggle}><Link href='/#Header' passHref>Home</Link></li> */}
+
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
           <li className='hover-underline-animation' onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
           <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#Prize' passHref>Prizes</Link></li>
