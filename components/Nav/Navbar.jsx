@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import Burger from './Burger'
 import Link from 'next/link'
-import Image from 'next/Image'
 
 const Nav = styled.nav`
     overflow-x: hidden;
@@ -48,13 +47,11 @@ const Navbar = () => {
             <div className="logo">
                 <Link href="/">
                     <a target="_self">
-                        <Image
+                        <img
                             src="/png/dhruva-dark-icon.png"
                             className="logoimg"
                             alt="Dhruva Logo"
-                            height={40}
-                            width={40}
-                        ></Image>
+                        ></img>
                     </a>
                 </Link>
 
