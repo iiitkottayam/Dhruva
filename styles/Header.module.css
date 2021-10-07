@@ -94,7 +94,7 @@
         rgba(140, 88, 252, 1),
         rgba(193.85, 138.52, 255, 1) 26%,
         rgba(255, 191.87, 137.46, 1) 67%,
-        rgba(255, 191.87, 137.46, 0.2)
+        rgba(255, 191.87, 137.46, 0.5)
     );
     background-clip: text;
     -webkit-background-clip: text;

@@ -1,12 +1,12 @@
 import {
-    FaFacebookF,
+    FaFacebookSquare,
     FaInstagram,
     FaTwitter,
-    FaDiscord,
     FaEnvelope,
     FaTwitch,
     FaYoutube,
 } from 'react-icons/fa'
+import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -21,41 +21,71 @@ const Footer = () => {
                 <div className={styles.icons}>
                     <ul>
                         <li>
-                            <Link href="#" passHref={true}>
+                            <Link
+                                href="mailto:techclub@iiitkottayam.ac.in"
+                                passHref={true}
+                            >
                                 <FaEnvelope />
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" passHref={true}>
-                                <FaFacebookF />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="#" passHref={true}>
-                                <FaInstagram />
+                            <Link
+                                href="https://www.facebook.com/Dhruva-IIITK-100145739097786"
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <FaFacebookSquare />
+                                </a>
                             </Link>
                         </li>
                         <li>
                             <Link
-                                href="https://twitter.com/techclub_iiitk"
+                                href="https://www.instagram.com/dhruva_iiitk/"
                                 passHref={true}
                             >
-                                <FaTwitter />
+                                <a target="_blank">
+                                    <FaInstagram />
+                                </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" passHref={true}>
-                                <FaDiscord />
+                            <Link
+                                href="https://twitter.com/Dhruva_IIITK"
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <FaTwitter />
+                                </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" passHref={true}>
-                                <FaYoutube />
+                            <Link
+                                href="https://discord.com/channels/@me"
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <SiDiscord />
+                                </a>
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" passHref={true}>
-                                <FaTwitch />
+                            <Link
+                                href="https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA"
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <FaYoutube />
+                                </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                href="https://www.twitch.tv/dhruva_iiitk"
+                                passHref={true}
+                            >
+                                <a target="_blank">
+                                    <FaTwitch />
+                                </a>
                             </Link>
                         </li>
                     </ul>

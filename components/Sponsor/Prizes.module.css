@@ -1,0 +1,106 @@
+/* This file only styles the 'Prizes' Section of the Sponsor Component */
+
+.prizesDiv {
+    background: #ffedc5;
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        #ffcda1 0%,
+        #d8c7ff 40%,
+        #ffecdd 70%,
+        #ffc089 100%
+    );
+}
+
+.prizesRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 4em;
+    column-gap: 2em;
+    margin-top: calc(13em - 18vh); /* Spaces the logos from the title above */
+    /* Margin below Spaces left and right - make it 4vw incase more negative space is necessary */
+    margin-left: calc(3.5em + 5vw); 
+    margin-right: calc(3.5em + 5vw); 
+}
+
+.prizeH2Stroke {
+    font-family: var(--title);
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 0.5em;
+    font-size: calc(3.5vw + 7vh + 2vmin); /*responsive font size w/o media queries*/
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
+    color: #f2cbc0;
+    letter-spacing: 1.5px;
+}
+
+.prizeH2 {
+    font-family: var(--title);
+    text-align: center;
+    font-size: calc(2vw + 3vh + 2vmin); /*responsive font size w/o media queries*/
+    font-style: normal;
+    margin-top: 5vw;
+    font-weight: 600;
+    color: var(--black); /* Will override color (regardless of order) */
+    letter-spacing: -0.032em;
+}
+
+.prizeH3 {
+    font-family: var(--title);
+    text-align: center;
+    font-size: calc(0.7vw + 3vh + 2vmin); /*responsive font size w/o media queries*/
+    padding: 0 0.2em;
+    margin-top: 4vw;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--black); /* Will override color (regardless of order) */
+}
+
+.prizesImg {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-radius: 12px;
+}
+
+.prizesLabel {
+    font-family: var(--title);
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.prizesDesc {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    width: 14em; /* More inline padding requires more width here for the desc */
+    font-family: var(--title);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--black);
+}
+
+@media screen and (max-width: 768px) {
+    .prizeH2Stroke {
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+        1px 1px 0 #000;
+        color: #f9cbac;
+    }
+}
+
+/* For Sizes iphone 4 and below (Galaxy Fold) */
+
+@media screen and (max-width: 320px) {
+    .prizesLabel{
+        font-size: 1.1rem;
+    }
+    .prizesDesc{
+        font-size: 1.1rem;
+    }
+}

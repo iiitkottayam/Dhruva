@@ -1,73 +1,76 @@
-.sponsorDiv {
-    background: rgb(255, 237, 197);
-    width: 100%;
-    background: linear-gradient(
-        180deg,
-        #ffcda1 0%,
-        #ffffff 45%
-    );
-}
+/* This file styles the 'Our Sponsors' section of the Sponsor component */
+
 .sponsorRow {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.prizeH2Stroke {
-    font-family: var(--title);
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    margin-bottom: 0.6em;
-    font-size: calc(5vw + 4vh + 2vmin);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-        1px 1px 0 #000;
-    color: #ffd8b6;
-    letter-spacing: 1.5px;
+    row-gap: 2em;
+    column-gap: 5em;
+    margin-top: calc(13em - 18vh); /* Spaces the logos from the title above */
+    margin-left: calc(4.5em + 4.5vw);
+    margin-right: calc(4.5em + 4.5vw);
 }
 
-.prizeH2 {
+.sponsorH2 {
     font-family: var(--title);
     text-align: center;
     font-size: calc(2vw + 3vh + 2vmin);
     font-style: normal;
-    margin-top: 5vw;
+    margin-top: 4vw;
     font-weight: normal;
     color: var(--black); /* Will override color (regardless of order) */
     letter-spacing: -0.032em;
 }
 
-.prizeH2Margin {
-    margin-top: 12vw;
-}
+/* Sponsor H3 is for the tier list headings (Diamond, Gold, Bronze) */
 
-.sponsorMargin {
-    margin-bottom: 80px;
-}
-
-.prizeH3 {
+.sponsorH3 {
     font-family: var(--title);
     text-align: center;
-    font-size: calc(1.5vw + 1vh + 2vmin);
+    font-size: calc(0.85vw + 2vh + 2vmin);
     padding: 0 0.2em;
     margin-top: 5vw;
     font-style: normal;
     font-weight: normal;
     color: var(--black); /* Will override color (regardless of order) */
 }
+
+.sponsorH2Margin {
+    margin-top: 4vw;
+}
+
+.sponsorMargin {
+    margin-bottom: 80px;
+}
+
 .sponsorImg {
     margin-left: 3vw;
     margin-right: 3vw;
-    border-radius: 12px;
 }
 
 .sponsorLabel {
     font-family: var(--title);
     text-align: center;
-    font-size: auto;
+    font-size: 1.6rem;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     color: var(--black);
+    text-decoration: underline transparent;
+    transition: text-decoration 250ms ease-in-out;
+}
+
+.sponsorLabel:hover {
+    text-decoration: underline #8c58fc;
+}
+
+/* The pictures are changing their size based on the size of the Label, media query below is to stop that */
+
+@media screen and (max-width: 320px) {
+    .sponsorRow{
+        margin-top: calc(10em - 18vh); 
+    }
+
+    .sponsorLabel{
+        font-size: 1rem;
+    }
 }

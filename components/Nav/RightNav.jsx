@@ -1,117 +1,78 @@
-import Link from 'next/link';
-import styled from 'styled-components';
+import Link from 'next/link'
+import styled from 'styled-components'
+import { useState } from 'react'
 
 /*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
+/*Code Update: The burger and Right Navbar has been kept constant for both desktop and mobile screens*/
+
 const Ul = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-flow: row nowrap;
-  font-size: 0.5em;
-  li {   
-    text-align: center;
-    width: 60%;     
-    padding-right: 3em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    cursor: pointer;    
-  }    
-  ${ function ({open}){
-    if (open==false) {
-      return (
-        `.hover-underline-animation {
-          display: inline-block;
-          position: relative;            
-        }
-        .hover-underline-animation2 {
-          display: inline-block;
-          position: relative;            
-        }
-        .hover-underline-animation:after {
-          content: '';
-          position: absolute;         
-          width: 60%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;          
-          left: 0;
-          background-color: #fff;
-          transform-origin: bottom right;
-          transition: transform 1s ease-out;
-        } 
-        .hover-underline-animation2:after {          
-          content: '';
-          position: absolute;         
-          width: 45%;
-          transform: scaleX(0);
-          height: 2px;
-          bottom: 0;          
-          left: 0;
-          background-color: #fff;
-          transform-origin: bottom right;
-          transition: transform 1s ease-out;
-        } 
-        .hover-underline-animation:hover:after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        } 
-        .hover-underline-animation2:hover:after {
-          transform: scaleX(1);
-          transform-origin: bottom left;
-        } 
-        `       
-      );
-    }else{
-      return ``;
+    li{
+      position: relative;
+      left: 16.5%;
+      top: -16.5%;
+      margin: 20px auto 20px;
+      text-align: center;
+      cursor: pointer;
+      width: 200px;
+      transition: transform 0.3s;
+      -webkit-transform: ${({ open }) => open ? 'translate(0%, 0%)' : 'translate(500%, 0%)'};
+      transform: ${({ open }) => open ? 'translate(0%, 0%)' : 'translate(500%, 0%)'};
     }
-  }
 
-  }
-  @media (min-width: 0px) {
-    margin: 0px;
-    flex-flow: column nowrap;
-    background-color: #0D2538;    
-    position: fixed;
-    overflow: hidden;
-    background: rgba( 1, 1, 1, 0.60 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13.0px );
-    -webkit-backdrop-filter: blur( 13.0px );    
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    padding-top: 1rem;
-    transition: transform 0.3s ease-in-out;npm
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+    padding: 0;
     
-    li {
-      font-size: 1.5rem;
-      padding-top: 1.5rem;
-      color: #fff; 
+    content: "";
+    position: fixed;
+    width: 150vw;
+    height: 150vh;
+    background: rgba(12, 13, 13, 0.92);
+    border-bottom-left-radius: 100%;
+ 
+    z-index: -1;
+    -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+    -webkit-transform: ${({ open }) => open ? '' : 'translateX(100%) translateY(-100%)'};
+    transform: ${({ open }) => open ? '' : 'translateX(100%) translateY(-100%)'}; 
+
+    margin: 0px;
+    top: 0;
+    right: 0;         
+    overflow: hidden;       
+    flex-flow: column nowrap; 
+`
+
+const RightNav = ({ open, setOpen }) => {
+  
+  function toggle(){
+    setTimeout(() => {
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    },3000);
+    if(open){
+      return setOpen(!open);
+    }
+    else{
+      return setOpen(open);
     }
   }
-`;
-
- 
-
-const RightNav = ({ open }) => {
   return (
     <div className='overlay overlay-contentpush open'>
-
-    <Ul open={open}>      
-
-      <li className='hover-underline-animation'><Link href='/#AboutUS' passHref>AboutUs</Link></li>
-      <li className='hover-underline-animation'><Link href='/events' passHref>Events</Link></li>
-      <li className='hover-underline-animation2'><Link href='/#FAQ' passHref>FAQ</Link></li>
-      <li className='hover-underline-animation2'><Link href='/#Prize' passHref>Prize</Link></li>
-      <li className='hover-underline-animation'><Link href='/#Sponsors' passHref>Sponsors</Link></li>
-      <li className='hover-underline-animation2'><Link href='/team' passHref>Team</Link></li>
-
-
-    </Ul>
+        <Ul open={open}>      
+          <li onClick = {toggle}><Link href='/#Header' passHref>Home</Link></li>
+          <li onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
+          <li onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
+          <li onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>
+          <li onClick = {toggle}><Link href='/#FAQ' passHref>FAQ</Link></li>
+          <li onClick = {toggle}><Link href='/team' passHref>Team</Link></li>
+        </Ul>
     </div>
+    
   )
 }
-
 export default RightNav

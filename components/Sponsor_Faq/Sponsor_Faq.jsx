@@ -7,7 +7,7 @@ import { ImArrowUpRight2 } from 'react-icons/im'
 const Sponsor_Faq = () => {
 
     return (
-        <div className={Style.wrapper} id={'FAQ'}>
+        <div className={Style.wrapper} id='FAQ'>
             {' '}
             {/* in-page navigation to FAQ section on clicking FAQ from the navbar */}{' '}
             {/* also added smooth scroll for the entire page in globals.css */}
@@ -71,7 +71,7 @@ const Sponsor_Faq = () => {
                             We are happy to resolve all the doubts, just email
                             us at{' '}
                             <a href="mailto:techclub@iiitkottayam.ac.in">
-                                techclub@iiitkottayam.ac.in
+                                techclub@<wbr/>iiitkottayam.ac.in
                             </a>
                             .
                         </div>

@@ -35,7 +35,9 @@
 
 .faicon {
     margin-right: 2%;
+    margin-top: -4px;
     transform: translateY(20%);
+    font-size: larger;
     color: #7289d9;
 }
 
@@ -56,8 +58,9 @@
     }
 }
 
-@media (max-width: 422px) {
+@media (max-width: 418px) {
     .b2 {
         margin-top: 3%;
+        margin-left: 0%;
     }
 }

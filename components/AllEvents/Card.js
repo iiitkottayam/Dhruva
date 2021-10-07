@@ -35,7 +35,7 @@ const Card = (props) => {
 
                         <div className={styles.content_container}>
                             <span className={styles.name}>{props.name}</span>
-                            <span className={styles.role}>{props.tag}</span>
+                            {/* <span className={styles.role}>{props.tag}</span> */}
                         </div>
                         <div className={styles.detailContainer}>
                             <p>
