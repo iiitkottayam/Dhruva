@@ -100,7 +100,7 @@ const Burger = () => {
             width: 45px;
             height: 45px;
             border-radius: 50%;
-            ${open ? "background: transparent": "background: #2e2e2e3d"}
+            ${open ? "background: transparent": "background: #20202062"}
           }
         `}</style>
         <StyledBurger open={open} onClick={() => {!open ? document.getElementsByTagName("body")[0].style.overflow = "hidden" : document.getElementsByTagName("body")[0].style.overflow = "auto"; return setOpen(!open)}}>        

@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <>
 
-            <div className={styles.hbody}>
+            <div className={styles.hbody} id='Header'>
 
                 <p className={styles.heading} data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
                     <span>Where Tech</span> <span>Gets</span>{' '}
