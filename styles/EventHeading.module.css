@@ -19,7 +19,20 @@
     white-space: nowrap;
 }
 .Heading p {
-    font-family: var(--subtext), sans-serif;
+    
+  
+    border-width: 3.75px;
+    border-style: solid; 
+    border-right: 0;
+    
+    border-image: 
+        linear-gradient(
+        to bottom, 
+        var(--linearg1),
+        var(--linearg2)
+        ) 1 50%;
+    font-family: var(--coming), sans-serif;
+    
     font-weight: 500;
     font-size: 1.75rem;
     padding-left: 0.25em;

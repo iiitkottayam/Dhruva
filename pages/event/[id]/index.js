@@ -35,6 +35,7 @@ export const getStaticProps = async (context) => {
             date: data[0].date,
             time: data[0].time,
             organisers: data[0].organisers,
+            tag: data[0].tag
         },
     }
 }
@@ -58,6 +59,7 @@ export default function Home(props) {
                 <Navbar />
                 <EventHeading
                     title={props.name}
+                    content = {props.tag}
                     register={props.register}
                     eventPoster={props.poster}
                 ></EventHeading>
