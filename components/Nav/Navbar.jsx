@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Burger from './Burger'
 import Link from 'next/link'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 const Nav = styled.nav`
     overflow-x: hidden;

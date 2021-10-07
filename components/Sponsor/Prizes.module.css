@@ -3,11 +3,12 @@
 .prizesDiv {
     background: #ffedc5;
     width: 100%;
-    margin-top: 5vw;
     background: linear-gradient(
         180deg,
         #ffcda1 0%,
-        #ffffff 45%
+        #d8c7ff 40%,
+        #ffecdd 70%,
+        #ffc089 100%
     );
 }
 
@@ -32,7 +33,7 @@
     font-size: calc(3.5vw + 7vh + 2vmin); /*responsive font size w/o media queries*/
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
         1.5px 1.5px 0 #000;
-    color: #ffd8b6;
+    color: #f2cbc0;
     letter-spacing: 1.5px;
 }
 
@@ -85,10 +86,11 @@
     color: var(--black);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .prizeH2Stroke {
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
+        color: #f9cbac;
     }
 }
 

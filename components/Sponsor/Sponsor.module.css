@@ -36,7 +36,7 @@
 }
 
 .sponsorH2Margin {
-    margin-top: 8vw;
+    margin-top: 4vw;
 }
 
 .sponsorMargin {
@@ -55,12 +55,12 @@
     font-style: normal;
     font-weight: 600;
     color: var(--black);
-    text-decoration: var(--white);
+    text-decoration: underline transparent;
     transition: text-decoration 250ms ease-in-out;
 }
 
 .sponsorLabel:hover {
-    text-decoration: underline orange;
+    text-decoration: underline #8c58fc;
 }
 
 /* The pictures are changing their size based on the size of the Label, media query below is to stop that */

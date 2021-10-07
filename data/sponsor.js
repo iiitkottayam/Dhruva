@@ -6,14 +6,14 @@ let sponsors = [
         id: 1,
         name: 'Repl.it',
         link: 'https://replit.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633315950/1200px-Repl.it_logo.svg_jd5lqg.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633531669/replit_phtby0.png',
     },
 
     {
         id: 2,
         name: 'Interview Cake',
         link: 'https://www.interviewcake.com/',
-        logo: 'http://res.cloudinary.com/roshin/image/upload/c_crop,h_221,w_221/v1633316772/interview-cake_ilm2ek.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633574507/cakestrwhite_ou6ueg.png',
     },
     {
         id: 3,

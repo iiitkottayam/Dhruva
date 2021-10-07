@@ -20,9 +20,9 @@ export const Sponsors = (props) => {
             <h3 className={styleP.prizeH3}>Total prize of</h3>
             <h2 className={styleP.prizeH2}>Rs. {prizeMoney}</h2>
             <h3 className={styleP.prizeH3}>
-                Also win exciting prizes from our sponsors
+                Also win exciting prizes from
             </h3>
-            <PrizesRow prizes={prizes} />
+            {/* <PrizesRow prizes={prizes} /> */} {/* Uncomment the line at the left to bring back Prizes */}
 
             {/* after this comment all lines are for the 'Our Sponsors' section,
              puling it's styling from Sponsor.module.css */}
