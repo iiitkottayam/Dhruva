@@ -49,10 +49,11 @@ const Ul = styled.ul`
 `
 
 const RightNav = ({ open, setOpen }) => {
-  setTimeout(() => {
-    history.pushState("", document.title, window.location.pathname + window.location.search);
-  },3000);
+  
   function toggle(){
+    setTimeout(() => {
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    },3000);
     if(open){
       return setOpen(!open);
     }
@@ -63,7 +64,7 @@ const RightNav = ({ open, setOpen }) => {
   return (
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
-          <li onClick = {toggle}><Link href='/#' passHref>Home</Link></li>
+          <li onClick = {toggle}><Link href='/#Header' passHref>Home</Link></li>
           <li onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
           <li onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
           <li onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>

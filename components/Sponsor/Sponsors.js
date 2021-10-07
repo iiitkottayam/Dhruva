@@ -11,7 +11,7 @@ export const Sponsors = (props) => {
     let prizeMoney = '50,000'
 
     return (
-        <div className={styleP.prizesDiv} id='Prize'>
+        <div className={styleP.prizesDiv} id='Sponsors'>
 
             {/* All lines below before the next comment are for the 'Prizes' part of the Sponsors component,
             And is taking it's styling from Prizes.module.css */}
@@ -27,7 +27,7 @@ export const Sponsors = (props) => {
             {/* after this comment all lines are for the 'Our Sponsors' section,
              puling it's styling from Sponsor.module.css */}
 
-            <div className={styles.sponsorH2Margin} id={'Sponsors'}>
+            <div className={styles.sponsorH2Margin}>
                 <h2 className={styles.sponsorH2}>Our Sponsors</h2>
             </div>
             {/* Each this row for 4 sponsers per component otherwise it become congested */}
