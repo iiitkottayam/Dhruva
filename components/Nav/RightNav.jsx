@@ -51,7 +51,7 @@ const Ul = styled.ul`
 const RightNav = ({ open, setOpen }) => {
   setTimeout(() => {
     history.pushState("", document.title, window.location.pathname + window.location.search);
-  },1);
+  },3000);
   function toggle(){
     if(open){
       return setOpen(!open);
@@ -63,13 +63,12 @@ const RightNav = ({ open, setOpen }) => {
   return (
     <div className='overlay overlay-contentpush open'>
         <Ul open={open}>      
-          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#' passHref>Home</Link></li>
-          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
-          <li className='hover-underline-animation' onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
-          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#Prize' passHref>Prizes</Link></li>
-          <li className='hover-underline-animation' onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>
-          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/#FAQ' passHref>FAQ</Link></li>
-          <li className='hover-underline-animation2' onClick = {toggle}><Link href='/team' passHref>Team</Link></li>
+          <li onClick = {toggle}><Link href='/#' passHref>Home</Link></li>
+          <li onClick = {toggle}><Link href='/#AboutUS' passHref>About Us</Link></li>
+          <li onClick = {toggle}><Link href='/events' passHref>Events</Link></li>
+          <li onClick = {toggle}><Link href='/#Sponsors' passHref>Sponsors</Link></li>
+          <li onClick = {toggle}><Link href='/#FAQ' passHref>FAQ</Link></li>
+          <li onClick = {toggle}><Link href='/team' passHref>Team</Link></li>
         </Ul>
     </div>
     

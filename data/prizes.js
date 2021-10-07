@@ -1,4 +1,4 @@
-// This is where you can edit the data of Prizes
+// This is where you can edit the data of Prizes - Deprecated
 // old temp logo - https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592740/prize-icon-4_yzn0ar.png
 
 let prizes = [
