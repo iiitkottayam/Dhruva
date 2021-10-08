@@ -24,9 +24,6 @@ const Header = () => {
                         Welcome to Dhruva, IIIT Kottayam&apos;s own Technical
                         Fest.
                     </span>
-                    <br />
-                    <br />
-                    <br />
                     <span>
                         Join us in this three-day-long virtual extravaganza
                         <br />
