@@ -63,7 +63,7 @@
     margin-bottom: 22.5%;
 }
 .faq{
-    padding-top: 10%;
+    padding-top: 12%;
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -111,7 +111,7 @@
     color: var(--white);
     text-align: left;
     background-color: var(--black);
-    padding: 4% 5.5% 4% 5.5%;
+    padding: 5% 6% 5% 6%;
     margin-bottom: 1.2rem;
     border: 1px solid var(--black);
     border-radius: 3rem;
@@ -128,6 +128,9 @@
     }
     .sponsor button{
         font-size: 1.5em;
+    }
+    .chatB{
+        padding: 4% 5.5% 4% 5.5%;
     }
 }
 @media screen and (min-width: 768px){

@@ -1,5 +1,6 @@
 module.exports = {
     reactStrictMode: true,
+    trailingSlash: true,
     images: {
         domains: [
             'cdn-images-1.medium.com',
