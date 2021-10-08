@@ -31,7 +31,7 @@ let sponsors = [
         id: 5,
         name: 'Elearnmarkets',
         link: 'https://www.elearnmarkets.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633334560/elm-short-logo_u7ybnj_bxx32s.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633700986/elmk_bwzzc3.png',
     },
 ]
 
