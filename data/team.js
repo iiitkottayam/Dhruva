@@ -232,6 +232,15 @@ const content = [
 const outreach = [
     {
         id: 1,
+        name: 'Alaka Jayan',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633697944/IMG_20211007_225850_oc96vl.jpg',
+        gif: 'https://c.tenor.com/wtd7yJEFJqEAAAAC/facepalm-the-huxtables.gif',
+        linkedin: 'www.linkedin.com/in/alaka-jayan',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
         name: 'Harsh Raj',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1633356690/HARSH_RAJ_ukfv39_ciaxuf.jpg',
         gif: 'https://c.tenor.com/QaOupoIMS0kAAAAd/naruto-hokage.gif',

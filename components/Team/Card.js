@@ -44,13 +44,15 @@ const Card = (props) => {
                     </div>
                     <div className={styles.social_container}>
                         {/* <FaEnvelope /> */}
-                        <a
-                            href={props.instagram}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FaInstagram />
-                        </a>
+                        {props.instagram !== '' && (
+                            <a
+                                href={props.instagram}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaInstagram />
+                            </a>
+                        )}
                         <a
                             href={props.linkedin}
                             target="_blank"
