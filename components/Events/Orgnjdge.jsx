@@ -3,26 +3,24 @@ import Contact from './Contact'
 import Odata from './Odata'
 import Jdata from './Jdata'
 const OrganizerContainer = (props) => {
+    const organiser = props.organiser
+
     
     return (
         <div className={styles.Evecont}>
             <p className={styles.hdn1}>Contact the Organizers</p>
-            
-                {/*{Odata.map((val) => {
-                    return (
-                        <Contact imgsrc={val.imgsrc}
-                        key = {val.id}
-                            name={val.name}
-                            email={val.email}
-                            phone={val.phoneNumber}
-                            
-                        />
-                    );
-                })}*/}
-                <Contact name = {props.name}
-                            email = {props.email}
-                            phone = {props.phone}
-                        />
+            <p className={styles.desc}>
+                Want more details related to this event, feel free to contact the
+                Event Organiser.
+            </p>
+                {organiser.map((val) => (
+                            <Contact
+                            key = {val.key} 
+                            name = {val.name}
+                            email = {val.email}
+                            phone = {val.phoneNumber}
+                        />  ))};
+                
             
             
             

@@ -68,7 +68,7 @@ export default function Home(props) {
                     date={props.date}
                     time={props.time}
                 />
-                <OrganizerContainer name = {organisers.name} email = {organisers.email} phone = {organisers.phoneNumber}/>
+                <OrganizerContainer organiser = {organisers}/>
             </div>
             <Footer />
         </>
