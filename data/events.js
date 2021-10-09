@@ -21,7 +21,7 @@ const events = [
                 phoneNumber: '9087609727',
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/CTF .png',
         registration: 'https://dare2compete.com',
     },
     {
@@ -41,7 +41,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/BB.jpg',
         registration: 'https://dare2compete.com',
     },
     {
@@ -61,7 +61,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/CP_Insta.jpg',
         registration: '',
     },
     {
@@ -87,7 +87,7 @@ const events = [
                 phoneNumber: '7987957308',
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/WebDev.png',
         registration: '',
     },
     {
@@ -107,7 +107,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/D1.jpg',
         registration: '',
     },
     {
@@ -127,7 +127,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/Graphic Design.png',
         registration: '',
     },
     {
@@ -147,7 +147,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/crypto.png',
         registration: '',
     },
     {
@@ -167,7 +167,7 @@ const events = [
                 phoneNumber: '8688179209',
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/GameDev.png',
         registration: '',
     },
     {
@@ -193,7 +193,7 @@ const events = [
                 phoneNumber: '9087609727',
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/projectA.png',
         registration: '',
     },
     {
@@ -213,7 +213,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/reverse.png',
         registration: '',
     },
     {
@@ -233,7 +233,7 @@ const events = [
                 
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/SoldIT.png',
         registration: '',
     },
     {
@@ -253,7 +253,7 @@ const events = [
                 phoneNumber: '9080385059',
             },
         ],
-        poster: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        poster: '/../public/Posters/Valorant.png',
         registration: '',
     },
 ]
