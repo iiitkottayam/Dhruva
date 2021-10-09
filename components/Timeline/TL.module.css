@@ -11,6 +11,7 @@
 
 .header{
     padding-top: 5%;
+    padding-bottom: calc(8vh - 5vw);
     text-align: center;
     font-family: var(--title);
     font-size: 6.5rem;
@@ -28,7 +29,6 @@
     margin-left: 10%;
     margin-bottom: 10%;
     flex-direction: row;
-    align-items: center;
 }
 
 .days{
