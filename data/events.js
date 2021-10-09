@@ -21,7 +21,7 @@ const events = [
                 phoneNumber: '9087609727',
             },
         ],
-        poster: '/../public/Posters/CTF .png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
         registration: 'https://dare2compete.com',
     },
     {
@@ -41,7 +41,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/BB.jpg',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
         registration: 'https://dare2compete.com',
     },
     {
@@ -61,7 +61,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/CP_Insta.jpg',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
         registration: '',
     },
     {
@@ -87,7 +87,7 @@ const events = [
                 phoneNumber: '7987957308',
             },
         ],
-        poster: '/../public/Posters/WebDev.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
         registration: '',
     },
     {
@@ -107,7 +107,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/D1.jpg',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
         registration: '',
     },
     {
@@ -127,7 +127,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/Graphic Design.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/Graphic_Design_c91bpb.png',
         registration: '',
     },
     {
@@ -147,7 +147,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/crypto.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
         registration: '',
     },
     {
@@ -167,7 +167,7 @@ const events = [
                 phoneNumber: '8688179209',
             },
         ],
-        poster: '/../public/Posters/GameDev.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
         registration: '',
     },
     {
@@ -193,7 +193,7 @@ const events = [
                 phoneNumber: '9087609727',
             },
         ],
-        poster: '/../public/Posters/projectA.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/projectA_tcfmim.png',
         registration: '',
     },
     {
@@ -213,7 +213,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/reverse.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793238/reverse_rtuaoc.png',
         registration: '',
     },
     {
@@ -233,7 +233,7 @@ const events = [
                 
             },
         ],
-        poster: '/../public/Posters/SoldIT.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration: '',
     },
     {
@@ -253,7 +253,7 @@ const events = [
                 phoneNumber: '9080385059',
             },
         ],
-        poster: '/../public/Posters/Valorant.png',
+        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793240/Valorant_lsjk82.png',
         registration: '',
     },
 ]
