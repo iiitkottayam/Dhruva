@@ -54,6 +54,7 @@
 .subtext {
     font-size: 1.9rem;
     line-height: 2rem;
+    margin-bottom: 2.525em;
 }
 
 @media (max-width: 600px) {
