@@ -12,6 +12,7 @@
     border-radius: 25px;
     background-image: linear-gradient(to left, #8c58fc, #ffc089);
     font-size: 18px;
+    color: var(--black);
     cursor: pointer;
     font-weight: 600;
     border: none;
