@@ -34,10 +34,17 @@ export const getStaticProps = async (context) => {
             register: data[0].registration,
             date: data[0].date,
             time: data[0].time,
+            organisers: data[0].organisers,
+            tag: data[0].tag
         },
     }
 }
 export default function Home(props) {
+    const organisers = props.organisers
+    
+    
+
+    
     return (
         <>
             <div className={styles.container}>
@@ -52,6 +59,7 @@ export default function Home(props) {
                 <Navbar />
                 <EventHeading
                     title={props.name}
+                    content = {props.tag}
                     register={props.register}
                     eventPoster={props.poster}
                 ></EventHeading>
@@ -60,7 +68,7 @@ export default function Home(props) {
                     date={props.date}
                     time={props.time}
                 />
-                <OrganizerContainer />
+                <OrganizerContainer organiser = {organisers}/>
             </div>
             <Footer />
         </>
