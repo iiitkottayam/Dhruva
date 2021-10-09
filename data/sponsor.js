@@ -29,7 +29,7 @@ let sponsors = [
     },
     {
         id: 5,
-        name: 'Elearnmarkets',
+        name: 'Elearn\u200Bmarkets',
         link: 'https://www.elearnmarkets.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633700986/elmk_bwzzc3.png',
     },
