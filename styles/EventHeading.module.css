@@ -40,8 +40,8 @@
 }
 .image img {
     width: 22.5rem;
-    height: 24rem;
-    object-fit: cover;
+    height: 22.5rem;
+    
 }
 .image {
     margin-top: 15%;
