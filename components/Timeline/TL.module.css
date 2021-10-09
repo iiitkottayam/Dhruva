@@ -11,7 +11,7 @@
 
 .header{
     padding-top: 5%;
-    padding-bottom: calc(8vh - 3vw);
+    padding-bottom: calc(8vh - 5vw);
     text-align: center;
     font-family: var(--title);
     font-size: 6.5rem;
