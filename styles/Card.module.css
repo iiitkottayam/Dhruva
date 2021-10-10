@@ -14,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
+    text-align: center;
 }
 .name {
     font-family: var(--title), sans-serif;
@@ -82,6 +83,7 @@
     background: #8c58fc;
     background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
     transition: all 0.3s;
+    height: 100%;
 }
 
 .daycards {
@@ -135,6 +137,7 @@
     margin-top: 2%;
     transition: opacity 1s ease;
     color: var(--white);
+    text-align: center;
 }
 
 .detailContainer > p {

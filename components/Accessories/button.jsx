@@ -10,12 +10,17 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.min.css'
 
 export function HButton(props) {
+    function link() {
+        if(props.url) {
+            window.open(props.url, '_blank')
+        }
+    }
     return (
         <div className={styles.btndiv}>
             <button
                 className={styles.btnh}
                 onClick={(event) =>
-                    window.open('https://bit.ly/dhruva_sponsor', '_blank')
+                    link()
                 }
             >
                 {props.name}&emsp;{props.icon}
