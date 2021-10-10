@@ -12,14 +12,27 @@
 }
 .Heading h1 {
     font-family: var(--title);
-    font-size: 5rem;
+    font-size: 4.75rem;
     font-weight: 400;
     letter-spacing: -3px;
     margin-bottom: 0px;
-    white-space: nowrap;
+    
 }
 .Heading p {
-    font-family: var(--subtext), sans-serif;
+    
+  
+    border-width: 3.75px;
+    border-style: solid; 
+    border-right: 0;
+    
+    border-image: 
+        linear-gradient(
+        to bottom, 
+        var(--linearg1),
+        var(--linearg2)
+        ) 1 50%;
+    font-family: var(--coming), sans-serif;
+    
     font-weight: 500;
     font-size: 1.75rem;
     padding-left: 0.25em;
@@ -27,11 +40,17 @@
 }
 .image img {
     width: 22.5rem;
-    height: 24rem;
-    object-fit: cover;
+    height: 22.5rem;
+    
 }
 .image {
     margin-top: 15%;
+}
+@media (max-width: 1250px) {
+    .Heading h1
+    {
+        font-size: 4.5rem;
+    }
 }
 @media (max-width: 1200px) {
     .container {
@@ -42,15 +61,15 @@
         width: 100%;
     }
     .Heading h1 {
-        font-size: 3.75rem;
+        font-size: 3.5rem;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 1040px) {
     .container {
         margin-top: 10%;
     }
     .Heading h1 {
-        font-size: 50px;
+        font-size: 2.5em;
     }
     .Heading p {
         width: 100%;
@@ -61,7 +80,7 @@
         height: 19.2rem;
     }
 }
-@media (max-width: 680px) {
+@media (max-width: 705px) {
     .container {
         grid-template-columns: 100%;
         margin-top: 15%;
@@ -74,7 +93,7 @@
         padding: 0px;
     }
     .Heading h1 {
-        font-size: 45px;
+        font-size: 2em;
     }
     .Heading p {
         width: 100%;
@@ -88,7 +107,7 @@
 
 @media (max-width: 350px) {
     .Heading h1 {
-        font-size: 40px;
+        font-size: 2em;
     }
     .Heading p {
         width: 100%;

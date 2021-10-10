@@ -2,12 +2,13 @@ import styles from '/styles/EventHeading.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { HButton } from '@components/Accessories/button'
+import { Hidden } from '@material-ui/core'
 const EventHeading = (props) => {
     return (
         <div className={styles.container}>
             <div className={styles.Heading}>
                 <h1>{props.title}</h1>
-                <p>{props.content}</p>
+                <p style = {props.content ? ({display: 'block'}) : ({display : 'none'})}>{props.content}</p>
                 <a href={props.register} target="_blank" rel="noreferrer">
                     <HButton name="Register" />
                 </a>

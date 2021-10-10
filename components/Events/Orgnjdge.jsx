@@ -1,24 +1,27 @@
-import styles from '/styles/Orgnjdge.module.css'
-import Card from './Card'
+import styles from '/styles/EventDetails.module.css'
+import Contact from './Contact'
 import Odata from './Odata'
 import Jdata from './Jdata'
-const OrganizerContainer = () => {
+const OrganizerContainer = (props) => {
+    const organiser = props.organiser
+
+    
     return (
-        <div className={styles.pplcon}>
-            <p className={styles.hdn1}>Organisers</p>
-            <div className={styles.carousel}>
-                {Odata.map((val) => {
-                    return (
-                        <Card imgsrc={val.imgsrc}
-                        key = {val.id}
-                            name={val.name}
-                            link1={val.link1}
-                            link2={val.link2}
-                            link3={val.link3}
-                        />
-                    );
-                })}
-            </div>
+        <div className={styles.Evecont}>
+            <p className={styles.hdn1}>Contact the Organizers</p>
+            <p className={styles.desc}>
+                Want more details related to this event, feel free to contact the
+                Event Organiser.
+            </p>
+                {organiser.map((val) => (
+                            <Contact
+                            key = {val.key} 
+                            name = {val.name}
+                            email = {val.email}
+                            phone = {val.phoneNumber}
+                        />  ))};
+                
+            
             
             
         </div>

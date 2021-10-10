@@ -17,24 +17,6 @@ const mentors = [
         instagram: 'https://www.instagram.com/_hrishabh_08/',
         twitter: 'https://twitter.com/hrishabhjoshi08',
     },
-    {
-        id: 3,
-        name: 'Gouri Nair',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
-        gif: 'https://c.tenor.com/CgGUXc-LDc4AAAAC/hacker-pc.gif',
-        linkedin: 'https://www.linkedin.com/in/gouri-nair-618726201/',
-        instagram: 'https://www.instagram.com/itsgourinair/',
-        twitter: 'https://twitter.com/rio_nair',
-    },
-    {
-        id: 4,
-        name: 'Aditya Menon',
-        image: 'https://res.cloudinary.com/roshin/image/upload/v1633396445/adi_2_za41sf.jpg',
-        gif: 'https://c.tenor.com/ULJn9_2K17UAAAAi/wazatoz-rick-roll.gif',
-        linkedin: 'https://www.linkedin.com/in/adityasrinivasmenon/',
-        instagram: 'https://www.instagram.com/adityasrinivas.menon/',
-        twitter: 'https://twitter.com/karynaur_',
-    },
 ]
 
 const developers = [
@@ -137,6 +119,16 @@ const developers = [
         instagram: 'https://www.instagram.com/alw1n_s3b/',
         twitter: '',
     },
+    
+    {
+        id: 12,
+        name: 'Aditya Menon',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633396445/adi_2_za41sf.jpg',
+        gif: 'https://c.tenor.com/ULJn9_2K17UAAAAi/wazatoz-rick-roll.gif',
+        linkedin: 'https://www.linkedin.com/in/adityasrinivasmenon/',
+        instagram: 'https://www.instagram.com/adityasrinivas.menon/',
+        twitter: 'https://twitter.com/karynaur_',
+    },
 ]
 
 const organisers = [
@@ -157,6 +149,15 @@ const organisers = [
         linkedin: 'https://www.linkedin.com/in/lakshin-kumar-35678316b/?originalSubdomain=in',
         instagram: 'https://www.instagram.com/__lakshin__/',
         twitter: 'https://twitter.com/LakshinLk',
+    },
+    {
+        id: 3,
+        name: 'Gouri Nair',
+        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        gif: 'https://c.tenor.com/CgGUXc-LDc4AAAAC/hacker-pc.gif',
+        linkedin: 'https://www.linkedin.com/in/gouri-nair-618726201/',
+        instagram: 'https://www.instagram.com/itsgourinair/',
+        twitter: 'https://twitter.com/rio_nair',
     },
 ]
 
@@ -232,6 +233,15 @@ const content = [
 const outreach = [
     {
         id: 1,
+        name: 'Alaka Jayan',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1633697944/IMG_20211007_225850_oc96vl.jpg',
+        gif: 'https://c.tenor.com/wtd7yJEFJqEAAAAC/facepalm-the-huxtables.gif',
+        linkedin: 'www.linkedin.com/in/alaka-jayan',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
         name: 'Harsh Raj',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1633356690/HARSH_RAJ_ukfv39_ciaxuf.jpg',
         gif: 'https://c.tenor.com/QaOupoIMS0kAAAAd/naruto-hokage.gif',

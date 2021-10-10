@@ -10,8 +10,8 @@
     margin-bottom: 4.5%;
 }
 
-.Evecont > p{
-    margin-top: 2% ;
+.Evecont > p {
+    margin-top: 2%;
     margin-bottom: 1%;
     padding-right: 15%;
 }
@@ -36,7 +36,7 @@
     font-size: 28px;
     line-height: 34px;
     letter-spacing: -0.017em;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .desc {
@@ -46,20 +46,38 @@
     font-size: 28px;
     line-height: 34px;
     letter-spacing: -0.017em;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.date {
+.cont {
+    font-family: var(--coming);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.017em;
+    color: #ffffff;
+    margin-left: 0.3em;
+}
+.date,
+.contact {
     font-family: var(--title);
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
     line-height: 45px;
     letter-spacing: -0.032em;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.date > hr{
+.date > hr {
+    width: 100%;
+    height: 5px;
+    margin-left: 0px;
+    background: linear-gradient(to left, var(--linearg1), var(--linearg2));
+    border: none;
+}
+.contact > hr {
     width: 100%;
     height: 5px;
     margin-left: 0px;
@@ -67,63 +85,72 @@
     border: none;
 }
 
-@media (max-width: 1200px){
-    .Evecont{
+@media (max-width: 1200px) {
+    .Evecont {
         align-items: center;
     }
-    .hdn1,.hdn2,.desc{
+    .hdn1,
+    .hdn2,
+    .desc,
+    .contact {
         text-align: center;
     }
-    .Evecont > p{
+    .Evecont > p {
         padding-right: 0px;
     }
 }
 
-@media (max-width: 800px){
-    .hdn1{
+@media (max-width: 800px) {
+    .hdn1 {
         font-size: 50px;
     }
-    .hdn2{
+    .hdn2 {
         font-size: 18px;
     }
-    .desc{
+    .desc,
+    .cont {
         font-size: 18px;
     }
-    .date{
+    .date,
+    .contact {
         font-size: 25px;
     }
 }
 
-@media (max-width: 565px){
-    .hdn1{
+@media (max-width: 565px) {
+    .hdn1 {
         font-size: 45px;
     }
-    .hdn2{
+    .hdn2 {
         font-size: 17px;
     }
-    .desc{
+    .desc,
+    .cont {
         font-size: 17px;
     }
-    .date{
+    .date,
+    .contact {
         font-size: 23px;
     }
 }
 
-@media (max-width: 350px){
-    .hdn1{
+@media (max-width: 350px) {
+    .hdn1 {
         font-size: 40px;
     }
-    .hdn2{
+    .hdn2 {
         font-size: 15px;
     }
-    .desc{
+    .desc,
+    .cont {
         font-size: 15px;
     }
-    .date{
+    .date,
+    .contact {
         font-size: 19px;
     }
 
-    .date > hr{
-        height: 3px
+    .date > hr {
+        height: 3px;
     }
 }
