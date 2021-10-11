@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.date_title {
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: 1500;
+    font-size: 7rem;
+    text-shadow: -1.5px -1.5px 0 var(--black), 1.5px -1.5px 0 var(--black),
+        -1.5px 1.5px 0 var(--black), 1.5px 1.5px 0 var(--black);
+    color: #ffefe2;
+}
+.date_title > sup {
+    font-weight: 500;
+    font-family: var(--title);
+    font-size: 3rem;
+    color: var(--black);
+    vertical-align: super;
+    margin-left: -10%;
+    text-shadow: none;
+}
+.month_title {
+    margin-top: -30%;
+    font-family: var(--subtext);
+    font-size: 2rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+    .date_title {
+        font-size: 5rem;
+        color: #fff3e9;
+    }
+    .date_title > sup {
+        font-size: 3rem;
+    }
+}

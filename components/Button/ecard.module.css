@@ -1,0 +1,67 @@
+.eventcard{
+    cursor: pointer;
+    border: 1px;
+    border-color: var(--white);
+    background-color: black;
+    margin-bottom: 10%;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .eventname{
+    margin: 2%;
+    margin-bottom: 8%;
+    padding-left: 5%;
+    font-family: var(--title);
+    font-size: 2.5rem;
+  }
+  .eventtime{
+    margin: 2%;
+    margin-top: 1%;
+    padding-left: 5%;
+    font-family: var(--title);
+      font-size: 1.75rem;
+  }
+  .eventcard:hover{
+    background-image: linear-gradient(
+      to right,
+      hsl(32, 100%, 73%),
+      hsl(290, 75%, 69%)
+
+    );
+    color: black;
+   }
+   @media screen and (max-width: 900px) {
+    
+    .eventcard{
+      margin-bottom: 3%;
+    }
+    .eventname{
+      font-size: 2.25rem;
+    }
+    .eventtime{
+      font-size: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .eventname{
+      font-size: 2rem;
+    }
+    .eventtime{
+      font-size: 1.5rem;}
+  }
+  @media screen and (max-width: 500px) {
+    .eventname{
+      font-size: 1.75rem;
+    }
+    .eventtime{
+      font-size: 1.25rem;}
+  }
+  @media screen and (max-width: 350px) {
+    .eventname{
+      font-size: 1.25rem;
+    }
+    .eventtime{
+      font-size: 1.0rem;}
+  }

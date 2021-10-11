@@ -92,22 +92,49 @@
 .btnh {
     font: inherit;
     font-size: 1.25em;
-    text-transform: uppercase;
+    font-weight: 700;
     padding: 0.75em;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
     /* position: absolute; */
-    box-shadow: 0.3em 0.3em rgb(255, 255, 255);
-    transition: all 0.25s ease-in-out;
+    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
+    transition: all 0.1s ease-in-out;
     border: 1px rgb(255, 255, 255) solid;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 .btnh:hover {
-    box-shadow: 0.2em 0.2em rgb(255, 255, 255);
-    transform: translate(0.13em, 0.13em);
+    box-shadow: 0.3em 0.3em rgb(255, 255, 255);
+    transform: translate(-0.1em, -0.1em);
+}
+.btnh:active {
+    box-shadow: 0em 0em rgb(255, 255, 255);
+    transform: translate(0.2em, 0.2em);
+}
+.btnhl {
+    font: inherit;
+    font-size: 1.4em !important;
+    font-weight: 700;
+    padding: 0.75em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    /* position: absolute; */
+    box-shadow: 0.2em 0.2em rgb(0, 0, 0);
+    transition: all 0.1s ease-in-out;
+    border: 1px rgb(0, 0, 0) solid;
+    margin-top: 2rem;
+}
+.btnhl:hover {
+    box-shadow: 0.3em 0.3em rgb(0, 0, 0);
+    transform: translate(-0.1em, -0.1em);
+}
+.btnhl:active {
+    box-shadow: 0em 0em rgb(0, 0, 0);
+    transform: translate(0.2em, 0.2em);
 }
 .btnDiv {
     align-items: center;
@@ -115,6 +142,110 @@
     width: 100%;
     height: auto;
 }
+
+/* -------Form Style------- */
+.Fcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+}
+.Fform {
+    background: white;
+    padding: 2rem 1.5rem;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+.Ftitle {
+    margin: 0 0 1.5rem;
+}
+.Fform label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #334155;
+}
+.Fform input,
+.Fform select,
+.Fform textarea {
+    width: 100%;
+    border: none;
+    background: #f4f4f5;
+    padding: 0.75rem 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    border-radius: 4px;
+}
+.Fform input:focus,
+.Fform select:focus,
+.Fform textarea:focus {
+    outline: 2px solid #0093e9;
+}
+.Finputs {
+    display: flex;
+    justify-content: space-between;
+}
+.Finputs div {
+    flex: 1;
+}
+.Finputs div:first-child {
+    margin-right: 1rem;
+}
+.Fbtn {
+    background-color: #0093e9;
+    background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.btnFdiv {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff0;
+}
+@media (max-height: 600px) {
+    .logo {
+        font-size: 3.5vw;
+    }
+    .maintxt {
+        font-size: 5vw;
+    }
+    .txt {
+        font-size: 2vw;
+    }
+    .bth {
+        font-size: 2.7vw;
+        margin-top: 1%;
+    }
+}
+@media (max-width: 627px) {
+    .logo {
+        font-size: 4.3vh;
+    }
+    .maintxt {
+        font-size: 6.5vh;
+    }
+    .txt {
+        font-size: 2.16vh;
+    }
+    .bth {
+        font-size: 2.7vh;
+    }
+}
+
+/* Form Styling */
 
 /* -------Form Style------- */
 .Fcontainer {

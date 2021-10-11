@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+.time_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+.time_container > span {
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: 1500;
+    font-size: 7rem;
+    color: var(--black);
+    flex: 0.5;
+}
+.time_container > div {
+    font-family: var(--content);
+    font-size: 2rem;
+    font-weight: 500;
+    flex: 0.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.time_container > div > p {
+    margin-top: 0%;
+}
+.vertical {
+    height: 100px;
+    width: 15px;
+    border: 3px solid black;
+}
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 70%;
+    }
+    .time_container > span {
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width: 830px) {
+    .container {
+        width: 75%;
+    }
+    .time_container{
+        width: auto;
+    }
+    .time_container > span {
+        font-size: 3.5rem;
+    }
+    .time_container > div {
+        font-size: 1.5rem;
+    }
+    .vertical{
+        height: 80px;
+        width: 11px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 75%;
+    }
+    .time_container > span {
+        font-size: 2rem;
+    }
+    .time_container > div {
+        font-size: 1rem;
+    }
+    .vertical {
+        height: 50px;
+        width: 8.5px;
+        border: 2.5px solid black;
+    }
+}
+@media screen and (max-width: 380px) {
+    .container {
+        width: 75%;
+    }
+    .time_container > span {
+        font-size: 2rem;
+    }
+    .time_container > div {
+        font-size: 1rem;
+    }
+    .vertical {
+        height: 50px;
+        width: 8px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .container {
+        width: 75%;
+    }
+    .time_container > span {
+        font-size: 1.5rem;
+    }
+    .time_container > div {
+        font-size: 0.75rem;
+    }
+    .vertical {
+        height: 35px;
+        width: 6.5px;
+        border: 2px solid black;
+    }
+}

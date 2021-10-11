@@ -1,0 +1,130 @@
+.hbody {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: var(--black);
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-bottom: 80px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.heading > span {
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 500;
+    text-align: center;
+}
+.heading {
+    margin-top: 11rem;
+    font-family: var(--title);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 119.5%;
+    /* or 114px */
+    text-align: center;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+        -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+    color: var(--black);
+    letter-spacing: 0.028em;
+}
+
+.desciption {
+    color: var(--white);
+    font-family: var(--coming);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: -0.017em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+
+.subtext {
+    font-size: 1.9rem;
+    line-height: 2rem;
+    margin-bottom: 2.525em;
+}
+
+@media (max-width: 600px) {
+    .heading > span {
+        font-size: 48px;
+        line-height: 119.5%;
+        /* or 57px */
+        text-align: center;
+        letter-spacing: 0.078em;
+        font-weight: 400;
+    }
+    .heading {
+        font-size: 48px;
+        line-height: 119.5%;
+        /* or 57px */
+        text-align: center;
+        letter-spacing: 0.078em;
+        font-weight: 400;
+    }
+    .desciption {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.017em;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .subtext {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+.maintxt {
+    font-weight: 600;
+    background-image: linear-gradient(
+        90deg,
+        rgba(140, 88, 252, 1),
+        rgba(193.85, 138.52, 255, 1) 26%,
+        rgba(255, 191.87, 137.46, 1) 67%,
+        rgba(255, 191.87, 137.46, 0.5)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-shadow: none;
+}
+
+/* Stars */
+#title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: #fff;
+    text-align: center;
+    font-family: var(--title), sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-top: -60px;
+    padding-left: 10px;
+}
+#title span {
+    background: -webkit-linear-gradient(white, #38495a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

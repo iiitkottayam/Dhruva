@@ -1,0 +1,31 @@
+.btnh {
+    font: inherit;
+    font-size: 1.25em;
+    /* text-transform: uppercase; */
+    padding: 0.75em;
+    color: var(--black);
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.5em 0.5em var(--black);
+    transition: all 0.25s ease-in-out;
+    border: 1px var(--black) solid;
+    margin-top: 2rem;
+    font-weight: 700;
+}
+.btnh:hover {
+    box-shadow: 0.25em 0.25em var(--black);
+    transform: translate(0.25em, 0.25em);
+}
+.btndiv {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+@media screen and (max-width: 800px) {
+    .btnh {
+        font-size: 1em;
+    }
+}

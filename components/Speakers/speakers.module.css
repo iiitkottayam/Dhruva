@@ -1,0 +1,123 @@
+ 
+.speakers_section{
+    --light: #fff;
+    --dark: #000;
+
+    --p1:#8c58fc;
+    --p2:#c28bff;
+    --p3:#ffc089;
+    --p4:#fce2cb;
+    
+
+    font-family: var(--title);
+    position: relative;
+    width:100%;
+    background:radial-gradient(var(--p3) ,var(--p4) ) ;
+    /* background: var(--light); */
+    z-index:1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    overflow: hidden;
+}
+.speakers_section::before{
+    content: '';
+    position: absolute;
+    top:0;
+    right:0;
+    width:30%;
+    transform:translate(30%, -15%);
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    
+    z-index:-1;
+  
+    background:  radial-gradient(61.58% 61.58% at 50% 50%, rgba(140, 88, 252, 0.7) 0%, rgba(140, 88, 252, 0.637) 100%);
+    filter: blur(100px);
+}
+.speakers_section::after{
+    content: '';
+    position: absolute;
+    bottom:0;
+    right:0;
+
+    width:30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    
+    z-index:-1;
+  
+    background: radial-gradient(54.93% 54.93% at 40.57% 45.07%, rgba(255, 192, 137, 0.9) 0%, rgba(255, 192, 137, 0.585) 100%);
+    filter: blur(50px);
+}
+
+
+ 
+
+.speakers_section .title {
+    font-family: var(--title);
+    /* font-family: 'Roboto'; */
+    font-size: clamp(2.8rem, 10vw, 6rem);
+    font-weight: 400;
+    width:min(100%,90vw);
+    text-transform: capitalize;
+    
+    padding-top:1rem;
+    padding-left:2rem; 
+    margin-bottom: 3rem;
+    
+    color:#fdd7b6;
+    
+    /* -webkit-text-fill-color: white ;
+    -webkit-text-stroke-width: .1rem;
+    -webkit-text-stroke-color: black; */
+     
+    text-shadow: -1px  -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0  rgb(0, 0, 0), 1px 1px 0  rgb(0, 0, 0);
+    
+}
+.speakers{
+   
+    /* border:2px solid red; */
+    width:100%;
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr) !important;
+    
+    place-content: center;
+     
+    grid-row-gap: 2rem;
+    grid-column-gap: 1rem;
+    padding: 2rem;
+}
+
+ 
+
+
+
+@media (min-width:1020px) and (max-width:1600px){
+    .speakers{
+        grid-template-columns: minmax(200px, 500px) minmax(200px, 500px);
+    }
+    
+}
+@media  (max-width:1020px){
+    .speakers{
+        padding: .5rem;
+        padding-left:2rem;
+        grid-row-gap: 2rem;
+        grid-column-gap: 2rem;
+        grid-template-columns: minmax(180px,750px) !important;
+        place-items: center;
+
+    }
+}
+
+@media  (max-width:600px){
+    .speakers{
+        padding: .5rem; 
+    }
+    .speakers_section .title {
+        
+        font-size: clamp(2rem, 12vw, 6rem);
+    }
+}
