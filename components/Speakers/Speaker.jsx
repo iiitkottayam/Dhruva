@@ -5,7 +5,7 @@ export default function Speaker(props) {
         <div className={styles.speaker}>
             <div className={styles.image}>
                 {props.image && (
-                    <Image
+                    <img
                         src={props.image}
                         alt={props.name}
                         height="200"

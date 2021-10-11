@@ -22,7 +22,8 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
-        registration: 'https://dare2compete.com/festival/dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-16148?lb=osb1xnJ',
+        registration:
+            'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
     },
     {
         id: 2,
@@ -68,7 +69,8 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
-        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
+        registration:
+            'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
     },
     {
         id: 1,
@@ -110,11 +112,11 @@ const events = [
                 key: '1',
                 name: 'Aditi Shukla',
                 email: 'techclub@iiitkottayam.ac.in',
-                
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
-        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSdFVoLYl4ByFphQMrW_cSYELQiEPWIko-3H_vuYne_4dAfxuA/viewform?usp=sf_link',
+        registration:
+            'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
     },
     {
         id: 1,
@@ -130,7 +132,6 @@ const events = [
                 key: '1',
                 name: 'Swani',
                 email: 'swani2019@iiitkottayam.ac.in',
-                
             },
             {
                 key: '2',
@@ -139,8 +140,9 @@ const events = [
                 phoneNumber: '(+91) 9370324791',
             },
         ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/Graphic_Design_c91bpb.png',
-        registration: '',
+        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
+        registration:
+            'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
     },
     {
         id: 1,
@@ -160,7 +162,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: 'https://www.roostoo.com/',
+        registration: '',
     },
     {
         id: 1,
@@ -203,10 +205,11 @@ const events = [
                 name: 'Gouri Nair',
                 email: 'gourinair20bec7@iiitkottayam.ac.in',
                 phoneNumber: '08606922585',
-            }
+            },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/projectA_tcfmim.png',
-        registration: 'https://dare2compete.com/p/project-ayatjemis-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-222433?lb=mrxkYIG',
+        registration:
+            'https://dare2compete.com/p/project-ayatjemis-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-222433?lb=mrxkYIG',
     },
     {
         id: 1,
@@ -252,7 +255,8 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
-        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSeCTTSdXmzbCjEzPy7vgDm1KJkAg5JQtgiFe2urhbA1e534Qg/viewform?usp=sf_link',
+        registration:
+            'https://docs.google.com/forms/d/e/1FAIpQLSeCTTSdXmzbCjEzPy7vgDm1KJkAg5JQtgiFe2urhbA1e534Qg/viewform?usp=sf_link',
     },
     {
         id: 1,
