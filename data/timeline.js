@@ -72,7 +72,7 @@ const event = [
         day: 3,
         name: 'BrandAID',
         time: '10:00 AM - 12:00 PM',
-        ink: 'brandaid',
+        link: 'brandaid',
     },
     {
         day: 3,
