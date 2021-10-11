@@ -2,7 +2,7 @@ const mentors = [
     {
         id: 1,
         name: 'Prasanna Devadiga',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633973233/WhatsApp_Image_2021-10-10_at_7.26.40_PM_km3wsd.jpg',
         gif: 'https://c.tenor.com/DHGvsLhTOowAAAAC/meme-pikachu.gif',
         linkedin: 'https://www.linkedin.com/in/prasanna-devadiga/',
         instagram: 'https://www.instagram.com/pras_nna/',
@@ -23,7 +23,7 @@ const developers = [
     {
         id: 1,
         name: 'Aryan Yadav',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/hackbot/image/upload/v1633927567/profile1_ogifvj.png',
         gif: 'https://c.tenor.com/xPOkmiPmDT8AAAAM/bhagam-bhag-akshay-kumar-naughty.gif',
         linkedin: 'https://linkedin.com/en/in/yadav-aryan',
         instagram: 'https://instagram.com/aryann__7',
@@ -95,7 +95,7 @@ const developers = [
     {
         id: 9,
         name: 'Anshu Kumar',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633973750/IMG_20191208_113010_813_iiuptb.jpg',
         gif: 'https://c.tenor.com/C1vNcAGyoG0AAAAM/pepe-frog.gif',
         linkedin: 'https://www.linkedin.com/in/anshu-kumar-804b241ab/',
         instagram: 'https://www.instagram.com/anshu.188/',
@@ -119,7 +119,7 @@ const developers = [
         instagram: 'https://www.instagram.com/alw1n_s3b/',
         twitter: '',
     },
-    
+
     {
         id: 12,
         name: 'Aditya Menon',
@@ -135,7 +135,7 @@ const organisers = [
     {
         id: 1,
         name: 'E Sai Tejashwin',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633974951/WhatsApp_Image_2021-10-11_at_11.23.05_PM_w9uhjw.jpg',
         gif: 'https://c.tenor.com/qifKtDpGCQ4AAAAi/wakey-wakey.gif',
         linkedin: 'https://www.linkedin.com/in/sai-tejashwin/',
         instagram: 'https://www.instagram.com/tejash.win_7/',
@@ -146,14 +146,15 @@ const organisers = [
         name: 'Lakshin Kumar R.',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1633354458/lakshin_p4zyi9.jpg',
         gif: 'https://c.tenor.com/hGoMCSi4ENAAAAAC/gg-easy.gif',
-        linkedin: 'https://www.linkedin.com/in/lakshin-kumar-35678316b/?originalSubdomain=in',
+        linkedin:
+            'https://www.linkedin.com/in/lakshin-kumar-35678316b/?originalSubdomain=in',
         instagram: 'https://www.instagram.com/__lakshin__/',
         twitter: 'https://twitter.com/LakshinLk',
     },
     {
         id: 3,
         name: 'Gouri Nair',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633974037/WhatsApp_Image_2021-10-11_at_11.10.12_PM_g0ij1w.jpg',
         gif: 'https://c.tenor.com/CgGUXc-LDc4AAAAC/hacker-pc.gif',
         linkedin: 'https://www.linkedin.com/in/gouri-nair-618726201/',
         instagram: 'https://www.instagram.com/itsgourinair/',
@@ -185,7 +186,8 @@ const eventM = [
         name: 'Fathima Hanan Parakkot',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1633355246/Hanan_Parakkot_k7vo5b.jpg',
         gif: 'https://c.tenor.com/IN31Zu3XwsUAAAAC/harry-potter-serverus-snape.gif',
-        linkedin: 'https://www.linkedin.com/in/fathima-hanan-parakkot-05ba21206/',
+        linkedin:
+            'https://www.linkedin.com/in/fathima-hanan-parakkot-05ba21206/',
         instagram: 'https://www.instagram.com/_hanan_here/',
         twitter: '',
     },
@@ -203,7 +205,7 @@ const design = [
     {
         id: 2,
         name: 'Swani Sundara Didde',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633973915/IMG_2121_pyqnlt.jpg',
         gif: 'https://c.tenor.com/wj46mfQQyccAAAAC/umaru-anime.gif',
         linkedin: 'https://www.linkedin.com/mwlite/in/swani-d-15893497',
         instagram: 'https://www.instagram.com/cinnamon_sj/',
@@ -225,7 +227,8 @@ const content = [
         name: 'Fathima Hanan Parakkot',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1633355246/Hanan_Parakkot_k7vo5b.jpg',
         gif: 'https://c.tenor.com/IN31Zu3XwsUAAAAC/harry-potter-serverus-snape.gif',
-        linkedin: 'https://www.linkedin.com/in/fathima-hanan-parakkot-05ba21206/',
+        linkedin:
+            'https://www.linkedin.com/in/fathima-hanan-parakkot-05ba21206/',
         instagram: 'https://www.instagram.com/_hanan_here/',
         twitter: '',
     },
