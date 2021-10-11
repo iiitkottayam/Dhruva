@@ -161,7 +161,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: 'https://www.roostoo.com/',
+        registration: '',
     },
     {
         id: 1,
