@@ -33,6 +33,12 @@ let sponsors = [
         link: 'https://www.elearnmarkets.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633700986/elmk_bwzzc3.png',
     },
+    {
+        id: 6,
+        name: 'Roostoo',
+        link: 'https://www.roostoo.com/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633896484/rsto_qkeq9k.png',
+    },
 ]
 
 let sponsors2 = [

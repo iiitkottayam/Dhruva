@@ -3,6 +3,7 @@ const event = [
         day: 1,
         name: 'Opening ceremony',
         time: '6:00 PM - 6:30 PM',
+        link: 'https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA'
     },
     {
         day: 1,
@@ -71,7 +72,7 @@ const event = [
         day: 3,
         name: 'BrandAID',
         time: '10:00 AM - 12:00 PM',
-        ink: 'brandaid',
+        link: 'brandaid',
     },
     {
         day: 3,
