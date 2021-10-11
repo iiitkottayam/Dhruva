@@ -9,9 +9,12 @@ const EventHeading = (props) => {
             <div className={styles.Heading}>
                 <h1>{props.title}</h1>
                 <p style = {props.content ? ({display: 'block'}) : ({display : 'none'})}>{props.content}</p>
-                <a href={props.register} target="_blank" rel="noreferrer">
+                {props.register ? (<a href={props.register} target="_blank" rel="noreferrer">
                     <HButton name="Register" />
-                </a>
+                </a>) : (<HButton name="Register" />) }
+                {/* <a href={props.register} target="_blank" rel="noreferrer">
+                    <HButton name="Register" />
+                </a> */}
             </div>
             <div className={styles.image}>
                 {props.eventPoster && (

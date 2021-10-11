@@ -48,7 +48,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
-        registration: 'https://dare2compete.com',
+        registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
     },
     {
         id: 1,
@@ -68,7 +68,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
-        registration: '',
+        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
     },
     {
         id: 1,
@@ -94,7 +94,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
-        registration: '',
+        registration: 'https://forms.gle/GAPpgj5Uff6UtmFe6',
     },
     {
         id: 1,
@@ -108,9 +108,9 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Sarthak Bindal',
-                email: 'bindalsarthak03@gmail.com',
-                phoneNumber: '7987957308',
+                name: 'Aditi Shukla',
+                email: 'techclub@iiitkottayam.ac.in',
+                
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
@@ -160,7 +160,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: '',
+        registration: 'https://www.roostoo.com/',
     },
     {
         id: 1,
@@ -180,7 +180,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
-        registration: 'https://itch.io/jam/retropolis',
+        registration: 'https://dare2compete.com/o/9dTxDwP?lb=MlXGSqt',
     },
     {
         id: 1,
@@ -226,7 +226,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793238/reverse_rtuaoc.png',
-        registration: '',
+        registration: 'https://www.hackerrank.com/reverse-coding-1633929297',
     },
     {
         id: 1,
