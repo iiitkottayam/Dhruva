@@ -8,7 +8,7 @@ import { prizes } from '@data/prizes'                           //tier list >> s
 // This is the MAIN File for the entire Sponsors component.
 
 export const Sponsors = (props) => {
-    let prizeMoney = '50,000'
+    let prizeMoney = '55,000'
 
     return (
         <div className={styleP.prizesDiv} id='Sponsors'>
