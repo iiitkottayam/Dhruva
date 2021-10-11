@@ -11,7 +11,7 @@ const EventHeading = (props) => {
                 <p style = {props.content ? ({display: 'block'}) : ({display : 'none'})}>{props.content}</p>
                 {props.register ? (<a href={props.register} target="_blank" rel="noreferrer">
                     <HButton name="Register" />
-                </a>) : (<HButton name="Register" />) }
+                </a>) : (<HButton name="Coming Soon" />) }
                 {/* <a href={props.register} target="_blank" rel="noreferrer">
                     <HButton name="Register" />
                 </a> */}

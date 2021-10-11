@@ -114,7 +114,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
-        registration: '',
+        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSdFVoLYl4ByFphQMrW_cSYELQiEPWIko-3H_vuYne_4dAfxuA/viewform?usp=sf_link',
     },
     {
         id: 1,
