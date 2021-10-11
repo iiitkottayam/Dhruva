@@ -10,6 +10,8 @@ import { prizes } from '@data/prizes'                           //tier list >> s
 export const Sponsors = (props) => {
     let prizeMoney = '55,000'
 
+
+    
     return (
         <div className={styleP.prizesDiv} id='Sponsors'>
 
