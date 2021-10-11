@@ -55,7 +55,7 @@ const events = [
         id: 1,
         link: 'codesprint',
         name: 'CodeSprint',
-        tag: 'TLE Averted!',
+        tag: 'Competitive Programming contest',
         description:
             'If TLE is something that you don’t wish even for your worst enemies, this event is for you.\n Compete with the best programmers, solve problems and top the leaderboard! The huge prize pool and the dope goodies are just the cherries on top. \n May the best algorithm win!',
         date: '29th October',
