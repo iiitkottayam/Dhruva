@@ -3,6 +3,7 @@ const event = [
         day: 1,
         name: 'Opening ceremony',
         time: '6:00 PM - 6:30 PM',
+        link: 'https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA'
     },
     {
         day: 1,
