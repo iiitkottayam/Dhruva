@@ -134,7 +134,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     .hdn1 {
         font-size: 40px;
     }
@@ -144,10 +144,11 @@
     .desc,
     .cont {
         font-size: 15px;
+        
     }
     .date,
     .contact {
-        font-size: 19px;
+        font-size: 15px;
     }
 
     .date > hr {
