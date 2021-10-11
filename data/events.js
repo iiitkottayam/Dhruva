@@ -16,13 +16,13 @@ const events = [
             },
             {
                 key: '2',
-                name: 'Seshathri S',
-                email: 'seshathri2019@iiitkottayam.ac.in',
-                phoneNumber: '9087609727',
+                name: 'Nikhil Menon',
+                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                phoneNumber: '7259395776',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
-        registration: 'https://dare2compete.com',
+        registration: 'https://dare2compete.com/festival/dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-16148?lb=osb1xnJ',
     },
     {
         id: 2,
@@ -36,13 +36,19 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
-                email: 'techclub@iiitkottayam.ac.in',
-                
+                name: 'Aditya Srinivas Menon',
+                email: 'adityasrinivas20bcs8@iiitkottayam.ac.in',
+                phoneNumber: '(+91) 7406540439',
+            },
+            {
+                key: '2',
+                name: 'Prasanna Devadiga',
+                email: 'prasanna2019@iiitkottayam.ac.in',
+                phoneNumber: '9607781923',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
-        registration: 'https://dare2compete.com',
+        registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
     },
     {
         id: 1,
@@ -56,13 +62,13 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
-                email: 'techclub@iiitkottayam.ac.in',
-                
+                name: 'Seshathri S',
+                email: 'seshathri2019@iiitkottayam.ac.in',
+                phoneNumber: '9087609727',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
-        registration: '',
+        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
     },
     {
         id: 1,
@@ -81,14 +87,14 @@ const events = [
                 phoneNumber: '9793422020',
             },
             {
-                key: '1',
+                key: '2',
                 name: 'Sarthak Bindal',
                 email: 'bindalsarthak03@gmail.com',
                 phoneNumber: '7987957308',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
-        registration: '',
+        registration: 'https://forms.gle/GAPpgj5Uff6UtmFe6',
     },
     {
         id: 1,
@@ -102,13 +108,13 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
+                name: 'Aditi Shukla',
                 email: 'techclub@iiitkottayam.ac.in',
                 
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
-        registration: '',
+        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSdFVoLYl4ByFphQMrW_cSYELQiEPWIko-3H_vuYne_4dAfxuA/viewform?usp=sf_link',
     },
     {
         id: 1,
@@ -122,9 +128,15 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
-                email: 'techclub@iiitkottayam.ac.in',
+                name: 'Swani',
+                email: 'swani2019@iiitkottayam.ac.in',
                 
+            },
+            {
+                key: '2',
+                name: 'Prajjawal',
+                email: 'techclub@iiitkottayam.ac.in',
+                phoneNumber: '(+91) 9370324791',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/Graphic_Design_c91bpb.png',
@@ -142,13 +154,13 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
-                email: 'techclub@iiitkottayam.ac.in',
-                
+                name: 'Hrishabh Joshi',
+                email: 'harishabh2019@iiitkottayam.ac.in',
+                phoneNumber: '(+91) 9599928563',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: '',
+        registration: 'https://www.roostoo.com/',
     },
     {
         id: 1,
@@ -168,7 +180,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
-        registration: '',
+        registration: 'https://dare2compete.com/o/9dTxDwP?lb=MlXGSqt',
     },
     {
         id: 1,
@@ -182,19 +194,19 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Gouri Nair',
-                email: 'gourinair20bec7@iiitkottayam.ac.in',
-                phoneNumber: '08606922585',
+                name: 'Nikhil Menon',
+                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                phoneNumber: '7259395776',
             },
             {
                 key: '2',
-                name: 'Seshathri S',
-                email: 'seshathri2019@iiitkottayam.ac.in',
-                phoneNumber: '9087609727',
-            },
+                name: 'Gouri Nair',
+                email: 'gourinair20bec7@iiitkottayam.ac.in',
+                phoneNumber: '08606922585',
+            }
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/projectA_tcfmim.png',
-        registration: '',
+        registration: 'https://dare2compete.com/p/project-ayatjemis-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-222433?lb=mrxkYIG',
     },
     {
         id: 1,
@@ -208,13 +220,13 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
-                email: 'techclub@iiitkottayam.ac.in',
-                
+                name: 'Nikhil Menon',
+                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                phoneNumber: '7259395776',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793238/reverse_rtuaoc.png',
-        registration: '',
+        registration: 'https://www.hackerrank.com/reverse-coding-1633929297',
     },
     {
         id: 1,
@@ -228,13 +240,19 @@ const events = [
         organisers: [
             {
                 key: '1',
-                name: 'Beta Labs',
-                email: 'techclub@iiitkottayam.ac.in',
-                
+                name: 'Adithyadev Mattada',
+                email: 'adithyadevm20bec23@iiitkottayam.ac.in',
+                phoneNumber: '(+91) 7987957308',
+            },
+            {
+                key: '2',
+                name: 'Fathima Hanan Parakkot',
+                email: 'fathima20bec22@iiitkottayam.ac.in',
+                phoneNumber: '(+91) 8139888072',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
-        registration: '',
+        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSeCTTSdXmzbCjEzPy7vgDm1KJkAg5JQtgiFe2urhbA1e534Qg/viewform?usp=sf_link',
     },
     {
         id: 1,
@@ -243,7 +261,7 @@ const events = [
         tag: 'Rebibe Me Jett',
         description:
             'An exhilarating Valorant Tournament, with live commentary, a Huge Prize Pool, cool T-Shirts (real skins are important too), and an Adrenaline rush that you cannot afford to miss',
-        date: 'Everyday',
+        date: 'Every Dhruva-day',
         time: '9:30pm',
         organisers: [
             {
@@ -254,7 +272,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793240/Valorant_lsjk82.png',
-        registration: '',
+        registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
     },
 ]
 
