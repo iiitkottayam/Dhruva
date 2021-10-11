@@ -22,7 +22,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
-        registration: 'https://dare2compete.com/festival/dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-16148?lb=osb1xnJ',
+        registration: 'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
     },
     {
         id: 2,
@@ -139,8 +139,8 @@ const events = [
                 phoneNumber: '(+91) 9370324791',
             },
         ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/Graphic_Design_c91bpb.png',
-        registration: '',
+        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
+        registration: 'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
     },
     {
         id: 1,
