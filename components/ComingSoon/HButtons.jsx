@@ -5,13 +5,11 @@ import { SiDiscord } from 'react-icons/si'
 const HButtons = () => {
     return (
         <div className={styles.buttons}>
-            <Link href="https://dare2compete.com/festival/dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-16148?lb=osb1xnJ">
-                <a target="_blank">
+            <Link href="/events">
                     <button className={styles.b1}>Register</button>
-                </a>
             </Link>
             <button className={styles.b2}>
-                <Link href="https://discord.com/channels/@me" target="_blank">
+                <Link href="https://discord.gg/pyVrmC4DTk" target="_blank">
                     <a target="_blank">
                         <SiDiscord className={styles.faicon} />
                         <span> Join Discord </span>
