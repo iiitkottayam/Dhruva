@@ -160,6 +160,15 @@ const organisers = [
         instagram: 'https://www.instagram.com/itsgourinair/',
         twitter: 'https://twitter.com/rio_nair',
     },
+    {
+        id: 4,
+        name: 'Prabal Kalia',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634014795/me_2_zpuxjt.jpg',
+        gif: 'https://tenor.com/view/what-if-marvel-iron-man-tony-stark-eating-nom-gif-23046035',
+        linkedin: 'https://www.linkedin.com/in/prabal-kalia/',
+        instagram: 'https://www.instagram.com/starkizard/',
+        twitter: 'https://twitter.com/prabal_kalia',
+    },
 ]
 
 const eventM = [
@@ -191,6 +200,15 @@ const eventM = [
         instagram: 'https://www.instagram.com/_hanan_here/',
         twitter: '',
     },
+    {
+        id: 4,
+        name: 'Varshini Gurram',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634014676/pic_c5tpiv.jpg',
+        gif: 'https://tenor.com/view/mr-bean-weird-face-raised-eyebrow-smiling-gif-14339432',
+        linkedin: 'https://www.linkedin.com/in/varshini-gurram-821355201',
+        instagram: 'https://www.instagram.com/varshu_gurram/',
+        twitter: '',
+    },
 ]
 const design = [
     {
@@ -216,7 +234,7 @@ const content = [
     {
         id: 1,
         name: 'Aditi Shukla',
-        image: 'https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634011968/WhatsApp_Image_2021-10-12_at_9.29.02_AM_f0zttd.jpg',
         gif: 'https://c.tenor.com/N2JDQPy4DtYAAAAd/meme-kid.gif',
         linkedin: 'https://www.linkedin.com/in/aditi-shukla-4257071b8/',
         instagram: 'https://www.instagram.com/aditivibgyor/',
@@ -251,6 +269,15 @@ const outreach = [
         linkedin: 'https://www.linkedin.com/in/harsh-raj-181801206/',
         instagram: 'https://www.instagram.com/harsh_raj_gupta07',
         twitter: 'https://twitter.com/normal_memer?s=08',
+    },
+    {
+        id: 3,
+        name: 'Varshini Gurram',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634014676/pic_c5tpiv.jpg',
+        gif: 'https://tenor.com/view/mr-bean-weird-face-raised-eyebrow-smiling-gif-14339432',
+        linkedin: 'https://www.linkedin.com/in/varshini-gurram-821355201',
+        instagram: 'https://www.instagram.com/varshu_gurram/',
+        twitter: '',
     },
 ]
 export { mentors, developers, organisers, eventM, design, content, outreach }
