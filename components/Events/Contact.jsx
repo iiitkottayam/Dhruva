@@ -2,20 +2,20 @@ import styles from '/styles/EventDetails.module.css'
 import { FaLinkedin, FaTwitter, FaFacebookF } from 'react-icons/fa'
 import Link from 'next/dist/client/link'
 
-const Card = (props) => {
+const Contact = (props) => {
     return (
-        <>
-            
-            <p className={styles.contact}>
+        <div className = {styles.contact}>             
+            <p >
                 {props.name}
                 <br />
                 {props.email}
                 <br />
                 {props.phone}
-                <hr />
+                
             </p>
-        </>
-    )
+            <hr />
+        </div>
+        )
 }
 
-export default Card
+export default Contact
