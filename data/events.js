@@ -246,7 +246,7 @@ const events = [
                 key: '1',
                 name: 'Adithyadev Mattada',
                 email: 'adithyadevm20bec23@iiitkottayam.ac.in',
-                phoneNumber: '(+91) 7987957308',
+                phoneNumber: '(+91) 7559888295',
             },
             {
                 key: '2',
