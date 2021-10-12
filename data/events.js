@@ -31,7 +31,7 @@ const events = [
         name: 'Breaking Bad',
         tag: 'A Deep Learning Approach',
         description:
-            '“Shut the f— up and let me die in peace.”-Gus, Now that’s deep or is it umm....dark?\n \nShow off your Deep Learning skills by creating the most efficient model from the provided data set and problem statement while experiencing the dramatic, dark and action-packed storyline of breaking bad.',
+            '“Shut the f— up and let me die in peace.”-Mike, Now that’s deep or is it umm....dark?\n \nShow off your Deep Learning skills by creating the most efficient model from the provided data set and problem statement while experiencing the dramatic, dark and action-packed storyline of breaking bad.',
         date: '30th October',
         time: '8:00 am',
         organisers: [
