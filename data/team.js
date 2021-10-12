@@ -257,7 +257,7 @@ const outreach = [
         name: 'Alaka Jayan',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1633697944/IMG_20211007_225850_oc96vl.jpg',
         gif: 'https://c.tenor.com/wtd7yJEFJqEAAAAC/facepalm-the-huxtables.gif',
-        linkedin: 'www.linkedin.com/in/alaka-jayan',
+        linkedin: 'https://www.linkedin.com/in/alaka-jayan',
         instagram: '',
         twitter: '',
     },
