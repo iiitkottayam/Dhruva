@@ -169,6 +169,46 @@ const organisers = [
         instagram: 'https://www.instagram.com/starkizard/',
         twitter: 'https://twitter.com/prabal_kalia',
     },
+    {
+        id: 5,
+        name: 'Syam Sivadas',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105387/IMG20211010180906_c9hy4n.jpg',
+        gif: 'https://c.tenor.com/SmAxL88gDZQAAAAd/joey-mattle-blanc.gif',
+        linkedin: 'https://www.linkedin.com/in/syam-sivadas-57a4bb215/',
+        instagram: 'https://www.instagram.com/syam_sivadas/',
+    },
+    {
+        id: 6,
+        name: 'Karthika Madhu',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105489/1634016912691_t8nuj0.jpg',
+        gif: 'https://c.tenor.com/cKf7FeLja6cAAAAC/cant-wait-excited.gif',
+        linkedin: 'https://www.linkedin.com/in/karthika-madhu-725559201',
+        instagram: 'https://www.instagram.com/karthika8259/',
+    },
+    {
+        id: 7,
+        name: 'Seshathri S',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105584/IMG_20210826_190831_290_fsrdfu.jpg',
+        gif: 'https://c.tenor.com/KLfHF-v4gM0AAAAC/single-ladies-dance-calvin-payne.gif',
+        linkedin: 'https://www.linkedin.com/in/seshathri-s-32a5281a5',
+        instagram: 'https://www.instagram.com/seshathri.saravanan/',
+    },
+    {
+        id: 8,
+        name: 'Vansh Jagyasi',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105771/IMG_8989_tk4ezy.jpg',
+        gif: 'https://c.tenor.com/Hu3XWu61zL4AAAAS/kiss-kiss-bang-bang-youre-stupid.gif',
+
+        instagram: 'https://www.instagram.com/vanshjagyasi23/',
+    },
+    {
+        id: 9,
+        name: 'Jeet Shah',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105900/IMG_4060_l7y8dr.jpg',
+        gif: 'https://c.tenor.com/fBOhx_wbz1kAAAAS/yawn-tired.gif',
+
+        instagram: 'https://www.instagram.com/jeetshah_here/ ',
+    },
 ]
 
 const eventM = [
@@ -250,6 +290,14 @@ const content = [
         instagram: 'https://www.instagram.com/_hanan_here/',
         twitter: '',
     },
+    {
+        id: 3,
+        name: 'Vansh Jagyasi',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105771/IMG_8989_tk4ezy.jpg',
+        gif: 'https://c.tenor.com/Hu3XWu61zL4AAAAS/kiss-kiss-bang-bang-youre-stupid.gif',
+
+        instagram: 'https://www.instagram.com/vanshjagyasi23/',
+    },
 ]
 const outreach = [
     {
@@ -277,6 +325,23 @@ const outreach = [
         gif: 'https://c.tenor.com/ZhUttZgNkDQAAAAC/mr-bean-weird-face.gif',
         linkedin: 'https://www.linkedin.com/in/varshini-gurram-821355201',
         instagram: 'https://www.instagram.com/varshu_gurram/',
+        twitter: '',
+    },
+    {
+        id: 4,
+        name: 'Karthika Madhu',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634105489/1634016912691_t8nuj0.jpg',
+        gif: 'https://c.tenor.com/cKf7FeLja6cAAAAC/cant-wait-excited.gif',
+        linkedin: 'https://www.linkedin.com/in/karthika-madhu-725559201',
+        instagram: 'https://www.instagram.com/karthika8259/',
+    },
+    {
+        id: 5,
+        name: 'VIGNESH S ',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634106092/vignesh_whc4xo.jpg',
+        gif: 'https://c.tenor.com/tc90Ho5YsLkAAAAM/like-a-glove-ace-ventura.gif',
+        linkedin: '',
+        instagram: 'https://www.instagram.com/viguu007',
         twitter: '',
     },
 ]
