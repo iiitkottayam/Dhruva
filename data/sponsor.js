@@ -16,6 +16,7 @@ let sponsors2 = [
         name: 'Yocket',
         link: 'https://yocket.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634138248/460x0w_cxvp8r.png',
+
     },
 ]
 
