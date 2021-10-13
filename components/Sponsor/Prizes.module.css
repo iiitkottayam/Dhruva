@@ -5,10 +5,10 @@
     width: 100%;
     background: linear-gradient(
         180deg,
-        #ffcda1 0%,
-        #d8c7ff 40%,
-        #ffecdd 70%,
-        #ffc089 100%
+        #ffbf88 0%,
+        #e3b9ff 40%,
+        #ffd8bb 75%,
+        #ffaa60 100%
     );
 }
 
@@ -33,7 +33,10 @@
     font-size: calc(3.5vw + 7vh + 2vmin); /*responsive font size w/o media queries*/
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
         1.5px 1.5px 0 #000;
-    color: #f2cbc0;
+    /* If you add more sponsors, the Prizes title text color will look wrong,
+        so uncomment the color (fdbf94) below and comment the other color (fcc09c) to fix that */
+    /* color: #fdbf94 */
+    color: #fcc09c;
     letter-spacing: 1.5px;
 }
 
@@ -90,7 +93,7 @@
     .prizeH2Stroke {
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
         1px 1px 0 #000;
-        color: #f9cbac;
+        color: #fdbe8f;
     }
 }
 
