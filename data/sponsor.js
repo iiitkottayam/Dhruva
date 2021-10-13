@@ -4,11 +4,28 @@
 let sponsors = [
     {
         id: 1,
+        name: 'IIIT Kottayam',
+        link: 'https://www.iiitkottayam.ac.in/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634109795/IMG_4088-removebg-preview_hpawvo.png',
+    },
+]
+
+let sponsors2 = [
+    {
+        id: 1,
+        name: 'Yocket',
+        link: 'https://yocket.com/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634107646/yocket_paayol.png',
+    },
+]
+
+let sponsors3 = [
+    {
+        id: 1,
         name: 'Repl.it',
         link: 'https://replit.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633531669/replit_phtby0.png',
     },
-
     {
         id: 2,
         name: 'Interview Cake',
@@ -23,79 +40,33 @@ let sponsors = [
     },
     {
         id: 4,
+        name: 'GeeksforGeeks',
+        link: 'https://www.geeksforgeeks.org/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634108388/GeeksforGeeks.svg_kb3pur.png',
+    },
+    {
+        id: 5,
         name: 'Wolfram',
         link: 'https://www.wolframalpha.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633401789/wolf_jdmle0.png',
     },
     {
-        id: 5,
+        id: 6,
         name: 'Elearn\u200Bmarkets',
         link: 'https://www.elearnmarkets.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633700986/elmk_bwzzc3.png',
     },
     {
-        id: 6,
+        id: 7,
         name: 'Roostoo',
         link: 'https://www.roostoo.com/',
         logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633896484/rsto_qkeq9k.png',
     },
-]
-
-let sponsors2 = [
     {
-        id: 1,
-        name: 'This',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-
-    {
-        id: 2,
-        name: 'will',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-    {
-        id: 3,
-        name: 'be',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-    {
-        id: 4,
-        name: 'Gold',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-    {
-        id: 5,
-        name: 'Tier',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-]
-
-let sponsors3 = [
-    {
-        id: 1,
-        name: 'This',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-
-    {
-        id: 2,
-        name: 'will',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-    {
-        id: 3,
-        name: 'be',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-    {
-        id: 4,
-        name: 'Bronze',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
-    },
-    {
-        id: 5,
-        name: 'Tier',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png',
+        id: 8,
+        name: 'Echo3D',
+        link: 'https://www.echo3d.co/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634107850/c42fea_29a84adfa04046e69529e73ba3417d5d_mv2_ybai0z.png',
     },
 ]
 export { sponsors, sponsors2, sponsors3 }
