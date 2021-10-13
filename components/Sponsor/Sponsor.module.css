@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     row-gap: 2em;
     column-gap: 5em;
-    margin-top: calc(13em - 18vh); /* Spaces the logos from the title above */
+    margin-top: calc(8em - 18vh); /* Spaces the logos from the title above */
     margin-left: calc(4.5em + 4.5vw);
     margin-right: calc(4.5em + 4.5vw);
 }
@@ -27,12 +27,13 @@
 .sponsorH3 {
     font-family: var(--title);
     text-align: center;
-    font-size: calc(0.85vw + 2vh + 2vmin);
+    font-size: calc(0.85vw + 2.5vh + 2.5vmin);
     padding: 0 0.2em;
     margin-top: 5vw;
     font-style: normal;
     font-weight: normal;
     color: var(--black); /* Will override color (regardless of order) */
+    text-shadow: 0.5px 0.5px 1px #b600c7;
 }
 
 .sponsorH2Margin {
@@ -65,12 +66,17 @@
 
 /* The pictures are changing their size based on the size of the Label, media query below is to stop that */
 
-@media screen and (max-width: 320px) {
-    .sponsorRow{
-        margin-top: calc(10em - 18vh); 
+@media screen and (max-width: 400px) {
+    .sponsorRow {
+        margin-top: calc(8em - 18vh);
     }
 
-    .sponsorLabel{
-        font-size: 1.4rem;
+    .sponsorLabel {
+        font-size: 1.1rem;
+    }
+
+    .sponsorH3 {
+        font-size: calc(0.85vw + 3vh + 3vmin);
+        margin-top: 8vw;
     }
 }

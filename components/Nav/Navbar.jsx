@@ -46,7 +46,7 @@ const Navbar = () => {
     return (
         <Nav>
             <div className="logo">
-                <Link href="/">
+                <Link href="/" passHref>
                     <a target="_self">
                         <Image
                             src="/png/dhruva-dark-icon.png"
