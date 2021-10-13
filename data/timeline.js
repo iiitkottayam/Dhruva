@@ -1,7 +1,7 @@
 const event = [
     {
         day: 1,
-        name: 'Opening ceremony',
+        name: 'Opening Ceremony',
         time: '6:00 PM - 6:30 PM',
         link: 'https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA'
     },
@@ -18,12 +18,12 @@ const event = [
     },
     {
         day: 1,
-        name: 'Speaker session',
+        name: 'Speaker',
         time: '9 PM - 10:00 PM',
     },
     {
         day: 1,
-        name: 'Rebibe me jett',
+        name: 'Inter IIIT Valorant Tournament',
         time: '10:30 PM - 12:30 PM',
         link: 'rebibe-me-jett',
     },
@@ -58,7 +58,7 @@ const event = [
     },
     {
         day: 2,
-        name: 'Rebibe me jett',
+        name: 'Inter IIIT Valorant Tournament',
         time: '9:30 PM - 12:30 PM',
         link: 'rebibe-me-jett',
     },
@@ -87,7 +87,7 @@ const event = [
     },
     {
         day: 3,
-        name: 'Rebibe me jett',
+        name: 'Inter IIIT Valorant Tournament',
         time: '9:30 PM - 12:30 PM',
         link: 'rebibe-me-jett',
     },
@@ -99,13 +99,13 @@ const event = [
     },
     {
         day: 4,
-        name: 'Sess + workshop',
+        name: 'Session + Workshop',
         time: '11:45 AM - 1:00 PM',
         // link: 'rebibe-me-jett',
     },
     {
         day: 4,
-        name: 'speaker',
+        name: 'Speaker',
         time: '1:00 PM - 2:00 PM',
         // link: 'rebibe-me-jett',
     },
@@ -117,7 +117,7 @@ const event = [
     },
     {
         day: 4,
-        name: 'speaker',
+        name: 'Speaker',
         time: '5:00 PM - 6:00 PM',
         // link: 'rebibe-me-jett',
     },
@@ -129,7 +129,7 @@ const event = [
     },
     {
         day: 4,
-        name: 'Rebibe me jett',
+        name: 'Inter IIIT Valorant Tournament',
         time: '9:30 PM - 12:30 PM',
         link: 'rebibe-me-jett',
     },
