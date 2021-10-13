@@ -68,7 +68,7 @@
 }
 
 .sponsorLabel:hover {
-    text-decoration: underline #8c58fc;
+    text-decoration: 3px underline #8c58fc;
 }
 
 /* The pictures are changing their size based on the size of the Label, media query below is to stop that */
