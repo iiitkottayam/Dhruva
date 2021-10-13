@@ -25,7 +25,7 @@ const developers = [
         name: 'Aryan Yadav',
         image: 'https://res.cloudinary.com/hackbot/image/upload/v1633927567/profile1_ogifvj.png',
         gif: 'https://c.tenor.com/xPOkmiPmDT8AAAAM/bhagam-bhag-akshay-kumar-naughty.gif',
-        linkedin: 'https://linkedin.com/en/in/yadav-aryan',
+        linkedin: 'https://linkedin.com/in/yadav-aryan',
         instagram: 'https://instagram.com/aryann__7',
         twitter: 'https://twitter.com/7AryanY',
     },
@@ -104,7 +104,7 @@ const developers = [
     {
         id: 10,
         name: 'Charles V J',
-        image: 'https://res.cloudinary.com/roshin/image/upload/v1633354037/Charles_v1smiw.jpg',
+        image: 'https://res.cloudinary.com/hackbot/image/upload/v1634115376/cvj3_prpn98.jpg',
         gif: 'https://c.tenor.com/2tlEe_l8ICsAAAAd/kids-meme.gif',
         linkedin: 'https://www.linkedin.com/in/charles-v-j-641913187/',
         instagram: 'https://www.instagram.com/c.h.a.r.l.e.s.v.j/',
