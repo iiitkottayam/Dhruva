@@ -163,7 +163,7 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: '',
+        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSeugnLScRdetfbaI0_pSbujTU3dlDc53jvqUQPbpvKJCfuDoQ/viewform?usp=sf_link',
     },
     {
         id: 1,

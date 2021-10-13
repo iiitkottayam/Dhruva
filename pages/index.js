@@ -13,41 +13,36 @@ import Sponsor_Faq from '@components/Sponsor_Faq/Sponsor_Faq'
 import Attendes from '@components/AttendeesSpeakers/attendes'
 import Intro from '@components/Introduction/Intro'
 import { useEffect, useState } from 'react'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-import { useRouter } from 'next/dist/client/router';
+import { useRouter } from 'next/dist/client/router'
 
 export default function Home() {
+    const router = useRouter()
 
-  const router = useRouter();
-  
-  
-  const [show , setShow] = useState(true);
-  const [height , setHeight] = useState("100vh")
+    const [show, setShow] = useState(true)
+    const [height, setHeight] = useState('100vh')
 
     useEffect(() => {
-            if(router.asPath !== "/"){
-              setShow(false);
-              setHeight(null);
-            }
-            else{
-                const timer = setTimeout(() => {
-                  setShow(false);
-                  setHeight(null)
-              }, 6800);
-              return () => clearTimeout(timer);
-            }
-            
-    }, [router.asPath]);
+        if (router.asPath !== '/') {
+            setShow(false)
+            setHeight(null)
+        } else {
+            const timer = setTimeout(() => {
+                setShow(false)
+                setHeight(null)
+            }, 6800)
+            return () => clearTimeout(timer)
+        }
+    }, [router.asPath])
     useEffect(() => {
-        AOS.init({
-        });
-    }, []);
-  return (
-    <>
-    <div className={styles.container} style={{height:height}}>
-      <Head>
+        AOS.init({})
+    }, [])
+    return (
+        <>
+            <div className={styles.container} style={{ height: height }}>
+                <Head>
                     <title>DHRUVA - IIITK</title>
                     <meta
                         name="description"
@@ -68,44 +63,35 @@ export default function Home() {
                     <meta property="og:type" content="website" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
-      {
-        router.asPath === "/" ?
-          show ?
-            <Intro/>
-          :
-          <>
-            <Navbar/>
-            <Header />
-            <About/> 
-            <Attendes />
-            <Speakers />
-            <Timeline />
-            <Sponsors/>
-            <Sponsor_Faq />
-          </>
-
-        :
-        
-        <>
-          <Navbar/>
-          <Header />
-          <About/> 
-          <Attendes />
-          <Speakers />
-          <Timeline />
-          <Sponsors/>
-          <Sponsor_Faq />
+                {router.asPath === '/' ? (
+                    show ? (
+                        <Intro />
+                    ) : (
+                        <>
+                            <Navbar />
+                            <Header />
+                            <About />
+                            <Attendes />
+                            <Speakers />
+                            <Timeline />
+                            <Sponsors />
+                            <Sponsor_Faq />
+                        </>
+                    )
+                ) : (
+                    <>
+                        <Navbar />
+                        <Header />
+                        <About />
+                        <Attendes />
+                        <Speakers />
+                        <Timeline />
+                        <Sponsors />
+                        <Sponsor_Faq />
+                    </>
+                )}
+            </div>
+            {!show && <Footer></Footer>}
         </>
-        
-      }
-      
-
-    </div>
-    {
-      !show && <Footer></Footer>
-    }
-    
-    </>
-  )
-
+    )
 }
