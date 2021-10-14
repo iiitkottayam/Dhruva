@@ -230,8 +230,10 @@ const events = [
                 phoneNumber: '7259395776',
             },
         ],
+
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185036/final_b5pikj.png',
-        registration: 'https://www.hackerrank.com/reverse-coding-1633929297',
+        registration:
+            'https://docs.google.com/forms/d/e/1FAIpQLSczXunkRyZVz5cLsBaD3EgeF3_XfIbUnbi8cGkzJCt0JQcryg/viewform?usp=sf_link',
     },
     {
         id: 1,
