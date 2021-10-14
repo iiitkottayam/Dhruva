@@ -163,7 +163,8 @@ const events = [
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
-        registration: 'https://docs.google.com/forms/d/e/1FAIpQLSeugnLScRdetfbaI0_pSbujTU3dlDc53jvqUQPbpvKJCfuDoQ/viewform?usp=sf_link',
+        registration:
+            'https://docs.google.com/forms/d/e/1FAIpQLSeugnLScRdetfbaI0_pSbujTU3dlDc53jvqUQPbpvKJCfuDoQ/viewform?usp=sf_link',
     },
     {
         id: 1,
@@ -208,7 +209,7 @@ const events = [
                 phoneNumber: '08606922585',
             },
         ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/projectA_tcfmim.png',
+        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185031/final_1_hug6mt.png',
         registration:
             'https://dare2compete.com/p/project-ayatjemis-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-222433?lb=mrxkYIG',
     },
@@ -229,7 +230,7 @@ const events = [
                 phoneNumber: '7259395776',
             },
         ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793238/reverse_rtuaoc.png',
+        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185036/final_b5pikj.png',
         registration: 'https://www.hackerrank.com/reverse-coding-1633929297',
     },
     {
