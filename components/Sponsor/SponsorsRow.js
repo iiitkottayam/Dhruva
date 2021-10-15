@@ -10,7 +10,17 @@ export const SponsorsRow  = (props) => {
                 {props.sponsors.map((sponsor) => {
                  return <div key={sponsor.id} className="column div-margin" align="center">
                         <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
-                            <Image src={sponsor.logo} alt="Logo not available" width={140} height={140} className={styles.sponsorImg}/>
+                            <>
+                            <Image src={sponsor.logo} alt="Logo not available" width={145} height={145} className="Img"/>
+                            <style jsx global>{`
+                                .Img {
+                                    transition: transform 150ms ease-in-out
+                                }
+                                .Img:hover {
+                                    transform: scale(92%);
+                                }
+                            `}</style>
+                            </>
                         </a>
                         <a href={sponsor.link} target="_blank" rel="noopener noreferrer">
                             <h2 className={styles.sponsorLabel}>{sponsor.name}</h2>

@@ -58,6 +58,7 @@
 
 .sponsorLabel {
     font-family: var(--title);
+    width: 15ch;
     text-align: center;
     font-size: 1.6rem;
     font-style: normal;

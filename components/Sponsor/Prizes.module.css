@@ -6,7 +6,7 @@
     background: linear-gradient(
         180deg,
         #ffbf88 0%,
-        #f9b9ff 40%,
+        #ffb9f9 40%,
         #ffd8bb 75%,
         #ffaa60 100%
     );
@@ -33,10 +33,7 @@
     font-size: calc(3.5vw + 7vh + 2vmin); /*responsive font size w/o media queries*/
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
         1.5px 1.5px 0 #000;
-    /* If you add more sponsors, the Prizes title text color will look wrong,
-        so uncomment the color (fdbf94) below and comment the other color (fcc09c) to fix that */
-    /* color: #fdbf94 */
-    color: #fcc09c;
+    color: #fdbf94;
     letter-spacing: 1.5px;
 }
 
