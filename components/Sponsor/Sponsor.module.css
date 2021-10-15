@@ -63,7 +63,7 @@
     font-style: normal;
     font-weight: 600;
     color: var(--black);
-    text-decoration: underline transparent;
+    text-decoration: 3px underline transparent;
     transition: text-decoration 250ms ease-in-out;
 }
 
