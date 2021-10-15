@@ -19,6 +19,15 @@ export const SponsorsRow  = (props) => {
                                 .Img:hover {
                                     transform: scale(92%);
                                 }
+                                @media screen and (max-width: 320px) {
+                                    .Img {
+                                        transform: scale(85%);
+                                        transition: transform 150ms ease-in-out
+                                    }
+                                    .Img:hover {
+                                        transform: scale(75%);
+                                    }
+                                }
                             `}</style>
                             </>
                         </a>

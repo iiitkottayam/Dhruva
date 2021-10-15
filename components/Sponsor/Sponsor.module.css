@@ -72,22 +72,42 @@
     text-decoration: 3px underline #8c58fc;
 }
 
-/* The pictures are changing their size based on the size of the Label, media query below is to stop that */
+/* These min-device-height queries are to fix the iPad devices backPill margin issues (Pro, Mini, Normal) */
+@media screen and (min-device-height: 930px) {
+    .backPill {
+        margin: 5vw auto 8em auto;
+    }
+}
 
-@media screen and (max-width: 400px) {
+@media screen and (min-device-height: 1200px) {
+    .backPill {
+        margin: 5vw auto 12em auto;
+    }
+}
+
+@media screen and (max-width: 415px) {
     .sponsorRow {
         margin-top: calc(8em - 18vh);
         row-gap: 2em;
     }
-
     .sponsorH3 {
         font-size: calc(0.85vw + 3vh + 3vmin);
         margin-top: 8vw;
+    }
+    /* Stopping bottom Margin being too much on iP 6/6s and too less on iP X/Xs */
+    .backPill {
+        margin: 5vw auto calc(2.6em + 5vh) auto;
     }
 }
 
 @media screen and (max-width: 360px) {
     .sponsorLabel {
-        font-size: 1.4rem;
+        font-size: 1.35rem;
+    }
+    .sponsorH3 {
+        font-size: calc(0.85vw + 3.5vh + 3vmin);
+    }
+    .backPill {
+        margin: 5vw auto 3em auto;
     }
 }
