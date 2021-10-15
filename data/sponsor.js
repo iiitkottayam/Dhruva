@@ -6,7 +6,7 @@ let sponsors = [
         id: 1,
         name: 'IIIT Kottayam',
         link: 'https://www.iiitkottayam.ac.in/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634135498/iiitk_msqjpk.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634217192/iiitk_rihlkj.png',
     },
 ]
 
@@ -15,11 +15,20 @@ let sponsors2 = [
         id: 1,
         name: 'Yocket',
         link: 'https://yocket.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634138248/460x0w_cxvp8r.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634216565/yocket_swddms.png',
     },
 ]
 
 let sponsors3 = [
+    {
+        id: 1,
+        name: 'Raahee',
+        link: 'https://raahee.in/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634218553/RaaheeiOS_rt036o.png',
+    },
+]
+
+let sponsors4 = [
     {
         id: 1,
         name: 'Repl.it',
@@ -75,4 +84,4 @@ let sponsors3 = [
         logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634272733/smileyface-transparent-1080x1080_bfmreu.png',
     },
 ]
-export { sponsors, sponsors2, sponsors3 }
+export { sponsors, sponsors2, sponsors3, sponsors4 }
