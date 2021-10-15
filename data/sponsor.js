@@ -16,7 +16,6 @@ let sponsors2 = [
         name: 'Yocket',
         link: 'https://yocket.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634216565/yocket_swddms.png',
-
     },
 ]
 
@@ -26,7 +25,6 @@ let sponsors3 = [
         name: 'Raahee',
         link: 'https://raahee.in/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634218553/RaaheeiOS_rt036o.png',
-
     },
 ]
 
@@ -78,6 +76,12 @@ let sponsors4 = [
         name: 'Echo3D',
         link: 'https://www.echo3d.co/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634133322/ughecho_kkyikq.png',
+    },
+    {
+        id: 9,
+        name: 'Balsamiq',
+        link: 'https://balsamiq.cloud/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634272733/smileyface-transparent-1080x1080_bfmreu.png',
     },
 ]
 export { sponsors, sponsors2, sponsors3, sponsors4 }
