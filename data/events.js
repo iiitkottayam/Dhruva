@@ -167,8 +167,8 @@ const events = [
     },
     {
         id: 1,
-        link: 'retroopolis',
-        name: 'Retroopolis',
+        link: 'retropolis',
+        name: 'Retropolis',
         tag: 'From Retro to Life',
         description:
             "Consider yourself a pro gamer that likes to dabble in its making as well? Got some mad game development skills that you can't wait to exhibit? \n Well, Retroopolis is just the event for you! Build your own virtual world; \n Your World, Your Rules!",
