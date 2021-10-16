@@ -26,6 +26,12 @@ let sponsors3 = [
         link: 'https://raahee.in/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634218553/RaaheeiOS_rt036o.png',
     },
+    {
+        id: 2,
+        name: 'Leading Learners',
+        link: 'https://linktr.ee/leadinglearners/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634322698/LeadLearn_ptrh08.png',
+    },
 ]
 
 let sponsors4 = [
@@ -45,7 +51,7 @@ let sponsors4 = [
         id: 3,
         name: 'Taskade',
         link: 'https://www.taskade.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633333293/mCSOnOC0ChLj9_TsUGQOLdb3yUfZ4F7GUXgWngMLZcDXCF29Q4ALzCgRTX52b0tR2g_ip2ipl.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634316952/taskadesss_rsmkjq.png',
     },
     {
         id: 4,
@@ -63,7 +69,7 @@ let sponsors4 = [
         id: 6,
         name: 'Elearn\u200Bmarkets',
         link: 'https://www.elearnmarkets.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633700986/elmk_bwzzc3.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634316597/elms_wigaby.png',
     },
     {
         id: 7,
@@ -75,7 +81,7 @@ let sponsors4 = [
         id: 8,
         name: 'Echo3D',
         link: 'https://www.echo3d.co/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634133322/ughecho_kkyikq.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634326360/echoXD_cztqiq.png',
     },
     {
         id: 9,
