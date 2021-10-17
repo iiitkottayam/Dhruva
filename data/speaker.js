@@ -15,7 +15,14 @@ const speaker = [
         time: '5:00pm',
         image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633897099/vineet-sir_p1kpff.jpg',
     },
-    
+    {
+        id: 3,
+        name: 'Galicia Gordon',
+        details: 'Founder of Leading Learners',
+        date: '28th October',
+        time: '9:00pm',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634450930/1628802104553_snxcen.jpg',
+    },
 ]
 
 export { speaker }

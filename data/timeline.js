@@ -3,7 +3,7 @@ const event = [
         day: 1,
         name: 'Opening Ceremony',
         time: '6:00 PM - 6:30 PM',
-        link: 'https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA'
+        link: 'https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA',
     },
     {
         day: 1,
@@ -18,7 +18,7 @@ const event = [
     },
     {
         day: 1,
-        name: 'Speaker',
+        name: 'Pitching workshop - Galicia',
         time: '9 PM - 10:00 PM',
     },
     {
@@ -33,11 +33,11 @@ const event = [
         time: '9:00 AM - 11:00 AM',
         link: 'retroopolis',
     },
-    {
-        day: 2,
-        name: 'Speaker',
-        time: '11:30 AM - 12:30 PM',
-    },
+    // {
+    //     day: 2,
+    //     name: 'Speaker',
+    //     time: '11:30 AM - 12:30 PM',
+    // },
     {
         day: 2,
         name: 'Sold It!',
@@ -76,7 +76,7 @@ const event = [
     },
     {
         day: 3,
-        name: 'Speaker',
+        name: 'Rajaneesh Vasanta’s Industrial Problem',
         time: '12:00 PM - 1:00 PM',
     },
     {
@@ -99,16 +99,16 @@ const event = [
     },
     {
         day: 4,
-        name: 'Session + Workshop',
+        name: 'Industrial Robotics Introduction',
         time: '11:45 AM - 1:00 PM',
         // link: 'rebibe-me-jett',
     },
-    {
-        day: 4,
-        name: 'Speaker',
-        time: '1:00 PM - 2:00 PM',
-        // link: 'rebibe-me-jett',
-    },
+    // {
+    //     day: 4,
+    //     name: 'Speaker',
+    //     time: '1:00 PM - 2:00 PM',
+    //     // link: 'rebibe-me-jett',
+    // },
     {
         day: 4,
         name: 'Reverse Coding',
@@ -117,7 +117,7 @@ const event = [
     },
     {
         day: 4,
-        name: 'Speaker',
+        name: 'Personal Finance by Vineet Patawari',
         time: '5:00 PM - 6:00 PM',
         // link: 'rebibe-me-jett',
     },
