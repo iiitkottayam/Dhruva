@@ -14,10 +14,14 @@ export const SponsorsRow  = (props) => {
                             <Image src={sponsor.logo} alt="Logo not available" width={145} height={145} className="Img"/>
                             <style jsx global>{`
                                 .Img {
-                                    transition: transform 150ms ease-in-out
+                                    transition: transform 175ms ease-in-out
                                 }
                                 .Img:hover {
-                                    transform: scale(92%);
+                                    transform: scale(90%);
+                                }
+                                .Img:active {
+                                    transform: scale(83%);
+                                    transition: transform 100ms ease-in-out
                                 }
                                 @media screen and (max-width: 320px) {
                                     .Img {
