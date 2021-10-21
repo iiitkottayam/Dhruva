@@ -27,6 +27,7 @@
 
 .sponsorH3 {
     font-family: var(--title);
+    text-align: center;
     font-size: calc(0.85vw + 2.5vh + 2.5vmin);
     font-style: normal;
     padding: 0.3rem 0.4em 0.175em 0.4em;
@@ -37,6 +38,10 @@
 }
 
 #Ruby { /* Specifically for Ruby */
+    padding: 0.3rem 0.4em 0.25em 0.4em;
+}
+
+#Learn { /* Specifically for Learning Partners */
     padding: 0.3rem 0.4em 0.25em 0.4em;
 }
 
@@ -106,6 +111,9 @@
     }
     .sponsorH3 {
         font-size: calc(0.85vw + 3.5vh + 3vmin);
+    }
+    #Learn {
+        font-size: calc(0.85vw + 2.5vh + 3vmin);
     }
     .backPill {
         margin: 5vw auto 3em auto;
