@@ -1,4 +1,6 @@
 const event = [
+    // Day 1
+
     {
         day: 1,
         name: 'Opening Ceremony',
@@ -27,17 +29,21 @@ const event = [
         time: '10:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },
+
+    // Day 2 
+
     {
         day: 2,
         name: 'Retroopolis',
         time: '9:00 AM - 11:00 AM',
         link: 'retroopolis',
     },
-    // {
-    //     day: 2,
-    //     name: 'Speaker',
-    //     time: '11:30 AM - 12:30 PM',
-    // },
+    {
+        day: 2,
+        name: 'Personal Finance by Vineet Patawari',
+        time: '12:00 PM - 1:00 PM',
+        // link: 'rebibe-me-jett',
+    },
     {
         day: 2,
         name: 'Sold It!',
@@ -62,6 +68,9 @@ const event = [
         time: '9:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },
+
+    // Day 3
+
     {
         day: 3,
         name: 'Breaking Bad',
@@ -91,6 +100,9 @@ const event = [
         time: '9:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
     },
+
+    // Day 4
+
     {
         day: 4,
         name: 'Take De Bait!',
@@ -114,12 +126,6 @@ const event = [
         name: 'Reverse Coding',
         time: '2:30 PM - 4:30 PM',
         link: 'reverse-coding',
-    },
-    {
-        day: 4,
-        name: 'Personal Finance by Vineet Patawari',
-        time: '5:00 PM - 6:00 PM',
-        // link: 'rebibe-me-jett',
     },
     {
         day: 4,
