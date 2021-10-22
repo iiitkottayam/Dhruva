@@ -47,7 +47,7 @@
 
 .backPill{
     width:fit-content;
-    margin: 5vw auto 5em auto;
+    margin: 4em auto 5em auto;
     border-radius: 500px;
     background-color: #ffffff75;
     border: 3px solid #ffffffe9;
@@ -89,6 +89,9 @@
     .backPill {
         margin: 5vw auto 12em auto;
     }
+    .sponsorRow {
+        column-gap: 8em;
+    }
 }
 
 @media screen and (max-width: 415px) {
@@ -101,7 +104,10 @@
     }
     /* Stopping bottom Margin being too much on iP 6/6s and too less on iP X/Xs */
     .backPill {
-        margin: 5vw auto calc(2.6em + 5vh) auto;
+        margin: 2em auto 4.5em auto;
+    }
+    #Learn {
+        font-size: calc(1.2vw + 2.5vh + 3vmin);
     }
 }
 
@@ -116,6 +122,6 @@
         font-size: calc(0.85vw + 2.5vh + 3vmin);
     }
     .backPill {
-        margin: 5vw auto 3em auto;
+        margin: 1.5em auto 2em auto;
     }
 }
