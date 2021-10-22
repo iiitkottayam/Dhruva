@@ -40,7 +40,6 @@ export const Sponsors = (props) => {
                     Gold Tier
                 </h3></div>
                 <SponsorsRow sponsors={sponsors} />
-                <br />
                 <div className={styles.backPill}><h3 className={styles.sponsorH3} style={{ color: '#2ebdeb' }}>
                     Silver Tier
                 </h3></div>
@@ -53,7 +52,6 @@ export const Sponsors = (props) => {
                     Learning Partner
                 </h3></div>
                 <SponsorsRow sponsors={sponsors4} />
-                <br />
                 <div className={styles.backPill}><h3 className={styles.sponsorH3} id={styles.Ruby} style={{ color: '#ff6361' }}>
                     Ruby Tier
                 </h3></div>
