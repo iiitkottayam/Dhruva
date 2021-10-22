@@ -6,7 +6,7 @@
      
     /* border:2px solid red; */
     --p1:#af6aff;
-    --p3:#ffb779;
+    --p3:#ffad66;
     
 }
 .speaker .image{
@@ -83,6 +83,7 @@
     bottom:-1.5rem;
     width:100%;
     height:.5rem;
+    border-radius: 2px;
     background: linear-gradient(
         135deg,
         var(--p1),

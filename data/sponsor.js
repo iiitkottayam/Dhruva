@@ -1,4 +1,4 @@
-// This is where you can edit the data of Sponsors >> sponsors - gold, sponsors2 - silver, sponsors3 - ruby.
+// This is where you can edit the data of Sponsors >> sponsors - gold, sponsors2 - silver, sponsors3 - emerald, sponsors4 - learning, sponsors5 - ruby.
 // old temp logo - https://res.cloudinary.com/dlu72yo9b/image/upload/v1632592420/images-removebg-preview_cbju43.png
 
 let sponsors = [
@@ -37,6 +37,15 @@ let sponsors3 = [
 let sponsors4 = [
     {
         id: 1,
+        name: 'Elearn\u200Bmarkets',
+        link: 'https://www.elearnmarkets.com/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634316597/elms_wigaby.png',
+    },
+]
+
+let sponsors5 = [
+    {
+        id: 1,
         name: 'Repl.it',
         link: 'https://replit.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1633531669/replit_phtby0.png',
@@ -67,27 +76,21 @@ let sponsors4 = [
     },
     {
         id: 6,
-        name: 'Elearn\u200Bmarkets',
-        link: 'https://www.elearnmarkets.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634316597/elms_wigaby.png',
-    },
-    {
-        id: 7,
         name: 'Roostoo',
         link: 'https://www.roostoo.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634130044/roostoo_tyytck.png',
     },
     {
-        id: 8,
+        id: 7,
         name: 'Echo3D',
         link: 'https://www.echo3d.co/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634326360/echoXD_cztqiq.png',
     },
     {
-        id: 9,
+        id: 8,
         name: 'Balsamiq',
         link: 'https://balsamiq.cloud/',
         logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634272733/smileyface-transparent-1080x1080_bfmreu.png',
     },
 ]
-export { sponsors, sponsors2, sponsors3, sponsors4 }
+export { sponsors, sponsors2, sponsors3, sponsors4, sponsors5 }
