@@ -52,7 +52,7 @@
     font-family: var(--title);
     text-align: center;
     font-size: calc(0.7vw + 3vh + 2vmin); /*responsive font size w/o media queries*/
-    padding: 0 0.2em;
+    padding: 0 1em;
     margin-top: 4vw;
     font-style: normal;
     font-weight: normal;
