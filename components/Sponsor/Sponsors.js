@@ -2,8 +2,8 @@ import { SponsorsRow } from './SponsorsRow'
 import { PrizesRow } from './PrizesRow'
 import styles from './Sponsor.module.css'
 import styleP from './Prizes.module.css'
-import { sponsors, sponsors2, sponsors3, sponsors4 } from '@data/sponsor' //This is the data of Sponsors >>sponsor.js | Go here to edit names
-import { prizes } from '@data/prizes' //tier list >> sponsors - gold, sponsors2 - silver, sponsors3 - ruby.
+import { sponsors, sponsors2, sponsors3, sponsors4, sponsors5 } from '@data/sponsor' //This is the data of Sponsors >>sponsor.js | Go here to edit names
+import { prizes } from '@data/prizes' //tier list >> sponsors - gold, sponsors2 - silver, sponsors3 - emerald, sponsors4 - learning, sponsors5 - ruby.
 
 // This is the MAIN File for the entire Sponsors component.
 
@@ -49,11 +49,15 @@ export const Sponsors = (props) => {
                     Emerald Tier
                 </h3></div>
                 <SponsorsRow sponsors={sponsors3} />
-                <br />
-                <div className={styles.backPill}><h3 className={styles.sponsorH3} id={styles.Ruby} style={{ color: '#ff7361' }}>
-                    Ruby Tier
+                <div className={styles.backPill}><h3 className={styles.sponsorH3} id={styles.Learn} style={{ color: '#d15dcf' }}>
+                    Learning Partner
                 </h3></div>
                 <SponsorsRow sponsors={sponsors4} />
+                <br />
+                <div className={styles.backPill}><h3 className={styles.sponsorH3} id={styles.Ruby} style={{ color: '#ff6361' }}>
+                    Ruby Tier
+                </h3></div>
+                <SponsorsRow sponsors={sponsors5} />
             </div>
         </div>
     )

@@ -63,6 +63,12 @@ const events = [
         organisers: [
             {
                 key: '1',
+                name: 'Prabal Kalia',
+                email: 'prabalkalia18bcs@iiitkottayam.ac.in',
+                phoneNumber: '(+91) 8130580250',
+            },
+            {
+                key: '2',
                 name: 'Seshathri S',
                 email: 'seshathri2019@iiitkottayam.ac.in',
                 phoneNumber: '9087609727',
