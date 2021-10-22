@@ -18,11 +18,11 @@ const speaker = [
     {
         id: 3,
         name: 'Rajaneesh Vasanta',
-        details: 'Founder - ANTAR IoT ',
+        details: 'Founder & CEO - ANTAR IoT ',
         date: '30th October',
         time: '12:00 pm',
         image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633896830/2168052_original_ddoxla.jpg',
-    }, 
+    },
 ]
 
 export { speaker }
