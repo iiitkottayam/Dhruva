@@ -265,7 +265,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration:
-            'https://docs.google.com/forms/d/e/1FAIpQLSeCTTSdXmzbCjEzPy7vgDm1KJkAg5JQtgiFe2urhbA1e534Qg/viewform?usp=sf_link',
+            'https://dare2compete.com/creative-cultural-event/sold-it-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-i-222188',
     },
     {
         id: 1,
