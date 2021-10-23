@@ -284,7 +284,7 @@ const events = [
                 phoneNumber: '9080385059',
             },
         ],
-        poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793240/Valorant_lsjk82.png',
+        poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
         registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
     },
 ]
