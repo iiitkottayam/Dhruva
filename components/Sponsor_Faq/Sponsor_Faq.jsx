@@ -39,12 +39,10 @@ const Sponsor_Faq = () => {
                         <p className={Style.subtitle}>
                             Feeling Overwhelmed?<br></br>Reach out to us.
                         </p>
-                        <a href="#">
-                            <HButtonLight
-                                name={'Contact Us'}
-                                icon={<ImArrowUpRight2 />}
-                            />
-                        </a>
+                        <HButtonLight
+                            name={'Contact Us'}
+                            icon={<ImArrowUpRight2 />}
+                        />
                     </div>
                     <div className={Style.chat}>
                         <div className={Style.chatW}>
