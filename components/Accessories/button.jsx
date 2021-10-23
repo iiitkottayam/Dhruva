@@ -16,7 +16,7 @@ export function HButton(props) {
         }
     }
     return (
-        <div className={styles.btndiv}>
+        <>
             <button
                 className={styles.btnh}
                 onClick={(event) =>
@@ -25,12 +25,12 @@ export function HButton(props) {
             >
                 {props.name}&emsp;{props.icon}
             </button>
-        </div>
+        </>
     )
 }
 export function HButtonLight(props) {
     return (
-        <div className={styles.btndiv}>
+        <>
             <button
                 className={styles.btnhl}
                 onClick={(event) =>
@@ -39,6 +39,6 @@ export function HButtonLight(props) {
             >
                 {props.name}&emsp;{props.icon}
             </button>
-        </div>
+        </>
     )
 }
