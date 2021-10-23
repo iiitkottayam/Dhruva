@@ -17,6 +17,12 @@ let sponsors2 = [
         link: 'https://yocket.com/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1634897207/yocket_zkmr8p.png',
     },
+    {
+        id: 2,
+        name: 'Interview Buddy',
+        link: 'https://interviewbuddy.in/',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1635005828/ib2_gbu7b1.png',
+    },
 ]
 
 let sponsors3 = [
