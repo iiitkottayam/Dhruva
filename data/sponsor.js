@@ -19,7 +19,7 @@ let sponsors2 = [
     },
     {
         id: 2,
-        name: 'Interview Buddy',
+        name: 'InterviewBuddy',
         link: 'https://interviewbuddy.in/',
         logo: 'https://res.cloudinary.com/roshin/image/upload/v1635007695/ib2_hu4bxv.png',
     },
