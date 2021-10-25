@@ -32,7 +32,7 @@ export default function Home() {
             const timer = setTimeout(() => {
                 setShow(false)
                 setHeight(null)
-            }, 6800)
+            }, 4175)
             return () => clearTimeout(timer)
         }
     }, [router.asPath])
