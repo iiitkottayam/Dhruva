@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--white);
-    animation: slide-out-container 4s cubic-bezier(0.97, 0.01, 0.36, 0.99) 2.8s;
+    /* Closing animation below */
+    animation: slide-out-container 3.2s cubic-bezier(0.97, 0.01, 0.36, 0.99) 1s;
     animation-fill-mode: forwards;
 }
 
@@ -97,48 +98,48 @@
 }
 
 .text1 {
-    animation: blink 0.8s linear 0.9s, blink 0.8s linear 2s;
+    animation: blink 0.5s linear 0.6s, blink 0.5s linear 1.35s;
     opacity: 0;
 }
 .text2 {
-    animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s;
+    animation: blink 0.5s linear 0.5s, blink 0.5s linear 1.5s;
     opacity: 0;
 }
 .text3 {
-    animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s;
+    animation: blink 0.5s linear 0.4s, blink 0.5s linear 1.6s;
     opacity: 0;
 }
 .text4 {
-    animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
+    animation: blink 0.5s linear 0.3s, blink 0.5s linear 1.7s;
     opacity: 0;
 }
 .text5 {
-    animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s;
+    animation: blink 0.5s linear 0.2s, blink 0.5s linear 1.8s;
     opacity: 0;
 }
 .text6 {
-    animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s,
-        slide-out 1s linear 3.2s;
+    animation: blink 0.65s linear 0.1s, blink 0.7s linear 1.9s,
+        slide-out 0.8s linear 2.2s;
     opacity: 0;
 }
 .text7 {
-    animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s;
+    animation: blink 0.5s linear 0.2s, blink 0.5s linear 1.8s;
     opacity: 0;
 }
 .text8 {
-    animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
+    animation: blink 0.5s linear 0.3s, blink 0.5s linear 1.7s;
     opacity: 0;
 }
 .text9 {
-    animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s;
+    animation: blink 0.5s linear 0.4s, blink 0.5s linear 1.6s;
     opacity: 0;
 }
 .text10 {
-    animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s;
+    animation: blink 0.5s linear 0.5s, blink 0.5s linear 1.5s;
     opacity: 0;
 }
 .text11 {
-    animation: blink 0.8s linear 0.9s, blink 0.8s linear 2.2s;
+    animation: blink 0.5s linear 0.6s, blink 0.5s linear 1.6s;
     opacity: 0;
 }
 @media screen and (max-width: 768px) {

@@ -18,6 +18,10 @@ const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     z-index: 10;
+    .maintxt {
+        margin-left: 5px;
+    }
+
     .logo {
         padding: 15px 0;
         cursor: pointer;
@@ -54,6 +58,7 @@ const Navbar = () => {
                             alt="Dhruva Logo"
                             height={40}
                             width={40}
+                            loading="eager"
                         ></Image>
                     </a>
                 </Link>
