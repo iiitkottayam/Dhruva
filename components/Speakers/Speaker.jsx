@@ -22,7 +22,7 @@ export default function Speaker(props) {
                     </span>
                     <span className={styles.linking}>
                         <a href={props.link} target="_blank" rel="noopener noreferrer">zoom</a>
-                        &nbsp;(youtube recorded) {/* Prop ready for YouTube, its prop.linkyt */}
+                        &nbsp;(youtube recorded) {/* Prop ready for YouTube, its prop.linkyt, Just wrap the text in an <a/> tag */}
                     </span>
                 </div>
             </div>
