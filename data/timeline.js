@@ -111,8 +111,8 @@ const event = [
     },
     {
         day: 4,
-        name: 'Industrial Robotics Introduction',
-        time: '11:45 AM - 1:00 PM',
+        name: 'Rajen Dasgupta’s Industrial Robotics Introduction',
+        time: '12:00 PM - 2:00 PM',
         // link: 'rebibe-me-jett',
     },
     // {
