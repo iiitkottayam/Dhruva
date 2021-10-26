@@ -30,13 +30,13 @@ const event = [
         link: 'rebibe-me-jett',
     },
 
-    // Day 2 
+    // Day 2
 
     {
         day: 2,
-        name: 'Retroopolis',
+        name: 'Retropolis',
         time: '9:00 AM - 11:00 AM',
-        link: 'retroopolis',
+        link: 'retropolis',
     },
     {
         day: 2,
