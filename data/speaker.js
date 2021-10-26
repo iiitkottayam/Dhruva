@@ -31,6 +31,14 @@ const speaker = [
         time: '12:00 PM',
         image: 'https://res.cloudinary.com/roshin/image/upload/v1635178842/Rajen_dgzczu.jpg',
     },
+    {
+        id: 5,
+        name: 'Praveen Kumar',
+        details: 'Lead Consultant - Virtusa/LBG ',
+        date: '31st October',
+        time: '5:00 PM',
+        image: 'https://res.cloudinary.com/roshin/image/upload/v1635272110/praveen_eo5nay.png',
+    },
 ]
 
 export { speaker }

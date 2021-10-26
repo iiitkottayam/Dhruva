@@ -20,7 +20,7 @@ const event = [
     },
     {
         day: 1,
-        name: 'Pitching workshop - Galicia',
+        name: 'Pitching Workshop - Galicia Gordon',
         time: '9 PM - 10:00 PM',
     },
     {
@@ -126,6 +126,12 @@ const event = [
         name: 'Reverse Coding',
         time: '2:30 PM - 4:30 PM',
         link: 'reverse-coding',
+    },
+    {
+        day: 4,
+        name: 'Praveen Kumar’s Introduction to ReactJS (with Live Project)',
+        time: '5:00 PM - 7:00 PM',
+        // link: 'reverse-coding',
     },
     {
         day: 4,
