@@ -151,6 +151,9 @@
     .speaker .info .timing::after{
         bottom:-1rem;
     }
+    .linking a {
+        text-decoration: 2px underline;
+    }
 }
 @media(max-width:380px){
     .speaker .image img{

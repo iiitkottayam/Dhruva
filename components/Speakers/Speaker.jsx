@@ -20,7 +20,10 @@ export default function Speaker(props) {
                     <span>
                         {props.date}&ensp;{props.time}
                     </span>
-                    <span className={styles.linking}><a href={props.link} target="_blank" rel="noopener noreferrer">zoom</a> (youtube recorded)</span>
+                    <span className={styles.linking}>
+                        <a href={props.link} target="_blank" rel="noopener noreferrer">zoom</a>
+                        &nbsp;(youtube recorded) {/* Prop ready for YouTube, its prop.linkyt */}
+                    </span>
                 </div>
             </div>
         </div>

@@ -18,6 +18,7 @@ export default function Speakers() {
                         time={item.time}
                         image={item.image}
                         link={item.link}
+                        linkyt={item.linkyt}
                     />
                 ))}
             </div>
