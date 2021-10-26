@@ -87,6 +87,7 @@
     transition: all 0.1s ease-in-out;
     border: 1px rgb(255, 255, 255) solid;
     margin-top: 2rem;
+    border-radius: 3px;
 }
 .btnh:hover {
     box-shadow: 0.3em 0.3em rgb(255, 255, 255);
@@ -110,6 +111,7 @@
     transition: all 0.1s ease-in-out;
     border: 1px rgb(0, 0, 0) solid;
     margin-top: 2rem;
+    border-radius: 3px;
 }
 .btnhl:hover {
     box-shadow: 0.3em 0.3em rgb(0, 0, 0);
