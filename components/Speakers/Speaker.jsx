@@ -18,9 +18,9 @@ export default function Speaker(props) {
                 <div className={styles.about}>{props.detail}</div>
                 <div className={styles.timing}>
                     <span>
-                        {props.date}&nbsp;&nbsp;{props.time}
+                        {props.date}&ensp;{props.time}
                     </span>
-                    <span>zoom (youtube recorded) </span>
+                    <span className={styles.linking}><a href={props.link} target="_blank" rel="noopener noreferrer">zoom</a> (youtube recorded)</span>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const event = [
     },
     {
         day: 1,
-        name: 'Sponsor talks',
+        name: 'Sponsor Talks',
         time: '6:45 PM - 7:30 PM',
     },
     {
@@ -21,7 +21,8 @@ const event = [
     {
         day: 1,
         name: 'Pitching Workshop - Galicia Gordon',
-        time: '9 PM - 10:00 PM',
+        time: '9:00 PM - 10:00 PM',
+        link: 'https://us06web.zoom.us/j/88315597259?pwd=NC9BeHNudHNkRnZEczI0cTZTdUtTUT09',
     },
     {
         day: 1,
@@ -42,7 +43,7 @@ const event = [
         day: 2,
         name: 'Personal Finance by Vineet Patawari',
         time: '12:00 PM - 1:00 PM',
-        // link: 'rebibe-me-jett',
+        link: 'https://us06web.zoom.us/j/86404219257?pwd=TVN1YnZpWlRRYUVkNVRzTjh3c0R3dz09',
     },
     {
         day: 2,
@@ -87,6 +88,7 @@ const event = [
         day: 3,
         name: 'Rajaneesh Vasanta’s Industrial Problem',
         time: '12:00 PM - 1:00 PM',
+        link: 'https://us06web.zoom.us/j/81552313314?pwd=MXU1cFg5UDdaV1VXZ01ZNTJEU0dCdz09',
     },
     {
         day: 3,
@@ -113,7 +115,7 @@ const event = [
         day: 4,
         name: 'Rajen Dasgupta’s Industrial Robotics Introduction',
         time: '12:00 PM - 2:00 PM',
-        // link: 'rebibe-me-jett',
+        link: 'https://us06web.zoom.us/j/88332504978?pwd=THBLcTJWWmg0UUhIYlNNR3FiN0pPZz09',
     },
     // {
     //     day: 4,
@@ -131,7 +133,7 @@ const event = [
         day: 4,
         name: 'Praveen Kumar’s Introduction to ReactJS (with Live Project)',
         time: '5:00 PM - 7:00 PM',
-        // link: 'reverse-coding',
+        link: 'https://us06web.zoom.us/j/83914825418?pwd=RURpaGZ5ZUZLYWpTUmlWM1VSNEVXQT09',
     },
     {
         day: 4,
