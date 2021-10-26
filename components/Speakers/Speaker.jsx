@@ -5,12 +5,12 @@ export default function Speaker(props) {
         <div className={styles.speaker}>
             <div className={styles.image}>
                 {props.image && (
-                    <img
+                    <Image
                         src={props.image}
                         alt={props.name}
-                        height="200"
-                        width="200"
-                    />
+                        height={200}
+                        width={200}
+                    ></Image>
                 )}
             </div>
             <div className={styles.info}>
@@ -20,7 +20,7 @@ export default function Speaker(props) {
                     <span>
                         {props.date}&nbsp;&nbsp;{props.time}
                     </span>
-                    <span>youtube live </span>
+                    <span>zoom (youtube recorded) </span>
                 </div>
             </div>
         </div>
