@@ -5,12 +5,12 @@ export default function Speaker(props) {
         <div className={styles.speaker}>
             <div className={styles.image}>
                 {props.image && (
-                    <Image
+                    <img
                         src={props.image}
                         alt={props.name}
                         height={200}
                         width={200}
-                    ></Image>
+                    ></img>
                 )}
             </div>
             <div className={styles.info}>
@@ -21,8 +21,16 @@ export default function Speaker(props) {
                         {props.date}&ensp;{props.time}
                     </span>
                     <span className={styles.linking}>
-                        <a href={props.link} target="_blank" rel="noopener noreferrer">zoom</a>
-                        &nbsp;(youtube recorded) {/* Prop ready for YouTube, its prop.linkyt, Just wrap the text in an <a/> tag */}
+                        <a
+                            href={props.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="zoom"
+                        >
+                            zoom
+                        </a>
+                        &nbsp;(youtube recorded){' '}
+                        {/* Prop ready for YouTube, its prop.linkyt, Just wrap the text in an <a/> tag */}
                     </span>
                 </div>
             </div>
