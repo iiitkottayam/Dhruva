@@ -21,6 +21,7 @@
     "react-icons": "^4.3.1",
     "react-toastify": "^8.0.3",
     "styled-components": "^5.3.1",
+    "swr": "^1.0.1",
     "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
