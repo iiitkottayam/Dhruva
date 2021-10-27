@@ -11,7 +11,8 @@
 }
 .footerLower {
     text-align: center;
-    padding-bottom: 0.5%;
+    padding-bottom: calc(1em + 0.5%);
+    padding-top: 1em;
 }
 .icons {
     margin-left: 0%;
@@ -33,6 +34,9 @@
 .logo img {
     width: 350px;
     object-fit: cover;
+}
+.heart {
+    cursor: pointer;
 }
 @media (max-width: 1335px) {
     .footerUpper {

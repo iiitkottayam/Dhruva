@@ -12,6 +12,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import logo from '../../public/betalab-horizontal.png'
 const Footer = () => {
+    function love() {
+        alert("With ❤️💜💛, We present to you... Dhruva!")
+    }
     return (
         <div className={styles.footer}>
             <div className={styles.footerUpper}>
@@ -92,7 +95,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.footerLower}>
-                <p>Made with ❤️ by BetaLabs</p>
+                <span onClick={love} className={styles.heart}>Made with ❤️ by BetaLabs</span>
             </div>
         </div>
     )

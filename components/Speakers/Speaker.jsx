@@ -8,9 +8,9 @@ export default function Speaker(props) {
                     <img
                         src={props.image}
                         alt={props.name}
-                        height="200"
-                        width="200"
-                    />
+                        height={200}
+                        width={200}
+                    ></img>
                 )}
             </div>
             <div className={styles.info}>
@@ -18,9 +18,20 @@ export default function Speaker(props) {
                 <div className={styles.about}>{props.detail}</div>
                 <div className={styles.timing}>
                     <span>
-                        {props.date}&nbsp;&nbsp;{props.time}
+                        {props.date}&ensp;{props.time}
                     </span>
-                    <span>youtube live </span>
+                    <span className={styles.linking}>
+                        <a
+                            href={props.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="zoom"
+                        >
+                            zoom
+                        </a>
+                        &nbsp;(youtube recorded)
+                        {/* Prop ready for YouTube, its prop.linkyt, Just wrap the text in an <a/> tag */}
+                    </span>
                 </div>
             </div>
         </div>
