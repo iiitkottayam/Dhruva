@@ -1,128 +1,123 @@
-.speaker{
+.speaker {
     padding: 1rem;
-   
-    width:100%;
-    display: flex;
-     
-    /* border:2px solid red; */
-    --p1:#af6aff;
-    --p3:#ffad66;
-    
-}
-.speaker .image{
-     
-    /* border:2px solid red; */
-    position: relative;
-} 
-.speaker .image::after{
-    content:'';
-    position: absolute;
-    inset:0;
-    z-index:-1;
 
-    transform: scale(1.01) translateY(-.9%);
-    transform-origin: center;
-    border-radius: 10rem 10rem 0 0 ;
-    background:linear-gradient(45deg,var(--p3),var(--p1)) ;
-   
+    width: 100%;
+    display: flex;
+    height: 100%;
+    /* border:2px solid red; */
+    --p1: #af6aff;
+    --p3: #ffad66;
 }
-.speaker .image img{
+.speaker .image {
+    /* border:2px solid red; */
     position: relative;
-    width: min(15rem, 30vw);
+    height: 100%;
+}
+.speaker .image::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    transform: scale(1.01) translateY(-0.9%);
+    transform-origin: center;
+    border-radius: 10rem 10rem 0 0;
+    background: linear-gradient(45deg, var(--p3), var(--p1));
+}
+.speaker .image img {
+    position: relative;
+    width: min(20rem, 30vw);
     height: min(20rem, 50vw);
     object-position: 50% 50%;
     object-fit: cover;
+    height: 100%;
 
-    border-radius: 10rem 10rem 0 0 ;
+    border-radius: 10rem 10rem 0 0;
 
     /* border :.2rem solid transparent;
     border-image: linear-gradient(0deg,var(--p3),var(--p1));
     border-image-slice:1 ; */
 }
-.speaker .info{
-    flex:2;
+.speaker .info {
+    flex: 2;
     /* border:2px solid red; */
-    position:relative;
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content:  center;
-    
-    gap:1.5rem;
-    
-    padding: .5rem;
-    padding-left:2rem; 
+    justify-content: center;
+
+    gap: 1.5rem;
+
+    padding: 0.5rem;
+    padding-left: 2rem;
 }
-.speaker .info .name{
+.speaker .info .name {
     /* width:max-content; */
     font-size: clamp(1.8rem, 10vw, 4.5rem);
     font-weight: 400;
     text-transform: capitalize;
 }
-.speaker .info .about{
-    
-    max-width:95%;
-    font-size: clamp(.8rem, 2vw, 1rem);
+.speaker .info .about {
+    max-width: 95%;
+    font-size: clamp(0.8rem, 2vw, 1rem);
     font-weight: 500;
     text-transform: capitalize;
-    
 }
-.speaker .info .timing{
+.speaker .info .timing {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: .5rem;
-   
+    gap: 0.5rem;
+
     /* width:max-content; */
     font-size: clamp(1rem, 5vw, 2.2rem);
     font-weight: 400;
     text-transform: capitalize;
 }
-.speaker .info .timing::after{
-    content:'';
-    position:absolute;
-    bottom:-1.5rem;
-    width:100%;
-    height:.5rem;
+.speaker .info .timing::after {
+    content: '';
+    position: absolute;
+    bottom: -1.5rem;
+    width: 100%;
+    height: 0.5rem;
     border-radius: 2px;
-    background: linear-gradient(
-        135deg,
-        var(--p1),
-        var(--p3) 65%
-    );
+    background: linear-gradient(135deg, var(--p1), var(--p3) 65%);
 }
 .linking a {
-    color:#2aadeb;
+    color: #000000;
     text-decoration: 3px underline;
+    text-decoration-style: dashed;
 }
 .linking a:visited {
-    color: #870da5;
+    color: #430053;
 }
 .linking a:hover {
     filter: brightness(125%);
+    text-decoration-style: wavy;
 }
 .linking a:active {
     filter: brightness(70%);
 }
 
-@media (min-width:1020px) and (max-width:1600px){
-     
-    .speaker .info .name{
+@media (min-width: 1020px) and (max-width: 1600px) {
+    .speaker .info .name {
         font-size: clamp(2rem, 4vw, 4rem) !important;
         text-transform: capitalize;
     }
-    .speaker .info{
-        padding-right:1rem;
-        width:min(50vw,20rem)
+    .speaker .info {
+        padding-right: 1rem;
+        width: min(50vw, 20rem);
     }
-    .speaker .image img{
+    .speaker .image img {
         width: min(12rem, 30vw);
         height: min(18rem, 50vw);
+        height: 100%;
     }
- 
-    .speaker .info .timing{
+
+    .speaker .info .timing {
         font-size: clamp(1rem, 2vw, 2rem);
     }
-    .speaker .info .name{
+    .speaker .info .name {
         font-size: clamp(3rem, 4.5vw, 4.5rem);
         font-weight: 400;
         text-transform: capitalize;
@@ -130,50 +125,46 @@
 }
 
 /* MOBILE RESPONSIVE */
-@media (max-width:480px){
-    .speaker .info{
-        padding: .5rem;
-        padding-left:1rem; 
+@media (max-width: 480px) {
+    .speaker .info {
+        padding: 0.5rem;
+        padding-left: 1rem;
     }
-    .speaker .info .name{
+    .speaker .info .name {
         font-size: clamp(2rem, 5vw, 4.5rem);
     }
-    .speaker .info .about{
+    .speaker .info .about {
         width: 55vw;
-        font-size: clamp(.7rem, 2vw, 1rem);
+        font-size: clamp(0.7rem, 2vw, 1rem);
     }
-    .speaker .info .timing{
-        
-        gap: .3rem;
+    .speaker .info .timing {
+        gap: 0.3rem;
         font-size: clamp(1rem, 4vw, 2rem);
-       
     }
-    .speaker .info .timing::after{
-        bottom:-1rem;
+    .speaker .info .timing::after {
+        bottom: -1rem;
     }
     .linking a {
         text-decoration: 2px underline;
     }
 }
-@media(max-width:380px){
-    .speaker .image img{
+@media (max-width: 380px) {
+    .speaker .image img {
         width: min(15rem, 30vw);
         height: 100%;
     }
 }
-@media(max-width:320px){
-    .speaker .info .name{
+@media (max-width: 320px) {
+    .speaker .info .name {
         font-size: clamp(1.7rem, 4vw, 4.5rem);
     }
-    .speaker .info .about{
+    .speaker .info .about {
         width: 55vw;
-        font-size: clamp(.65rem, 1vw, .8rem);
+        font-size: clamp(0.65rem, 1vw, 0.8rem);
     }
-    .speaker .info .timing{
-        
-        gap: .3rem;
-        font-size: clamp(.9rem, 4vw, 2rem);
-       
+    .speaker .info .timing {
+        gap: 0.3rem;
+        font-size: clamp(0.9rem, 4vw, 2rem);
     }
 }
 /* @media (max-width:800px){
@@ -212,5 +203,8 @@
     }
      
 } */
- 
- 
+
+.zoom {
+    color: black;
+    text-decoration-style: dotted;
+}

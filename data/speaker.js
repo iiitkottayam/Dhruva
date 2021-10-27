@@ -45,7 +45,7 @@ const speaker = [
         details: 'Lead Consultant - Virtusa/LBG ',
         date: '31st October',
         time: '5:00 PM',
-        image: 'https://res.cloudinary.com/roshin/image/upload/v1635272110/praveen_eo5nay.png',
+        image: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1635310044/circle-cropped_3__H1bUzX0_qgj5gw.png',
         link: 'https://us06web.zoom.us/j/83914825418?pwd=RURpaGZ5ZUZLYWpTUmlWM1VSNEVXQT09',
         // linkyt: '',
     },
