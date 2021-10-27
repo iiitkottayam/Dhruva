@@ -18,9 +18,12 @@ export default function Speaker(props) {
                 <div className={styles.about}>{props.detail}</div>
                 <div className={styles.timing}>
                     <span>
-                        {props.date}&nbsp;&nbsp;{props.time}
+                        {props.date}&ensp;{props.time}
                     </span>
-                    <span>zoom (youtube recorded) </span>
+                    <span className={styles.linking}>
+                        <a href={props.link} target="_blank" rel="noopener noreferrer">zoom</a>
+                        &nbsp;(youtube recorded) {/* Prop ready for YouTube, its prop.linkyt, Just wrap the text in an <a/> tag */}
+                    </span>
                 </div>
             </div>
         </div>

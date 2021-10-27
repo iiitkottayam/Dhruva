@@ -21,7 +21,7 @@ let sponsors2 = [
         id: 2,
         name: 'InterviewBuddy',
         link: 'https://interviewbuddy.in/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1635007695/ib2_hu4bxv.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1635229265/ib2_zsniqi.png',
     },
 ]
 

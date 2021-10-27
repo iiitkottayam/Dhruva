@@ -90,6 +90,19 @@
         var(--p3) 65%
     );
 }
+.linking a {
+    color:#2aadeb;
+    text-decoration: 3px underline;
+}
+.linking a:visited {
+    color: #870da5;
+}
+.linking a:hover {
+    filter: brightness(125%);
+}
+.linking a:active {
+    filter: brightness(70%);
+}
 
 @media (min-width:1020px) and (max-width:1600px){
      
@@ -137,6 +150,9 @@
     }
     .speaker .info .timing::after{
         bottom:-1rem;
+    }
+    .linking a {
+        text-decoration: 2px underline;
     }
 }
 @media(max-width:380px){
