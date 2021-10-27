@@ -14,9 +14,15 @@ const event = [
     },
     {
         day: 1,
-        name: 'Fantasy Crypto League',
-        time: '7:30 PM - 8:30 PM',
+        name: 'Fantasy Crypto League Initiation',
+        time: '7:30 PM - 8:00 PM',
         link: 'fantasy-crypto-league',
+    },
+    {
+        day: 1,
+        name: 'BrandAID Introduction',
+        time: '8:15 PM - 8:45 PM',
+        link: 'brandaid',
     },
     {
         day: 1,
@@ -35,8 +41,8 @@ const event = [
 
     {
         day: 2,
-        name: 'Retropolis',
-        time: '9:00 AM - 11:00 AM',
+        name: 'Retropolis Jam & WorkShop',
+        time: '9:00 AM - 11:30 AM',
         link: 'retropolis',
     },
     {
@@ -75,7 +81,7 @@ const event = [
     {
         day: 3,
         name: 'Breaking Bad',
-        time: '8:00 AM - 9:30 AM',
+        time: '8:00 AM - 9:35 AM',
         link: 'breaking-bad',
     },
     {
@@ -92,7 +98,7 @@ const event = [
     },
     {
         day: 3,
-        name: 'Commit The Flag',
+        name: 'Commit The Flag WorkShop + Event',
         time: '2:00 PM - 8:30 PM',
         link: 'commit-the-flag',
     },

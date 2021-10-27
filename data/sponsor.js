@@ -60,7 +60,7 @@ let sponsors5 = [
         id: 2,
         name: 'Interview Cake',
         link: 'https://www.interviewcake.com/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633574507/cakestrwhite_ou6ueg.png',
+        logo: 'https://res.cloudinary.com/roshin/image/upload/v1633581064/cake2_kth1zo.png',
     },
     {
         id: 3,
