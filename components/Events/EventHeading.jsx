@@ -20,9 +20,8 @@ const EventHeading = (props) => {
                         <a href={props.register} target="_blank" rel="noreferrer">
                             <HButton name="Register"/>
                         </a>
-                        <br></br>
+                        &emsp;&emsp;
                     </>
-                    
                 :
                  ""}
                 <a href={(!leaderboard.includes(props.title) ? "/leaderboard_table?val=" : "/leaderboard?val=") + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
