@@ -1,9 +1,14 @@
 import styles from '/styles/LeaderboardHeading.module.css'
-const LeaderboardHeading = (props) => {
+import { useRouter } from 'next/router'
+const LeaderboardHeading = () => {
+
+    const router = useRouter();
+    const title = router.query["nam"];
+
     return (
         <div className = {styles.container}>
             <div className={styles.Heading}>
-                <h1>{props.title}</h1>
+                <h1>{title}</h1>
                 <p>Leaderboard</p>               
             </div>
         </div>

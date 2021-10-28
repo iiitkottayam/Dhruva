@@ -5,6 +5,7 @@ import LeaderboardHeading from '@components/Leaderboard/LeaderboardHeading'
 import Footer from '@components/Footer/Footer'
 import Navbar from '@components/Nav/Navbar'
 import LeaderboardSmallData from '@components/Leaderboard/LeaderboardSmallData'
+
 const leaderboard = () => {
     return (
         <>
@@ -18,7 +19,7 @@ const leaderboard = () => {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
                 <Navbar />
-                <LeaderboardHeading title = "Commit The Flag" />
+                <LeaderboardHeading />
                 <LeaderboardSmallData />
                 
         </div>
