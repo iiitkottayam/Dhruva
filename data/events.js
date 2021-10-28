@@ -11,13 +11,13 @@ const events = [
             {
                 key: '1',
                 name: 'Gouri Nair',
-                email: 'gourinair20bec7@iiitkottayam.ac.in',
+                email: 'gourinair20bec7@\u200Biiitkottayam.ac.in',
                 phoneNumber: '08606922585',
             },
             {
                 key: '2',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
                 phoneNumber: '7259395776',
             },
         ],
@@ -39,13 +39,13 @@ const events = [
             {
                 key: '1',
                 name: 'Aditya Srinivas Menon',
-                email: 'adityasrinivas20bcs8@iiitkottayam.ac.in',
+                email: 'adityasrinivas20bcs8@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 7406540439',
             },
             {
                 key: '2',
                 name: 'Prasanna Devadiga',
-                email: 'prasanna2019@iiitkottayam.ac.in',
+                email: 'prasanna2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '9607781923',
             },
         ],
@@ -66,13 +66,13 @@ const events = [
             {
                 key: '1',
                 name: 'Prabal Kalia',
-                email: 'prabalkalia18bcs@iiitkottayam.ac.in',
+                email: 'prabalkalia18bcs@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8130580250',
             },
             {
                 key: '2',
                 name: 'Seshathri S',
-                email: 'seshathri2019@iiitkottayam.ac.in',
+                email: 'seshathri2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9087609727',
             },
         ],
@@ -94,13 +94,13 @@ const events = [
             {
                 key: '1',
                 name: 'Shashank Srivastava',
-                email: 'shashank.srivastava25sks@gmail.com',
+                email: 'shashank.srivastava25sks@\u200Bgmail.com',
                 phoneNumber: '(+91) 9793422020',
             },
             {
                 key: '2',
                 name: 'Sarthak Bindal',
-                email: 'bindalsarthak03@gmail.com',
+                email: 'bindalsarthak03@\u200Bgmail.com',
                 phoneNumber: '(+91) 7987957308',
             },
         ],
@@ -122,7 +122,7 @@ const events = [
             {
                 key: '1',
                 name: 'Aditi Shukla',
-                email: 'techclub@iiitkottayam.ac.in',
+                email: 'techclub@\u200Biiitkottayam.ac.in',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
@@ -143,12 +143,12 @@ const events = [
             {
                 key: '1',
                 name: 'Swani',
-                email: 'swani2019@iiitkottayam.ac.in',
+                email: 'swani2019@\u200Biiitkottayam.ac.in',
             },
             {
                 key: '2',
                 name: 'Prajjawal',
-                email: 'techclub@iiitkottayam.ac.in',
+                email: 'techclub@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9370324791',
             },
         ],
@@ -170,7 +170,7 @@ const events = [
             {
                 key: '1',
                 name: 'Hrishabh Joshi',
-                email: 'harishabh2019@iiitkottayam.ac.in',
+                email: 'harishabh2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9599928563',
             },
         ],
@@ -191,7 +191,7 @@ const events = [
             {
                 key: '1',
                 name: 'Sai Tejashwin',
-                email: 'tejashwin2019@iiitkottayam.ac.in',
+                email: 'tejashwin2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8688179209',
             },
         ],
@@ -212,13 +212,13 @@ const events = [
             {
                 key: '1',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
                 phoneNumber: '(+91) 7259395776',
             },
             {
                 key: '2',
                 name: 'Gouri Nair',
-                email: 'gourinair20bec7@iiitkottayam.ac.in',
+                email: 'gourinair20bec7@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 08606922585',
             },
         ],
@@ -240,7 +240,7 @@ const events = [
             {
                 key: '1',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
                 phoneNumber: '(+91) 7259395776',
             },
         ],
@@ -263,13 +263,13 @@ const events = [
             {
                 key: '1',
                 name: 'Adithyadev Mattada',
-                email: 'adithyadevm20bec23@iiitkottayam.ac.in',
+                email: 'adithyadevm20bec23@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 7559888295',
             },
             {
                 key: '2',
                 name: 'Fathima Hanan Parakkot',
-                email: 'fathima20bec22@iiitkottayam.ac.in',
+                email: 'fathima20bec22@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8139888072',
             },
         ],
@@ -291,7 +291,7 @@ const events = [
             {
                 key: '1',
                 name: 'Lakshin Kumar R',
-                email: 'lakshin2019@iiitkottayam.ac.in',
+                email: 'lakshin2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9080385059',
             },
         ],
@@ -312,7 +312,7 @@ const events = [
             {
                 key: '1',
                 name: 'Priyanshu',
-                email: 'techclub@iiitkottayam.ac.in',
+                email: 'techclub@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8407016547',
             },
         ],
