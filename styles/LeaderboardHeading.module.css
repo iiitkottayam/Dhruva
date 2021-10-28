@@ -20,7 +20,6 @@
     text-transform: capitalize;
     background: linear-gradient(to bottom, var(--linearg1), var(--linearg2));
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
     
 }
