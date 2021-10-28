@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { HButton } from '@components/Accessories/button'
 import { Hidden } from '@material-ui/core'
+import { ImArrowUpRight2 } from 'react-icons/im'
 
 const EventHeading = (props) => {
 
@@ -15,7 +16,7 @@ const EventHeading = (props) => {
                 <h1>{props.title}</h1>
                 <p style = {props.content ? ({display: 'block'}) : ({display : 'none'})}>{props.content}</p>
                 <a href={(!leaderboard.includes(props.title) ? "/leaderboard_table?val=" : "/leaderboard?val=") + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
-                    <HButton name="Leaderboard" />
+                    <HButton name="Leaderboard" icon = {<ImArrowUpRight2 />}/>
                 </a>
             </div>
             <div className={styles.image}>
