@@ -124,6 +124,10 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
+<<<<<<< HEAD
+=======
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
+>>>>>>> parent of c4fe8e4 (fetch API update)
     },
     {
         id: 1,
@@ -150,6 +154,10 @@ const events = [
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
+<<<<<<< HEAD
+=======
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
+>>>>>>> parent of c4fe8e4 (fetch API update)
     },
     {
         id: 1,
@@ -190,6 +198,10 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
         registration: 'https://dare2compete.com/o/9dTxDwP?lb=MlXGSqt',
+<<<<<<< HEAD
+=======
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
+>>>>>>> parent of c4fe8e4 (fetch API update)
     },
     {
         id: 1,
@@ -266,6 +278,10 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration:
             'https://dare2compete.com/creative-cultural-event/sold-it-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-i-222188',
+<<<<<<< HEAD
+=======
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",        
+>>>>>>> parent of c4fe8e4 (fetch API update)
     },
     {
         id: 1,
@@ -286,6 +302,10 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
         registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
+<<<<<<< HEAD
+=======
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
+>>>>>>> parent of c4fe8e4 (fetch API update)
     },
 ]
 
