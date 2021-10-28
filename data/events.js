@@ -287,6 +287,26 @@ const events = [
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
         registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
     },
+    {
+        id: 1,
+        link: 'stick-to-it',
+        name: 'Stick-To-It',
+        tag: 'Sticker Making Competition brought to you by RAAHEE',
+        description:
+            'The most important part of any tech event often culminates in the form of stickers that we put on our laptops. In fact, the level of your activity during your engineering days is defined by how much your laptop’s back is not visible due to stickers covering a major part of it.\n \nThis Dhruva, you have a chance to design your own stickers, and if you are good at it, also get rewarded for it.',
+        date: '28th October - 31st October',
+        time: '28th 6:00pm - 31st 11:59pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Priyanshu',
+                email: 'techclub@iiitkottayam.ac.in',
+                phoneNumber: '8407016547',
+            },
+        ],
+        poster: 'https://res.cloudinary.com/roshin/image/upload/v1635413455/sticktoit_s4kpmz.jpg',
+        registration: 'https://dare2compete.com/o/qNbGFSA?lb=osb1xnJ',
+    },
 ]
 
 export { events }

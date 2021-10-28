@@ -17,6 +17,7 @@ export default function Speakers() {
                         date={item.date}
                         time={item.time}
                         image={item.image}
+                        how={item.how}
                         link={item.link}
                         linkyt={item.linkyt}
                     />

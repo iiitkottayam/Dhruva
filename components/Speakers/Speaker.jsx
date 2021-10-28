@@ -27,7 +27,7 @@ export default function Speaker(props) {
                             rel="noopener noreferrer"
                             className="zoom"
                         >
-                            zoom
+                            {props.how}
                         </a>
                         &nbsp;(youtube recorded)
                         {/* Prop ready for YouTube, its prop.linkyt, Just wrap the text in an <a/> tag */}
