@@ -33,9 +33,14 @@ const Card = (props) => {
                             alt="poster"
                             height="300"
                             width="250"
+                            className="imgs"
                         />
                     )}
-
+                     <style jsx global>{`
+                            .imgs {
+                                border-radius: 8px;
+                            }
+                        `}</style>
                     <div className={styles.content_container}>
                         <span className={styles.name}>{props.name}</span>
                         {/* <span className={styles.role}>

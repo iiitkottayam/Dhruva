@@ -16,10 +16,10 @@ const EventHeading = (props) => {
             <div className={styles.Heading}>
                 <h1>{props.title}</h1>
                 <p style = {props.content ? ({display: 'block'}) : ({display : 'none'})}>{props.content}</p>
-                <div className = {styles.links}>
+                <div>
                     {((props.title) == "Stick-To-It") ? 
-                        <a href={props.register} target="_blank" rel="noreferrer">
-                            <HButton name="Register"/>
+                        <a href={props.register} target="_blank" rel="noreferrer" className = {styles.links}>
+                            <HButton name="Register" icon = {<ImArrowUpRight2 />}/>
                         </a>
                     :
                      ""}

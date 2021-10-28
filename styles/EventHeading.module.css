@@ -41,11 +41,16 @@
 .image img {
     width: 22.5rem;
     height: 22.5rem;
-    
+    border-radius: 10px;
 }
 .image {
     margin-top: 15%;
 }
+
+.links {
+    margin-right: 3em;
+}
+
 @media (max-width: 1250px) {
     .Heading h1
     {
@@ -76,13 +81,15 @@
         font-size: 18px;
     }
     .image img {
-        width: 18rem;
+        width: 19.2rem;
         height: 19.2rem;
     }
 }
 @media (max-width: 705px) {
     .container {
         grid-template-columns: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
         margin-top: 15%;
         justify-items: center;
         align-items: center;
@@ -100,8 +107,11 @@
         font-size: 17px;
     }
     .image img {
-        width: 16rem;
+        width: 17.2rem;
         height: 17.2rem;
+    }
+    .links {
+        margin: 0 25% 0 25%;
     }
 }
 
@@ -115,6 +125,6 @@
     }
     .image img {
         width: 14rem;
-        height: 16rem;
+        height: 14rem;
     }
 }
