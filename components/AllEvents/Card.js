@@ -40,7 +40,7 @@ const Card = (props) => {
                         </div>
                         <div className={styles.detailContainer}>
                             <p>
-                                {props.date}&nbsp;&nbsp;{props.time}
+                                {props.date}<br/>{props.time}
                             </p>
                         </div>
                     </div>
