@@ -41,6 +41,7 @@
 .image img {
     width: 22.5rem;
     height: 22.5rem;
+    border-radius: 10px;
     
 }
 .image {
