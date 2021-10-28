@@ -143,4 +143,5 @@
 .detailContainer > p {
     font-family: var(--coming);
     font-size: medium;
+    font-weight: 500;
 }

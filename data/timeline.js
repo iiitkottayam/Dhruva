@@ -98,8 +98,8 @@ const event = [
     },
     {
         day: 3,
-        name: 'Commit The Flag WorkShop + Event',
-        time: '2:00 PM - 8:30 PM',
+        name: 'Commit The Flag',
+        time: '4:00 PM - 8:00 PM',
         link: 'commit-the-flag',
     },
     {
@@ -139,7 +139,7 @@ const event = [
         day: 4,
         name: 'Praveen Kumar’s Introduction to ReactJS (with Live Project)',
         time: '5:00 PM - 7:00 PM',
-        link: 'https://us06web.zoom.us/j/83914825418?pwd=RURpaGZ5ZUZLYWpTUmlWM1VSNEVXQT09',
+        link: 'https://www.youtube.com/c/PraveenKumarPurush',
     },
     {
         day: 4,
@@ -152,6 +152,12 @@ const event = [
         name: 'Inter IIIT Valorant Tournament',
         time: '9:30 PM - 12:30 AM',
         link: 'rebibe-me-jett',
+    },
+    {
+        day: 4,
+        name: 'Stick-To-It Deadline',
+        time: 'Ends by 11:59 PM',
+        link: 'stick-to-it',
     },
 ]
 
