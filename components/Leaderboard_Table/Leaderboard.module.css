@@ -1,0 +1,83 @@
+.container iframe{
+    width: 90vw;
+    height: 90vh;
+    margin: 0rem 0 5rem 0;
+}
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:c enter;
+    align-items: center;
+    background-color: var(--black);
+    color: var(--white);
+}
+.hdn1 {
+    font-family: var(--title);
+    text-transform: capitalize;
+    background: linear-gradient(to bottom, var(--linearg1), var(--linearg2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 4.7rem;
+    font-weight: 400;
+    letter-spacing: -3px;
+    margin: 4rem 0 0.5rem 0;
+    line-height: 6rem;
+}
+.hdn2{
+    font-family: var(--coming), sans-serif;
+    
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1250px) {
+    .Heading h1{
+        font-size: 4.5rem;
+    }
+}
+@media (max-width: 1200px) {
+    .Heading h1 {
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 1040px) {
+    .Heading h1 {
+        font-size: 2.5em;
+    }
+    .hdn1{
+        font-size: 2.5rem;
+        line-height: 4rem;
+        margin: 5rem 0 0.5rem
+    }
+}
+@media (max-width: 705px) {
+    .Heading h1 {
+        font-size: 2em;
+    }
+    .hdn1{
+        font-size: 2rem;
+        line-height: 3.5rem;
+        margin: 5rem 0 0.5rem
+    }
+}
+
+@media (max-width: 468px) {
+    .Heading h1 {
+        font-size: 2em;
+    }
+    .hdn1{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        margin: 5rem 0 0.5rem 0;
+    }
+    .container iframe{
+        height: 160vh;
+        width: 100vw;
+    }
+
+}

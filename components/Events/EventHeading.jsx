@@ -3,18 +3,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { HButton } from '@components/Accessories/button'
 import { Hidden } from '@material-ui/core'
+
 const EventHeading = (props) => {
+
+    const leaderboard = ["Inter IIIT Valorant Tournament", "Sold It!", "Retropolis", "BrandAID", "Take De Bait!"];
+
     return (
+        
         <div className={styles.container}>
             <div className={styles.Heading}>
                 <h1>{props.title}</h1>
                 <p style = {props.content ? ({display: 'block'}) : ({display : 'none'})}>{props.content}</p>
-                {props.register ? (<a href={props.register} target="_blank" rel="noreferrer">
-                    <HButton name="Register" />
-                </a>) : (<HButton name="Coming Soon" />) }
-                {/* <a href={props.register} target="_blank" rel="noreferrer">
-                    <HButton name="Register" />
-                </a> */}
+                <a href={(!leaderboard.includes(props.title) ? "/leaderboard_table?val=" : "/leaderboard?val=") + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
+                    <HButton name="Leaderboard" />
+                </a>
             </div>
             <div className={styles.image}>
                 {props.eventPoster && (
