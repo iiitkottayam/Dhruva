@@ -54,7 +54,7 @@
     height: 16rem;
     padding-top: 3.5rem;
 }
-.one > .pic
+/* .one > .pic
 {
     background-image: url(../public/badges/1.png)  
 }
@@ -66,6 +66,9 @@
 .three > .pic
 {
     background-image: url(../public/badges/3.png)
+} */
+.pic{
+    background-image: url(../public/badges/prize.jpg);
 }
 .top3 .item.one .pic {
     width: 5rem;

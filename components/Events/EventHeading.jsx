@@ -8,7 +8,7 @@ import { style } from 'dom-helpers'
 
 const EventHeading = (props) => {
 
-    const leaderboard = ["Inter IIIT Valorant Tournament", "Sold It!", "Retropolis", "BrandAID", "Take De Bait!"];
+    const leaderboard = ["Inter IIIT Valorant Tournament", "Sold It!", "Retropolis", "BrandAID", "Take De Bait!", "Stick-To-It"];
 
     return (
         
