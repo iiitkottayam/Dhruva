@@ -4,9 +4,9 @@
 let sponsors = [
     {
         id: 1,
-        name: 'IIIT Kottayam',
-        link: 'https://www.iiitkottayam.ac.in/',
-        logo: 'https://res.cloudinary.com/roshin/image/upload/v1634217192/iiitk_rihlkj.png',
+        name: 'SBI Valavoor',
+        link: 'https://www.onlinesbi.com/',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1635478935/SBI-logo_uypabd.svg',
     },
 ]
 
