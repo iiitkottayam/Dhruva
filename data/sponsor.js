@@ -6,7 +6,7 @@ let sponsors = [
         id: 1,
         name: 'SBI Valavoor',
         link: 'https://www.onlinesbi.com/',
-        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1635452696/2560px-State_Bank_of_India_logo.svg_v6o3c6.png',
+        logo: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1635478935/SBI-logo_uypabd.svg',
     },
 ]
 
