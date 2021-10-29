@@ -7,8 +7,8 @@ import Ecard from '@components/Accessories/ecard'
 import { event } from '@data/timeline'
 
 export default function Timeline() {
-    const [day1, setday1] = useState(true)
-    const [day2, setday2] = useState(false)
+    const [day1, setday1] = useState(false)
+    const [day2, setday2] = useState(true)
     const [day3, setday3] = useState(false)
     const [day4, setday4] = useState(false)
     const handleday1 = () => {
