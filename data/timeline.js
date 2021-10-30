@@ -84,12 +84,12 @@ const event = [
         time: '8:00 AM - 9:35 AM',
         link: 'breaking-bad',
     },
-    {
-        day: 3,
-        name: 'BrandAID',
-        time: '10:00 AM - 12:00 PM',
-        link: 'brandaid',
-    },
+    // {
+    //     day: 3,
+    //     name: 'BrandAID',
+    //     time: '10:00 AM - 12:00 PM',
+    //     link: 'brandaid',
+    // },
     {
         day: 3,
         name: 'Rajaneesh Vasanta’s Industrial Problem',
