@@ -8,9 +8,9 @@ import { event } from '@data/timeline'
 
 export default function Timeline() {
     const [day1, setday1] = useState(false)
-    const [day2, setday2] = useState(true)
+    const [day2, setday2] = useState(false)
     const [day3, setday3] = useState(false)
-    const [day4, setday4] = useState(false)
+    const [day4, setday4] = useState(true)
     const handleday1 = () => {
         setday1(true)
         setday2(false)
@@ -36,7 +36,7 @@ export default function Timeline() {
         setday4(true)
     }
     return (
-        <div className={styles.main} id = 'Events'>
+        <div className={styles.main} id="Events">
             <div className={styles.header}>
                 <p className={styles.err}>Timeline</p>
             </div>
