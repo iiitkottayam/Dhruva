@@ -8,8 +8,6 @@ import { style } from 'dom-helpers'
 
 const EventHeading = (props) => {
 
-    const leaderboard = ["Inter IIIT Valorant Tournament", "Sold It!", "Retropolis", "BrandAID", "Take De Bait!", "Stick-To-It"];
-
     return (
         
         <div className={styles.container}>
@@ -23,7 +21,7 @@ const EventHeading = (props) => {
                         </a>
                     :
                      ""}
-                    <a href={(!leaderboard.includes(props.title) ? "/leaderboard_table?val=" : "/leaderboard?val=") + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
+                    <a href={"/leaderboard?val=" + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
                         <HButton name="Leaderboard" icon = {<ImArrowUpRight2 />}/>
                     </a>
                 </div>

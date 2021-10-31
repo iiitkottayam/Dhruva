@@ -2,6 +2,7 @@ import styles from '/styles/LeaderboardSmallData.module.css'
 import LeadeboardSmallDataRow from './LeadeboardSmallDataRow'
 import { useRouter } from 'next/router'
 import useSWR from 'swr'
+import Loader from "react-loader-spinner";
 
 const fetcher = (url) => fetch(url).then(res => res.json());
 
@@ -52,7 +53,7 @@ function LeaderboardSmallData(){
                         </div>
                     </div>
                 ):(
-                    "Loading"
+                    <Loader color="#8c58fc" type="Puff"/>
                 )
             }
         </div>
