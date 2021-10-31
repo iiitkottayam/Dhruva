@@ -41,10 +41,10 @@
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
 }
-.top3 .item .score {
+.top3 .item .collg {
     opacity: 0.5;
 }
-.top3 .item .score:after {
+.top3 .item .collg:after {
     display: block;
     content: 'points';
     opacity: 0.5;
@@ -101,10 +101,8 @@
 .list .item .pos {
     font-weight: 900;
     position: absolute;
-    left: -2rem;
-    text-align: center;
+    left: -8rem;
     font-size: 1.25rem;
-    width: 1.5rem;
     color: white;
     opacity: 0.6;
     transition: opacity 200ms ease-in-out;
@@ -122,11 +120,11 @@
     margin-left: 2rem;
     font-size: 1.1rem;
 }
-.list .item .score {
+.list .item .collg {
     margin-right: 1.5rem;
     
 }
-.list .item .score:after {
+.list .item .collg:after {
     margin-right: 1rem;
     
     opacity: 0.5;
@@ -139,39 +137,38 @@
 }
 @media (max-width:768px)
 {
-    .top3
-    {
+    .top3{
         flex-direction: column;
         margin-top: 10%;
     }
-    
-    .one
-    {
+    .one{
         order:1;
        
     }
-    .two
-    {
+    .two{
         order: 2;
     }
-    .three
-    {
+    .three{
         order: 3;
     }
-    .list
-    {
+    .list{
         padding-left: 0;
     }
-    .list .item
-    {
+    .list .item{
         height: 4rem;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
-        flex-direction: column;
+        margin: 1rem auto 2rem;
     }
-    .list .item .name
-    {
-        margin-left: 1rem;
-        
+    .list .item .name{
+        margin-left: 0;
+    }
+    .list .item .pos {
+        left: 30%;
+        top: -1.5rem;
+    }
+    .list .item .collg{
+        margin-right: 0;
     }
 }

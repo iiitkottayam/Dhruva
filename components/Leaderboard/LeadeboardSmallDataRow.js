@@ -8,7 +8,7 @@ const LeadeboardSmallDataRow = (props) => {
             <div className={styles.name}>
               {props.name}
             </div>
-            <div className={styles.score}>
+            <div className={styles.collg}>
               {props.college}
             </div>
         </div>

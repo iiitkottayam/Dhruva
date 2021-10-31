@@ -10,18 +10,17 @@ const leaderboard = () => {
     return (
         <>
         <div className = {styles.container}>
-             <Head>
-                    <title>DHRUVA - IIITK | Leaderboard</title>
-                    <meta
-                        name="description"
-                        content="Dhruva IIITK Technical Fest"
-                    />
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-                <Navbar />
-                <LeaderboardHeading />
-                <LeaderboardSmallData />
-                
+            <Head>
+                <title>DHRUVA - IIITK | Leaderboard</title>
+                <meta
+                    name="description"
+                    content="Dhruva IIITK Technical Fest"
+                />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Navbar />
+            <LeaderboardHeading />
+            <LeaderboardSmallData />    
         </div>
         <Footer />
         </>
