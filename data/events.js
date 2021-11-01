@@ -24,7 +24,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
         registration:
             'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",    
+        leadLink:"1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk",    
     },
     {
         id: 2,
@@ -197,7 +197,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
         registration: 'https://dare2compete.com/o/9dTxDwP?lb=MlXGSqt',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",    
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
     },
     {
         id: 1,
@@ -248,7 +248,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185036/final_b5pikj.png',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSczXunkRyZVz5cLsBaD3EgeF3_XfIbUnbi8cGkzJCt0JQcryg/viewform?usp=sf_link',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",        
+        leadLink:"1uFa0WOGnbz8Fa4q0Jx2knUplL5nbiGHJAOJNhHF5HQA",        
     },
     {
         id: 1,
@@ -297,7 +297,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
         registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",    
+        leadLink:"1JKhyzO4i2Y0qScSVORNXUyLWmAM1eqVXeeJOdvpzp00",    
     },
     {
         id: 1,

@@ -8,6 +8,8 @@ import { style } from 'dom-helpers'
 
 const EventHeading = (props) => {
 
+    var eventData = ["Reverse Coding"];
+
     return (
         
         <div className={styles.container}>
@@ -21,7 +23,7 @@ const EventHeading = (props) => {
                         </a>
                     :
                      ""}
-                    <a href={"/leaderboard?val=" + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
+                    <a href={(!eventData.includes(props.title) ? "/leaderboard_table?val=" : "/leaderboard?val=") + props.lead + "&nam=" + props.title} target="_blank" rel="noreferrer">
                         <HButton name="Leaderboard" icon = {<ImArrowUpRight2 />}/>
                     </a>
                 </div>
