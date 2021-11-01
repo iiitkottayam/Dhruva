@@ -79,7 +79,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",        
+        leadLink:"1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4",        
     },
     {
         id: 1,
@@ -276,7 +276,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration:
             'https://dare2compete.com/creative-cultural-event/sold-it-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-i-222188',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",        
+        leadLink:"1C5UPwUzXGkWk33NaKwB1QDXURhK98zN1tlpLDiGNMWQ",        
     },
     {
         id: 1,

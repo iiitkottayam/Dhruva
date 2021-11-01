@@ -12,7 +12,7 @@
     width: 13rem;
     height: 15rem;
     text-align: center;
-    padding: 2.8rem 0 0;
+    padding: 2.8rem 1rem 0;
     margin: 1rem 1rem 2rem;
     border-radius: 0.5rem;
     transform-origin: bottom;
@@ -39,7 +39,10 @@
 }
 .top3 .item .name {
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.nameUnder{
+    text-decoration: underline;
 }
 .top3 .item .collg {
     opacity: 0.5;
