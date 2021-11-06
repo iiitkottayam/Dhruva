@@ -107,7 +107,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
         registration:
             'https://dare2compete.com/p/consolelogreplicate-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottay-221911',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",        
+        leadLink:"1RPPyF8Zo2tEH04WG0dLCmfYkceCndur4Y9HhqIvek6w",        
     },
     {
         id: 1,
@@ -128,7 +128,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
-        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",    
+        leadLink:"1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM",    
     },
     {
         id: 1,

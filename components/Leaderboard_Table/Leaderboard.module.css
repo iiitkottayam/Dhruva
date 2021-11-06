@@ -24,7 +24,7 @@
     font-size: 4.7rem;
     font-weight: 400;
     letter-spacing: -3px;
-    margin: 4rem 0 0.5rem 0;
+    margin: 8rem 0 0.5rem 0;
     line-height: 6rem;
 }
 .hdn2{
@@ -52,6 +52,9 @@
         font-size: 2rem;
         line-height: 3.5rem;
         margin: 5rem 0 0.5rem
+    }
+    .hdn2{
+        font-size: 1.2rem;
     }
     .container iframe{
         height: 160vh;
