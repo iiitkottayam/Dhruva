@@ -11,19 +11,20 @@ const events = [
             {
                 key: '1',
                 name: 'Gouri Nair',
-                email: 'gourinair20bec7@iiitkottayam.ac.in',
+                email: 'gourinair20bec7@\u200Biiitkottayam.ac.in',
                 phoneNumber: '08606922585',
             },
             {
                 key: '2',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
                 phoneNumber: '7259395776',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793220/CTF_bfluvm.png',
         registration:
             'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
+        leadLink:"1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk",    
     },
     {
         id: 2,
@@ -38,18 +39,19 @@ const events = [
             {
                 key: '1',
                 name: 'Aditya Srinivas Menon',
-                email: 'adityasrinivas20bcs8@iiitkottayam.ac.in',
+                email: 'adityasrinivas20bcs8@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 7406540439',
             },
             {
                 key: '2',
                 name: 'Prasanna Devadiga',
-                email: 'prasanna2019@iiitkottayam.ac.in',
+                email: 'prasanna2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '9607781923',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
+        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",    
     },
     {
         id: 1,
@@ -64,19 +66,20 @@ const events = [
             {
                 key: '1',
                 name: 'Prabal Kalia',
-                email: 'prabalkalia18bcs@iiitkottayam.ac.in',
+                email: 'prabalkalia18bcs@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8130580250',
             },
             {
                 key: '2',
                 name: 'Seshathri S',
-                email: 'seshathri2019@iiitkottayam.ac.in',
+                email: 'seshathri2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9087609727',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793432/CP_Insta_p40r6s.jpg',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
+        leadLink:"1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4",        
     },
     {
         id: 1,
@@ -91,19 +94,20 @@ const events = [
             {
                 key: '1',
                 name: 'Shashank Srivastava',
-                email: 'shashank.srivastava25sks@gmail.com',
+                email: 'shashank.srivastava25sks@\u200Bgmail.com',
                 phoneNumber: '(+91) 9793422020',
             },
             {
                 key: '2',
                 name: 'Sarthak Bindal',
-                email: 'bindalsarthak03@gmail.com',
+                email: 'bindalsarthak03@\u200Bgmail.com',
                 phoneNumber: '(+91) 7987957308',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793230/WebDev_kdy8jd.png',
         registration:
             'https://dare2compete.com/p/consolelogreplicate-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottay-221911',
+        leadLink:"1RPPyF8Zo2tEH04WG0dLCmfYkceCndur4Y9HhqIvek6w",        
     },
     {
         id: 1,
@@ -118,12 +122,13 @@ const events = [
             {
                 key: '1',
                 name: 'Aditi Shukla',
-                email: 'techclub@iiitkottayam.ac.in',
+                email: 'techclub@\u200Biiitkottayam.ac.in',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793221/D1_ceshnu.jpg',
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
+        leadLink:"1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM",    
     },
     {
         id: 1,
@@ -138,18 +143,19 @@ const events = [
             {
                 key: '1',
                 name: 'Swani',
-                email: 'swani2019@iiitkottayam.ac.in',
+                email: 'swani2019@\u200Biiitkottayam.ac.in',
             },
             {
                 key: '2',
                 name: 'Prajjawal',
-                email: 'techclub@iiitkottayam.ac.in',
+                email: 'techclub@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9370324791',
             },
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
+        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",    
     },
     {
         id: 1,
@@ -164,12 +170,13 @@ const events = [
             {
                 key: '1',
                 name: 'Hrishabh Joshi',
-                email: 'harishabh2019@iiitkottayam.ac.in',
+                email: 'harishabh2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9599928563',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
         registration: 'https://dare2compete.com/o/8VLHvq1?lb=osb1xnJ',
+        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",    
     },
     {
         id: 1,
@@ -184,12 +191,13 @@ const events = [
             {
                 key: '1',
                 name: 'Sai Tejashwin',
-                email: 'tejashwin2019@iiitkottayam.ac.in',
+                email: 'tejashwin2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8688179209',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793272/GameDev_z8he5g.png',
         registration: 'https://dare2compete.com/o/9dTxDwP?lb=MlXGSqt',
+        leadLink:"1OzpHafZbyBR4HhL0AFzZCxE9wLFvQt5KVvifp2PrxIE",    
     },
     {
         id: 1,
@@ -204,19 +212,20 @@ const events = [
             {
                 key: '1',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
                 phoneNumber: '(+91) 7259395776',
             },
             {
                 key: '2',
                 name: 'Gouri Nair',
-                email: 'gourinair20bec7@iiitkottayam.ac.in',
+                email: 'gourinair20bec7@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 08606922585',
             },
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185031/final_1_hug6mt.png',
         registration:
             'https://dare2compete.com/p/project-ayatjemis-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-222433?lb=mrxkYIG',
+        leadLink:"1XiSG12atq5e_Oq9dOc2-s5b3nUpZc9wzazl9hjhHEoc",    
     },
     {
         id: 1,
@@ -231,7 +240,7 @@ const events = [
             {
                 key: '1',
                 name: 'Nikhil Menon',
-                email: 'nikhilmenon20bcs16@iiitkottayam.ac.in ',
+                email: 'nikhilmenon20bcs16@\u200Biiitkottayam.ac.in ',
                 phoneNumber: '(+91) 7259395776',
             },
         ],
@@ -239,6 +248,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634185036/final_b5pikj.png',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSczXunkRyZVz5cLsBaD3EgeF3_XfIbUnbi8cGkzJCt0JQcryg/viewform?usp=sf_link',
+        leadLink:"1uFa0WOGnbz8Fa4q0Jx2knUplL5nbiGHJAOJNhHF5HQA",        
     },
     {
         id: 1,
@@ -253,19 +263,20 @@ const events = [
             {
                 key: '1',
                 name: 'Adithyadev Mattada',
-                email: 'adithyadevm20bec23@iiitkottayam.ac.in',
+                email: 'adithyadevm20bec23@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 7559888295',
             },
             {
                 key: '2',
                 name: 'Fathima Hanan Parakkot',
-                email: 'fathima20bec22@iiitkottayam.ac.in',
+                email: 'fathima20bec22@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8139888072',
             },
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793227/SoldIT_bkhole.png',
         registration:
             'https://dare2compete.com/creative-cultural-event/sold-it-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-i-222188',
+        leadLink:"1C5UPwUzXGkWk33NaKwB1QDXURhK98zN1tlpLDiGNMWQ",        
     },
     {
         id: 1,
@@ -280,12 +291,13 @@ const events = [
             {
                 key: '1',
                 name: 'Lakshin Kumar R',
-                email: 'lakshin2019@iiitkottayam.ac.in',
+                email: 'lakshin2019@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 9080385059',
             },
         ],
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1634976697/VALORANT_1_tblk1r.jpg',
         registration: 'https://dare2compete.com/o/LGU3S20?lb=XJGcpbQ',
+        leadLink:"1JKhyzO4i2Y0qScSVORNXUyLWmAM1eqVXeeJOdvpzp00",    
     },
     {
         id: 1,
@@ -300,12 +312,13 @@ const events = [
             {
                 key: '1',
                 name: 'Priyanshu',
-                email: 'techclub@iiitkottayam.ac.in',
+                email: 'techclub@\u200Biiitkottayam.ac.in',
                 phoneNumber: '(+91) 8407016547',
             },
         ],
         poster: 'https://res.cloudinary.com/roshin/image/upload/v1635413455/sticktoit_s4kpmz.jpg',
         registration: 'https://dare2compete.com/o/qNbGFSA?lb=osb1xnJ',
+        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",
     },
 ]
 

@@ -1,0 +1,173 @@
+.top3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    
+}
+.top3 .item {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #121212;
+    width: 13rem;
+    height: 15rem;
+    text-align: center;
+    padding: 2.8rem 1rem 0;
+    margin: 1rem 1rem 2rem;
+    border-radius: 0.5rem;
+    transform-origin: bottom;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.1), 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+.top3 .item .pic {
+    position: absolute;
+    top: -2rem;
+    left: 4.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2), 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
+}
+.top3 .item .pos {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.top3 .item .name {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+.nameUnder{
+    text-decoration: underline;
+}
+.top3 .item .collg {
+    opacity: 0.5;
+}
+.top3 .item .collg:after {
+    display: block;
+    content: 'points';
+    opacity: 0.5;
+}
+.top3 .item.one {
+    width: 13rem;
+    height: 16rem;
+    padding-top: 3.5rem;
+}
+/* .one > .pic
+{
+    background-image: url(../public/badges/1.png)  
+}
+.two > .pic
+{
+    background-image: url(../public/badges/2.png)
+
+}
+.three > .pic
+{
+    background-image: url(../public/badges/3.png)
+} */
+.pic{
+    background-image: url(../public/badges/prize.jpg);
+}
+.top3 .item.one .pic {
+    width: 5rem;
+    height: 5rem;
+    left:4rem;
+}
+.top3 .item:hover {
+    transform: scale(1.05);
+}
+.list {
+    padding-left: 2rem;
+    margin: 0 auto;
+    color: #fff;
+}
+.list .item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 3rem;
+    border-radius: 4rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(to bottom, var(--linearg1), var(--linearg2));
+    transform-origin: left;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    box-shadow: 0 0 4rem 0 rgba(0, 0, 0, 0.1), 0 1rem 2rem -1rem rgba(0, 0, 0, 0.3);
+}
+.list .item .pos {
+    font-weight: 900;
+    position: absolute;
+    left: -2rem;
+    font-size: 1.25rem;
+    color: white;
+    opacity: 0.6;
+    transition: opacity 200ms ease-in-out;
+}
+.list .item .pic {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-right: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2), 0 1rem 1rem -0.5rem rgba(0, 0, 0, 0.3);
+}
+.list .item .name {
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+.list .item .collg {
+    margin-right: 1.5rem;
+    
+}
+.list .item .collg:after {
+    margin-right: 1rem;
+    
+    opacity: 0.5;
+}
+.list .item:hover {
+    transform: scale(1.05);
+}
+.list .item:hover .pos {
+    opacity: 0.8;
+}
+@media (max-width:768px)
+{
+    .top3{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .one{
+        order:1;
+       
+    }
+    .two{
+        order: 2;
+    }
+    .three{
+        order: 3;
+    }
+    .list{
+        padding-left: 0;
+    }
+    .list .item{
+        height: 4rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem auto 2rem;
+    }
+    .list .item .name{
+        margin-left: 0;
+    }
+    .list .item .collg{
+        margin-right: 0;
+    }
+}
