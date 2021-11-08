@@ -1,8 +1,3 @@
-.container iframe{
-    width: 90vw;
-    height: 90vh;
-    margin: 0rem 0 5rem 0;
-}
 .container {
     min-height: 100vh;
     display: flex;
@@ -26,6 +21,7 @@
     letter-spacing: -3px;
     margin: 8rem 0 0.5rem 0;
     line-height: 6rem;
+    text-align: center;
 }
 .hdn2{
     font-family: var(--coming), sans-serif;
@@ -35,16 +31,11 @@
     margin-bottom: 2rem;
 }
 
-
-@media (max-width: 1040px) {
+@media (max-width: 1080px) {
     .hdn1{
         font-size: 2.5rem;
         line-height: 4rem;
         margin: 5rem 0 0.5rem
-    }
-    .container iframe{
-        height: 160vh;
-        width: 100vw;
     }
 }
 @media (max-width: 705px) {
@@ -56,10 +47,6 @@
     .hdn2{
         font-size: 1.2rem;
     }
-    .container iframe{
-        height: 160vh;
-        width: 100vw;
-    }
 }
 
 @media (max-width: 468px) {
@@ -68,9 +55,4 @@
         line-height: 3rem;
         margin: 5rem 0 0.5rem 0;
     }
-    .container iframe{
-        height: 160vh;
-        width: 100vw;
-    }
-
 }
