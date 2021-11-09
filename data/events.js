@@ -318,7 +318,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/roshin/image/upload/v1635413455/sticktoit_s4kpmz.jpg',
         registration: 'https://dare2compete.com/o/qNbGFSA?lb=osb1xnJ',
-        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",
+        leadLink:"1uwZai7okPro6HhWcMn09fOQZ1_RHDc1capUfdQZ8iWs",
     },
 ]
 
