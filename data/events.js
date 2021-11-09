@@ -51,7 +51,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793392/BB_bcq4a4.jpg',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
-        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",    
+        leadLink:"1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y",    
     },
     {
         id: 1,
@@ -155,7 +155,7 @@ const events = [
         poster: 'https://res.cloudinary.com/dlu72yo9b/image/upload/v1633950066/BrandAID_flot8z.png',
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
-        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",    
+        leadLink:"19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE",    
     },
     {
         id: 1,
@@ -176,7 +176,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/dpjf6btln/image/upload/v1633793231/Crypto_ouh7hx.png',
         registration: 'https://dare2compete.com/o/8VLHvq1?lb=osb1xnJ',
-        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",    
+        leadLink:"14BEml9QbsCcVn25YWX8kNKz7KK74MvcU2116zx1jt08",    
     },
     {
         id: 1,
@@ -318,7 +318,7 @@ const events = [
         ],
         poster: 'https://res.cloudinary.com/roshin/image/upload/v1635413455/sticktoit_s4kpmz.jpg',
         registration: 'https://dare2compete.com/o/qNbGFSA?lb=osb1xnJ',
-        leadLink:"139xIKz3YSN7_ehr6Ha4DwpYynq86YlYm8BJDw8HCQlA",
+        leadLink:"1uwZai7okPro6HhWcMn09fOQZ1_RHDc1capUfdQZ8iWs",
     },
 ]
 
