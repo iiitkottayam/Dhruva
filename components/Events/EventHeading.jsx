@@ -8,7 +8,7 @@ import { style } from 'dom-helpers'
 
 const EventHeading = (props) => {
 
-    var eventData = ["Reverse Coding", "CodeSprint", "Sold It!", "console.log(“replicate”)"];
+    var eventData = ["Reverse Coding", "CodeSprint", "Sold It!", "console.log(“replicate”)", "Breaking Bad", "Fantasy Crypto League", "BrandAID", "Stick-To-It"];
 
     return (
         <div className={styles.container}>
