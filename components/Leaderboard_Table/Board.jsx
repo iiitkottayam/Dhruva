@@ -21,7 +21,7 @@ const Board = () => {
     useEffect(() => {
         setTimeout(() => {
             setLoad(false);
-        },2500);
+        },3000);
 
         window.addEventListener("resize", handleResize);
     });
